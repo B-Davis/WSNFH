@@ -26,7 +26,7 @@ network={
   
 add as many networks as you wish  
   
-Download desired software (e.g., R, vim, etc.) > sudo apt-get r-base  
+Download desired software (e.g., R, vim, etc.) ```sudo apt-get r-base```  
 Write bash script that launches screen and talks to MUX w/ 57600 baud rate  
 Move script to ```/usr/local/bin``` (if put in ```~/home/bin``` it won't recognize when accessing remotely)  
 create ```.screenrc``` in home directory and add ```logfile path/to/logfile.txt```. This is where your data will be stored and appended to.  
@@ -41,8 +41,8 @@ Start screen named MUX, in the background, with logfiles
 make a bash script including preious codes for ease  
   
 Ctrl-a then...  
-d <detach>  
-n <next screen>  
-k <kill session>  
+d ```detach&gt```  
+n ```next screen```  
+k ```kill session```  
   
 ```screen -r``` will reattach screen  
