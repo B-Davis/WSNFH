@@ -2427,4 +2427,150 @@ $MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7CC,0,660,2B
 
 MESSAGE: Buffer download complete.
 00> 
-00> 
+00> 00 01 3D9.1BF1899614 18-09-2017 11:12:38
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     35 %  49 %   0 %   0 %   0 %   0 %
+Peak:        78 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     38 %  37 %   0 %   0 %   0 %   0 %
+Peak:        68 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     39 %  37 %   0 %   0 %   0 %   0 %
+Peak:        97 % 100 %   0 %   0 %   0 %   0 %
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7CB,0,660,2B2,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,34,145,0,43,2315,1,1,0,0,0,0,425,410,0,0,0,0,2,-2,-650,-650,-650,-650,41,39,0,0,0,0,168,168,0,0,0,0,729,18-09-2017 14:46:46
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     41 %  39 %   0 %   0 %   0 %   0 %
+Peak:        72 %  83 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 18-09-2017 14:46:48
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 18-09-2017 14:46:49
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     37 %  35 %   0 %   0 %   0 %   0 %
+Peak:        79 %  67 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     36 %  37 %   0 %   0 %   0 %   0 %
+Peak:        81 %  81 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     39 %  34 %   0 %   0 %   0 %   0 %
+Peak:        82 %  70 %   0 %   0 %   0 %   0 %
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7CB,0,660,2B4,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,32,145,0,43,2317,1,1,0,0,0,0,426,411,0,0,0,0,-2,1,-650,-650,-650,-650,53,47,0,0,0,0,168,168,0,0,0,0,729,18-09-2017 18:46:47
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     53 %  47 %   0 %   0 %   0 %   0 %
+Peak:        85 %  91 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+MESSAGE: Test Tag Fired on antenna 1
+00 02 3E7.0000001D00 18-09-2017 18:46:50
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 18-09-2017 18:46:50
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     40 %  37 %   0 %   0 %   0 %   0 %
+Peak:        95 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     42 %  54 %   0 %   0 %   0 %   0 %
+Peak:        79 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     35 %  35 %   0 %   0 %   0 %   0 %
+Peak:        97 %  99 %   0 %   0 %   0 %   0 %
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7CE,0,660,2B3,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,30,145,0,43,2319,1,1,0,0,0,0,426,408,0,0,0,0,-3,0,-650,-650,-650,-650,40,41,0,0,0,0,168,168,0,0,0,0,729,18-09-2017 22:46:48
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     41 %  39 %   0 %   0 %   0 %   0 %
+Peak:        86 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 18-09-2017 22:46:51
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 18-09-2017 22:46:51
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     38 %  42 %   0 %   0 %   0 %   0 %
+Peak:        89 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     51 %  49 %   0 %   0 %   0 %   0 %
+Peak:        73 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     36 %  48 %   0 %   0 %   0 %   0 %
+Peak:        96 % 100 %   0 %   0 %   0 %   0 %
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7D3,0,660,2B3,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,28,145,0,43,2321,1,1,0,0,0,0,430,408,0,0,0,0,-3,-1,-650,-650,-650,-650,41,35,0,0,0,0,168,168,0,0,0,0,729,19-09-2017 02:46:50
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     41 %  35 %   0 %   0 %   0 %   0 %
+Peak:        74 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 19-09-2017 02:46:52
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 19-09-2017 02:46:53
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     36 %  35 %   0 %   0 %   0 %   0 %
+Peak:        82 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     44 %  39 %   0 %   0 %   0 %   0 %
+Peak:        79 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     37 %  33 %   0 %   0 %   0 %   0 %
+Peak:        90 % 100 %   0 %   0 %   0 %   0 %
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7D9,0,660,2B3,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,26,145,0,43,2323,1,1,0,0,0,0,430,407,0,0,0,0,-2,-3,-650,-650,-650,-650,44,34,0,0,0,0,168,168,0,0,0,0,729,19-09-2017 06:46:51
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     44 %  34 %   0 %   0 %   0 %   0 %
+Peak:        81 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+MESSAGE: Test Tag Fired on antenna 2
+00 01 3E7.0000001D00 19-09-2017 06:46:54
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 19-09-2017 06:46:54
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     41 %  41 %   0 %   0 %   0 %   0 %
+Peak:        79 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     48 %  62 %   0 %   0 %   0 %   0 %
+Peak:        78 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     46 %  40 %   0 %   0 %   0 %   0 %
+Peak:        92 % 100 %   0 %   0 %   0 %   0 %
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,7D9,0,660,2BA,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,30,145,0,43,2325,1,1,0,0,0,0,429,413,0,0,0,0,2,-1,-650,-650,-650,-650,36,37,0,0,0,0,168,168,0,0,0,0,729,19-09-2017 10:46:52
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     36 %  37 %   0 %   0 %   0 %   0 %
+Peak:        87 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 19-09-2017 10:46:54
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 19-09-2017 10:46:55
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     40 %  45 %   0 %   0 %   0 %   0 %
+Peak:        79 % 100 %   0 %   0 %   0 %   0 %
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     47 %  60 %   0 %   0 %   0 %   0 %
+Peak:        89 % 100 %   0 %   0 %   0 %   0 %
