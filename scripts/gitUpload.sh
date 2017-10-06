@@ -2,6 +2,6 @@
 
 cd ~/projects/WSNFH
 
-git add .
-git commit -m "data upload"
-git push origin master
+/usr/bin/git add .
+/usr/bin/git commit -m "data upload"
+/usr/bin/git push origin master
