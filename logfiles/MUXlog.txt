@@ -4249,3 +4249,333 @@ Peak:        93 % 100 %   0 %   0 %   0 %   0 %
 ~02/14/18 23:40:01
 ~02/14/18 23:50:01
 ~02/15/18 00:00:01
+~02/15/18 00:10:01
+~02/15/18 00:20:01
+~02/15/18 00:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     45 %  66 %   0 %   0 %   0 %   0 %
+Peak:        86 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 00:40:01
+~02/15/18 00:50:01
+~02/15/18 01:00:01
+~02/15/18 01:10:01
+~02/15/18 01:20:01
+~02/15/18 01:30:01
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,86F,0,660,2BA,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,20,145,0,12,668,1,1,0,0,0,0,414,423,0,0,0,0,-3,-2,-650,-650,-650,-650,50,71,0,0,0,0,188,188,0,0,0,0,15,15-02-2018 02:12:09
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     50 %  71 %   0 %   0 %   0 %   0 %
+Peak:        93 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 15-02-2018 02:12:12
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 15-02-2018 02:12:12
+~02/15/18 01:40:01
+~02/15/18 01:50:01
+~02/15/18 02:00:01
+~02/15/18 02:10:01
+~02/15/18 02:20:01
+~02/15/18 02:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     44 %  64 %   0 %   0 %   0 %   0 %
+Peak:        88 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 02:40:01
+~02/15/18 02:50:01
+~02/15/18 03:00:01
+~02/15/18 03:10:01
+~02/15/18 03:20:01
+~02/15/18 03:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     55 %  67 %   0 %   0 %   0 %   0 %
+Peak:        96 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 03:40:01
+~02/15/18 03:50:01
+~02/15/18 04:00:01
+~02/15/18 04:10:02
+~02/15/18 04:20:01
+~02/15/18 04:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     47 %  57 %   0 %   0 %   0 %   0 %
+Peak:        95 %  98 %   0 %   0 %   0 %   0 %
+~02/15/18 04:40:01
+~02/15/18 04:50:01
+~02/15/18 05:00:01
+~02/15/18 05:10:01
+~02/15/18 05:20:01
+~02/15/18 05:30:01
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,874,0,660,2BB,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,18,145,0,12,670,1,1,0,0,0,0,416,423,0,0,0,0,-2,-2,-650,-650,-650,-650,47,59,0,0,0,0,188,188,0,0,0,0,15,15-02-2018 06:12:10
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     47 %  59 %   0 %   0 %   0 %   0 %
+Peak:        86 %  99 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 15-02-2018 06:12:13
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 15-02-2018 06:12:13
+~02/15/18 05:40:01
+~02/15/18 05:50:01
+~02/15/18 06:00:01
+~02/15/18 06:10:01
+~02/15/18 06:20:01
+~02/15/18 06:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     44 %  63 %   0 %   0 %   0 %   0 %
+Peak:        84 %  99 %   0 %   0 %   0 %   0 %
+~02/15/18 06:40:01
+~02/15/18 06:50:01
+~02/15/18 07:00:01
+~02/15/18 07:10:01
+~02/15/18 07:20:01
+~02/15/18 07:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     46 %  58 %   0 %   0 %   0 %   0 %
+Peak:        92 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 07:40:01
+~02/15/18 07:50:01
+~02/15/18 08:00:01
+~02/15/18 08:10:01
+~02/15/18 08:20:01
+~02/15/18 08:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     62 %  89 %   0 %   0 %   0 %   0 %
+Peak:        97 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 08:40:01
+~02/15/18 08:50:02
+~02/15/18 09:00:01
+~02/15/18 09:10:01
+~02/15/18 09:20:01
+~02/15/18 09:30:01
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,876,0,660,2C2,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,18,145,0,12,672,1,1,0,0,0,0,415,423,0,0,0,0,-2,-2,-650,-650,-650,-650,55,90,0,0,0,0,188,188,0,0,0,0,15,15-02-2018 10:12:11
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     55 %  90 %   0 %   0 %   0 %   0 %
+Peak:        96 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+MESSAGE: Test Tag Fired on antenna 1
+00 02 3E7.0000001D00 15-02-2018 10:12:14
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 15-02-2018 10:12:14
+~02/15/18 09:40:01
+~02/15/18 09:50:01
+~02/15/18 10:00:01
+~02/15/18 10:10:01
+~02/15/18 10:20:01
+~02/15/18 10:30:02
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     62 %  89 %   0 %   0 %   0 %   0 %
+Peak:        99 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 10:40:01
+~02/15/18 10:50:01
+~02/15/18 11:00:01
+~02/15/18 11:10:01
+~02/15/18 11:20:01
+~02/15/18 11:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     57 %  91 %   0 %   0 %   0 %   0 %
+Peak:       100 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 11:40:01
+~02/15/18 11:50:01
+~02/15/18 12:00:01
+~02/15/18 12:10:01
+~02/15/18 12:20:01
+~02/15/18 12:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     50 %  64 %   0 %   0 %   0 %   0 %
+Peak:        95 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 12:40:01
+~02/15/18 12:50:01
+~02/15/18 13:00:01
+~02/15/18 13:10:01
+~02/15/18 13:20:02
+~02/15/18 13:30:01
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,869,0,660,2E5,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,26,145,0,12,674,1,1,0,0,0,0,408,423,0,0,0,0,3,0,-650,-650,-650,-650,54,86,0,0,0,0,188,188,0,0,0,0,15,15-02-2018 14:12:13
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     54 %  86 %   0 %   0 %   0 %   0 %
+Peak:        89 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 1
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 15-02-2018 14:12:15
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+00 02 3E7.0000001D00 15-02-2018 14:12:16
+~02/15/18 13:40:01
+~02/15/18 13:50:01
+~02/15/18 14:00:01
+~02/15/18 14:10:01
+~02/15/18 14:20:01
+~02/15/18 14:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     43 %  67 %   0 %   0 %   0 %   0 %
+Peak:        90 %  99 %   0 %   0 %   0 %   0 %
+~02/15/18 14:40:01
+~02/15/18 14:50:01
+~02/15/18 15:00:01
+~02/15/18 15:10:01
+~02/15/18 15:20:01
+H
+AS                Antenna switching sequence
+AT {#}            Antenna scanning time #msec
+BA {1|0}          Buffer Active ON|OFF
+BC                Buffer Count
+BD                Buffer Download
+BE                Buffer Erase
+DA {#}            Low current alarm threshold #mA
+DG {#}            Current measurement gain #%
+DR {D#|S}         Status report DELAY|SEND
+DS {1|0}          Store test tag code ON|OFF
+DT {1|0|D#|S}     Test tag ON|OFF|DELAY|SEND
+LT {1|0}          Send tag codes to COM1 ON|OFF
+MT                Manual tuning mode
+NG {#}            Noise measurement gain #%
+NT {#}            High noise alarm threshold #%
+NR {D#|S}         Noise report DELAY|SEND
+RA {1|0|R}        Reader Active ON|OFF|RESET
+RB {1|0}          Reader Buzzer Active ON|OFF
+RI {XX}           Reader Hex ID
+RP                Reset parameters to default
+RU {1|0|D#}       Unique mode ON|OFF|DELAY
+SM {#}            Antenna sleep mode delay #msec
+TC                Display current date and time
+TE {1|0}          Test Reader Efficiency ON|OFF
+TD {DD-MM-YYYY}   Reader date
+TH {HH:MM:SS}     Reader time
+TL {ant}{lev}     Test tag level
+H or ?            Display list of all commands
+00> mt
+Manual Tuning Function Command Key:
+
+ + -   Change Antenna to tune
+ Q W   decrement/increment by 1 Phase set point
+ A S   decrement/increment by 10 Phase set point
+ E R   decrement/increment by 100 Phase set point
+ Z X   decrement/increment by 0.1 Phase Slope
+ Y U   decrement/increment VTT Level
+ T     Turn ON/OFF VTT
+ D     Turn ON/OFF Dynamic Tuning
+ C     Max current tune this Antenna
+ N     Save PH, slope, cap setup and vtt level for this antenna
+ .     QUIT
+
+DynTun  ON VTT OFF Lev   0 Tuned Ph  640
+Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header -28429Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.09A (464) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.09A (464) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph    0 Slope 5.0 Cur 4.09A (464) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph    0 Slope 5.0 Cur 4.10A (465) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.09A (464) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -2 Slope 5.0 Cur 4.07A (462) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.08A (463) Noi  44% Eff   0 Header  0Ant1 Cap 0x0866 Ph   -1 Slope 5.0 Cur 4.09A (464) Noi  44% Eff   0 Header  0
+Manual Tuning done!
+00> 
+00> ~02/15/18 15:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     59 %  74 %   0 %   0 %   0 %   0 %
+Peak:        96 %  99 %   0 %   0 %   0 %   0 %
+~02/15/18 15:40:01
+~02/15/18 15:50:01
+~02/15/18 16:00:01
+~02/15/18 16:10:01
+~02/15/18 16:20:01
+~02/15/18 16:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     60 %  92 %   0 %   0 %   0 %   0 %
+Peak:        98 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 16:40:01
+~02/15/18 16:50:01
+~02/15/18 17:00:01
+~02/15/18 17:10:01
+~02/15/18 17:20:01
+~02/15/18 17:30:01
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,866,0,660,2B9,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,24,145,0,12,676,1,1,0,0,0,0,410,421,0,0,0,0,0,-2,-650,-650,-650,-650,50,80,0,0,0,0,188,188,0,0,0,0,15,15-02-2018 18:12:14
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     51 %  82 %   0 %   0 %   0 %   0 %
+Peak:        97 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+MESSAGE: Test Tag Fired on antenna 1
+00 02 3E7.0000001D00 15-02-2018 18:12:17
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 15-02-2018 18:12:17
+~02/15/18 17:40:01
+~02/15/18 17:50:01
+~02/15/18 18:00:01
+~02/15/18 18:10:01
+~02/15/18 18:20:01
+~02/15/18 18:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     48 %  79 %   0 %   0 %   0 %   0 %
+Peak:        89 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 18:40:01
+~02/15/18 18:50:01
+~02/15/18 19:00:02
+~02/15/18 19:10:01
+~02/15/18 19:20:01
+~02/15/18 19:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     45 %  75 %   0 %   0 %   0 %   0 %
+Peak:        92 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 19:40:01
+~02/15/18 19:50:01
+~02/15/18 20:00:01
+~02/15/18 20:10:01
+~02/15/18 20:20:01
+~02/15/18 20:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     52 %  80 %   0 %   0 %   0 %   0 %
+Peak:        85 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 20:40:01
+~02/15/18 20:50:01
+~02/15/18 21:00:01
+~02/15/18 21:10:01
+~02/15/18 21:20:01
+~02/15/18 21:30:01
+$MUX1230,2,1,00,2,0030,0,1,1,1,240,240,60,110,1000,100,99,100,0,640,866,0,660,2BA,0,650,0,0,650,0,0,650,0,0,650,0,0,1,2,0,0,0,0,0,0,0,0,0,0,22,145,0,12,678,1,1,0,0,0,0,410,422,0,0,0,0,-3,1,-650,-650,-650,-650,49,77,0,0,0,0,188,188,0,0,0,0,15,15-02-2018 22:12:15
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     48 %  77 %   0 %   0 %   0 %   0 %
+Peak:        80 % 100 %   0 %   0 %   0 %   0 %
+MESSAGE: Test Tag Fired on antenna 2
+MESSAGE: Test Tag Found
+MESSAGE: Test Tag Fired on antenna 1
+00 02 3E7.0000001D00 15-02-2018 22:12:18
+MESSAGE: Test Tag Found
+00 01 3E7.0000001D00 15-02-2018 22:12:18
+~02/15/18 21:40:01
+~02/15/18 21:50:02
+~02/15/18 22:00:01
+~02/15/18 22:10:01
+~02/15/18 22:20:02
+~02/15/18 22:30:01
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     46 %  77 %   0 %   0 %   0 %   0 %
+Peak:        93 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 22:40:01
+~02/15/18 22:50:01
+~02/15/18 23:00:01
+~02/15/18 23:10:01
+~02/15/18 23:20:01
+~02/15/18 23:30:02
+Noise report for Reader ID#00
+Antenna:      1     2     3     4     5     6
+Average:     49 %  88 %   0 %   0 %   0 %   0 %
+Peak:        89 % 100 %   0 %   0 %   0 %   0 %
+~02/15/18 23:40:01
+~02/15/18 23:50:01
+~02/16/18 00:00:01
