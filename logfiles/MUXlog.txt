@@ -25357,3 +25357,1520 @@ INF: Download Entire Memory
 *ALM: 01 09 04/25/2018 07:01:10.000 Node Removed From Sequence
 *ALM: 01 0A 04/25/2018 07:01:10.000 Node Removed From Sequence
 INF: Download Complete
+~04/25/18 07:10:01
+ALM: 01 02 04/25/2018 07:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 07:11:53.000 Node Antenna Current Exceeded 10.0 A
+?
+INF: Start Of List Of Commands
+  ?               Print List Of Commands
+
+Alarms:
+  ACL{NN,0.0-9.0} Set Node Antenna Current Low Alarm Threshold in Amperes
+  ANH{NN,0-100}   Set Node Noise High Alarm Threshold Percent
+  ATH{512-1023}   Set Tuning Capacitance High Alarm Threshold
+  ATL{0-511}      Set Tuning Capacitance Low Alarm Threshold
+  AUD{0-3600}     Set Alarms Unique Delay in Seconds
+
+Controller:
+  CIS{01-FF}      Set Controller ID
+  CDS{MM/DD/YYYY} Set Controller Date
+  CTS{HH:MM:SS}   Set Controller Time (24-hrs)
+  CBS{1|0}        Set Controller Beeper {1} On, {0} Off
+  CDF{H|D}        Set Controller Tag ID Display Format {H} Hex, {D} Dec
+  CDB{1|0|S}      Set Controller Display Backlight Mode {1} On, {0} Off, {S} Saving
+  COM{1|0|R}      Set Controller Operation Mode {1} Scan, {0} Standby, {R} Reset
+  CSM{1|2|3|0}    Set Controller Sync.Mode {1} Master, {2} Sec.Master, {3} Slave, {0} Standalone
+  CSC{1|0}        Set Controller Synchronization of Cycle {1} On, {0} Off
+  CID{1|0}        Set Controller Initiation Delay {1} On, {0} Off
+  CIP{12|24}      Set Controller Input Power Mode {12} 12 Volts, {24} 24 Volts
+  CSV{VV,VV}      Set Controller Automatic Standby Activation and Deactivation Voltages (16-22,17-23) (24 Volts Input Power Mode Only)
+  CPS{SS,DD}      Set Controller Periodic Standby: {Start Hours (00-23), Duration (00-23)}
+  CIT{0-10000}    Set Controller Idling Time in Milliseconds (5 ms Increments)
+
+Detection:
+  DHT{1|0}        Set HDX Tag Detection {1} On, {0} Off
+  DFH{1|0}        Set FDXB Fastag Detection {1} On, {0} Off
+  DUM{5|1|0|D}    Set All Nodes Det.Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  DUD{1-43200}    Set All Nodes Detection Unique Delay in Seconds
+  DET{1|0}        Set Detection Efficiency Test {1} On, {0} Off
+  DCS{1|0|R}      Set Detection Counter {1} On, {0} Off, {R} Reset
+  DFT{45-500}     Set FDXB Detection Scan Time in Milliseconds (5 ms Increments)
+  DTD{0-1440}     Set Automatic Virtual Test Tag Single Shot Delay in Minutes
+  DVT{1|0|S}      Set VTT For All Nodes In Sequence {1} On, {0} Off, {S} Single Shot
+
+Network:
+  NSN{SSSS,NN}    Assign Node Serial Number SSSS to Node ID NN
+  NSP{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Primary Nodes Switching Sequence
+  NSS{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Secondary Nodes Switching Sequence
+  NRS             Reset Network
+
+Reader Nodes:
+  NFT{NN}         Perform Node Full Tune
+  NVE{NN,1-5}     Set Node NN Exciter Voltage Level (24 Volts Input Power Mode Only)
+  NTC{NN,0-1023}  Set Node NN Antenna Tuning Capacitors
+  NDT{NN,1|0}     Set Node NN Dynamic Tuning {1} On, {0} Off
+  NTP{NN,300-500} Set Node NN Dynamic Tuning Target Phase
+  NTS{NN,2-63}    Set Node NN Dynamic Tuning Target Phase Deviation Threshold
+  NUM{NN,5|1|0|D} Set Node NN Det. Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  NUD{NN,1-43200} Set Node NN Detection Unique Delay in Seconds
+  NVL{NN,0-255}   Set Node NN Virtual Test Tag Level
+  NVT{NN,1|0|S}   Set Node NN VTT {1} On, {0} Off, {S} Single Shot
+  NBS{NN,1|0}     Set Node NN Beeper {1} On, {0} Off
+
+Communication:
+  CSL{bps}        Set Local Communication Port Speed
+  CTL{1|0}        Set Tags Communication To Local Port {1} On, {0} Off
+  CAL{1|0}        Set Alarms Communication To Local Port {1} On, {0} Off
+  CML{1|0}        Set Messages Communication To Local Port {1} On, {0} Off
+  CSR{bps}        Set Remote Communication Port Speed
+  CPR{A|M}        Set Remote Comm. Port Protocol {A} ASCII, {M} MODEM
+  CER{1|0}        Set Remote Comm. Port AES-256 Compliant {1} On, {0} Off
+
+Memory:
+  MED             Download Entire Memory
+  MTD             Download Tags Memory
+  MAD             Download Alarms Memory
+  MMD             Download Messages Memory
+  MSD             Download Status Reports Memory
+  MND             Download Noise Reports Memory
+  MED{MM/DD/YYYY-MM/DD/YYYY}  Download Entire Memory From Date To Date
+  MTD{MM/DD/YYYY-MM/DD/YYYY}  Download Tags Memory From Date To Date
+  MAD{MM/DD/YYYY-MM/DD/YYYY}  Download Alarms Memory From Date To Date
+  MMD{MM/DD/YYYY-MM/DD/YYYY}  Download Messages Memory From Date To Date
+  MSD{MM/DD/YYYY-MM/DD/YYYY}  Download Status Reports Memory From Date To Date
+  MND{MM/DD/YYYY-MM/DD/YYYY}  Download Noise Reports Memory From Date To Date
+  MEW             Write Entire Memory To External Storage
+  MEE             Erase Entire Memory
+  MBD             Download Backup Tags Memory
+  MBE             Erase Backup Tags Memory
+  MVT{1|0}        Store Virtual Test Tags To Memory {1} On, {0} Off
+  MFT{1-24}       Set External Storage File Duration in Hours
+  MFN{1-99999}    Set Present External Storage File Number
+
+Parameters:
+  RCP1            Load Custom Parameters Configuration 1
+  RCP2            Load Custom Parameters Configuration 2
+  SCP1            Save Custom Parameters Configuration 1
+  SCP2            Save Custom Parameters Configuration 2
+  RDP             Reset to Factory Default Parameters
+
+Reports:
+  RFV             Report Firmware Versions
+  RDT             Report Controller Date And Time
+  RNA             Report Nodes Assignment
+  RSS             Report Nodes Switching Sequence
+  RFS             Report Full Status
+  RNS             Report Noise Status
+  RMS             Report Memory Status
+  RDD             Report Diagnostic Data
+  RCS             Report Controller Settings
+  RDS             Report DOP Devices Status
+  RPT{SSSS}       Report DOP Device S/N SSSS Ping Time
+  RND{0-1440}     Set Automatic Noise Report Delay in Minutes
+  RSD{0-1440}     Set Automatic Status Report Delay in Minutes
+INF: End Of List Of Commands
+nsp
+MSG: 01 00 04/25/2018 07:15:20.420 Error: Missing Parameter(s): nsp
+nsp01,02
+MSG: 01 00 04/25/2018 07:16:53.090 Pri. Sw. Seq.: 01,02,--,--,--,--,--,--,--,--,--,--
+MSG: 01 00 04/25/2018 07:16:53.090 Sec. Sw. Seq.: --,--,--,--,--,--,--,--,--,--,--,--
+MSG: 01 01 04/25/2018 07:16:53.970 Node Connected
+MSG: 01 01 04/25/2018 07:16:53.970 Node Included In Switching Sequence
+MSG: 01 02 04/25/2018 07:16:54.050 Node Connected
+MSG: 01 02 04/25/2018 07:16:54.050 Node Included In Switching Sequence
+MSG: 01 01 04/25/2018 07:16:55.250 Node Tuned
+MSG: 01 02 04/25/2018 07:16:55.330 Node Tuned
+RFS
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               04/25/2018
+  Time:                                 07:17:52
+  Last Shutdown Date:                 04/24/2018
+  Last Shutdown Time:                      09:42
+  Application Firmware Version:            1.6.2
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                         209
+  Memory Used:                               0 %
+  Backup Tags Memory Count:                24868
+  Backup Tags Memory Used:                  85 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00042.log
+  Input Voltage:                          19.7 V
+  Lithium Battery Voltage:                 3.5 V
+  Temperature:                            21.2 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          35.5 V
+  Exciter Voltage:                        44.5 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       253.1 A
+  Tuning Capacitors:                         107
+  Tuning Phase:                              389
+  Tuning Relative Phase:                       1
+  FDXB Signal Level:                90 mV (10 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          34.4 V
+  Exciter Voltage:                        43.2 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       250.5 A
+  Tuning Capacitors:                         114
+  Tuning Phase:                              392
+  Tuning Relative Phase:                      -3
+  FDXB Signal Level:                 63 mV (7 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Active Alarms:
+  Node 01: Node Antenna Current Exceeded 10.0 A
+  Node 02: Node Antenna Current Exceeded 10.0 A
+INF: End Of Full Status Report
+~04/25/18 07:20:01
+RNA
+INF: Start Of Nodes Assignment Report
+  Reader Node 01:                           1112
+  Reader Node 02:                           1111
+  Reader Node 03:                       Disabled
+  Reader Node 04:                       Disabled
+  Reader Node 05:                       Disabled
+  Reader Node 06:                       Disabled
+  Reader Node 07:                       Disabled
+  Reader Node 08:                       Disabled
+  Reader Node 09:                       Disabled
+  Reader Node 0A:                       Disabled
+  Reader Node 0B:                       Disabled
+  Reader Node 0C:                       Disabled
+INF: End Of Nodes Assignment Report
+?
+INF: Start Of List Of Commands
+  ?               Print List Of Commands
+
+Alarms:
+  ACL{NN,0.0-9.0} Set Node Antenna Current Low Alarm Threshold in Amperes
+  ANH{NN,0-100}   Set Node Noise High Alarm Threshold Percent
+  ATH{512-1023}   Set Tuning Capacitance High Alarm Threshold
+  ATL{0-511}      Set Tuning Capacitance Low Alarm Threshold
+  AUD{0-3600}     Set Alarms Unique Delay in Seconds
+
+Controller:
+  CIS{01-FF}      Set Controller ID
+  CDS{MM/DD/YYYY} Set Controller Date
+  CTS{HH:MM:SS}   Set Controller Time (24-hrs)
+  CBS{1|0}        Set Controller Beeper {1} On, {0} Off
+  CDF{H|D}        Set Controller Tag ID Display Format {H} Hex, {D} Dec
+  CDB{1|0|S}      Set Controller Display Backlight Mode {1} On, {0} Off, {S} Saving
+  COM{1|0|R}      Set Controller Operation Mode {1} Scan, {0} Standby, {R} Reset
+  CSM{1|2|3|0}    Set Controller Sync.Mode {1} Master, {2} Sec.Master, {3} Slave, {0} Standalone
+  CSC{1|0}        Set Controller Synchronization of Cycle {1} On, {0} Off
+  CID{1|0}        Set Controller Initiation Delay {1} On, {0} Off
+  CIP{12|24}      Set Controller Input Power Mode {12} 12 Volts, {24} 24 Volts
+  CSV{VV,VV}      Set Controller Automatic Standby Activation and Deactivation Voltages (16-22,17-23) (24 Volts Input Power Mode Only)
+  CPS{SS,DD}      Set Controller Periodic Standby: {Start Hours (00-23), Duration (00-23)}
+  CIT{0-10000}    Set Controller Idling Time in Milliseconds (5 ms Increments)
+
+Detection:
+  DHT{1|0}        Set HDX Tag Detection {1} On, {0} Off
+  DFH{1|0}        Set FDXB Fastag Detection {1} On, {0} Off
+  DUM{5|1|0|D}    Set All Nodes Det.Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  DUD{1-43200}    Set All Nodes Detection Unique Delay in Seconds
+  DET{1|0}        Set Detection Efficiency Test {1} On, {0} Off
+  DCS{1|0|R}      Set Detection Counter {1} On, {0} Off, {R} Reset
+  DFT{45-500}     Set FDXB Detection Scan Time in Milliseconds (5 ms Increments)
+  DTD{0-1440}     Set Automatic Virtual Test Tag Single Shot Delay in Minutes
+  DVT{1|0|S}      Set VTT For All Nodes In Sequence {1} On, {0} Off, {S} Single Shot
+
+Network:
+  NSN{SSSS,NN}    Assign Node Serial Number SSSS to Node ID NN
+  NSP{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Primary Nodes Switching Sequence
+  NSS{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Secondary Nodes Switching Sequence
+  NRS             Reset Network
+
+Reader Nodes:
+  NFT{NN}         Perform Node Full Tune
+  NVE{NN,1-5}     Set Node NN Exciter Voltage Level (24 Volts Input Power Mode Only)
+  NTC{NN,0-1023}  Set Node NN Antenna Tuning Capacitors
+  NDT{NN,1|0}     Set Node NN Dynamic Tuning {1} On, {0} Off
+  NTP{NN,300-500} Set Node NN Dynamic Tuning Target Phase
+  NTS{NN,2-63}    Set Node NN Dynamic Tuning Target Phase Deviation Threshold
+  NUM{NN,5|1|0|D} Set Node NN Det. Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  NUD{NN,1-43200} Set Node NN Detection Unique Delay in Seconds
+  NVL{NN,0-255}   Set Node NN Virtual Test Tag Level
+  NVT{NN,1|0|S}   Set Node NN VTT {1} On, {0} Off, {S} Single Shot
+  NBS{NN,1|0}     Set Node NN Beeper {1} On, {0} Off
+
+Communication:
+  CSL{bps}        Set Local Communication Port Speed
+  CTL{1|0}        Set Tags Communication To Local Port {1} On, {0} Off
+  CAL{1|0}        Set Alarms Communication To Local Port {1} On, {0} Off
+  CML{1|0}        Set Messages Communication To Local Port {1} On, {0} Off
+  CSR{bps}        Set Remote Communication Port Speed
+  CPR{A|M}        Set Remote Comm. Port Protocol {A} ASCII, {M} MODEM
+  CER{1|0}        Set Remote Comm. Port AES-256 Compliant {1} On, {0} Off
+
+Memory:
+  MED             Download Entire Memory
+  MTD             Download Tags Memory
+  MAD             Download Alarms Memory
+  MMD             Download Messages Memory
+  MSD             Download Status Reports Memory
+  MND             Download Noise Reports Memory
+  MED{MM/DD/YYYY-MM/DD/YYYY}  Download Entire Memory From Date To Date
+  MTD{MM/DD/YYYY-MM/DD/YYYY}  Download Tags Memory From Date To Date
+  MAD{MM/DD/YYYY-MM/DD/YYYY}  Download Alarms Memory From Date To Date
+  MMD{MM/DD/YYYY-MM/DD/YYYY}  Download Messages Memory From Date To Date
+  MSD{MM/DD/YYYY-MM/DD/YYYY}  Download Status Reports Memory From Date To Date
+  MND{MM/DD/YYYY-MM/DD/YYYY}  Download Noise Reports Memory From Date To Date
+  MEW             Write Entire Memory To External Storage
+  MEE             Erase Entire Memory
+  MBD             Download Backup Tags Memory
+  MBE             Erase Backup Tags Memory
+  MVT{1|0}        Store Virtual Test Tags To Memory {1} On, {0} Off
+  MFT{1-24}       Set External Storage File Duration in Hours
+  MFN{1-99999}    Set Present External Storage File Number
+
+Parameters:
+  RCP1            Load Custom Parameters Configuration 1
+  RCP2            Load Custom Parameters Configuration 2
+  SCP1            Save Custom Parameters Configuration 1
+  SCP2            Save Custom Parameters Configuration 2
+  RDP             Reset to Factory Default Parameters
+
+Reports:
+  RFV             Report Firmware Versions
+  RDT             Report Controller Date And Time
+  RNA             Report Nodes Assignment
+  RSS             Report Nodes Switching Sequence
+  RFS             Report Full Status
+  RNS             Report Noise Status
+  RMS             Report Memory Status
+  RDD             Report Diagnostic Data
+  RCS             Report Controller Settings
+  RDS             Report DOP Devices Status
+  RPT{SSSS}       Report DOP Device S/N SSSS Ping Time
+  RND{0-1440}     Set Automatic Noise Report Delay in Minutes
+  RSD{0-1440}     Set Automatic Status Report Delay in Minutes
+INF: End Of List Of Commands
+RCS
+INF: Start Of Settings Report
+                                Present:    User1:      User2:      Factory Def.
+--------------------------------------------------------------------------------
+Controller:
+  ID:                           01          N/A         N/A         01          
+  Input Power Mode:             24 V        N/A         N/A         24 V        
+  Sync. Mode:                   Standalone  N/A         N/A         Standalone  
+  Sync. of Cycle:               Disabled    N/A         N/A         Disabled    
+  Beeper:                       Enabled     N/A         N/A         Enabled     
+  Tag Display Format:           HEX         N/A         N/A         HEX         
+  LCD Backlight Mode:           Saving      N/A         N/A         Saving      
+  Initiation Delay:             Disabled    N/A         N/A         Disabled    
+  Automatic Standby Voltages:   18 V, 19 V  N/A         N/A         18 V, 19 V  
+  Periodic Standby Start Time:  0:00        N/A         N/A         0:00        
+  Periodic Standby Duration:    Disabled    N/A         N/A         Disabled    
+  Idling Time:                  Disabled    N/A         N/A         Disabled    
+ Alarms:
+  Tuning Cap. High Alarm:       970         N/A         N/A         970         
+  Tuning Cap. Low Alarm:        50          N/A         N/A         50          
+  Alarms Unique Delay:          3600 Sec    N/A         N/A         3600 Sec    
+ Detection:
+  HDX Tag Detection:            Enabled     N/A         N/A         Disabled    
+  FDXB Fastag Detection:        Disabled    N/A         N/A         Disabled    
+  Detection Counter:            Enabled     N/A         N/A         Enabled     
+  FDXB Detection Scan Time:     120 ms      N/A         N/A         120 ms      
+  Automatic VTT Delay:          360 Min     N/A         N/A         60 Min      
+ Network:
+  Primary Sequence:             01,02,--,   N/A         N/A         01,02,03,   
+                                --,--,--,                           04,05,06,   
+                                --,--,--,                           07,08,09,   
+                                --,--,--                            0A,0B,0C    
+  Secondary Sequence:           --,--,--,   N/A         N/A         --,--,--,   
+                                --,--,--,                           --,--,--,   
+                                --,--,--,                           --,--,--,   
+                                --,--,--                            --,--,--    
+ Communication:
+  Local Port Speed:             115200      N/A         N/A         115200      
+  Tags Comm. To Local Port:     Enabled     N/A         N/A         Enabled     
+  Alarms Comm. To Local Port:   Enabled     N/A         N/A         Enabled     
+  Messages Comm. To Local Port: Enabled     N/A         N/A         Enabled     
+  Remote Port Speed:            115200      N/A         N/A         115200      
+  Remote Port Protocol:         ASCII       N/A         N/A         ASCII       
+  Remote Port AES-256 Comp.:    Disabled    N/A         N/A         Disabled    
+ Memory:
+  Store Virtual Tags To Memory: Enabled     N/A         N/A         Enabled     
+  Ext. Storage File Duration:   24 Hrs      N/A         N/A         24 Hrs      
+ Reports:
+  Automatic Noise Report Delay: 360 Min     N/A         N/A         Disabled    
+  Automatic Status Report Delay:360 Min     N/A         N/A         60 Min      
+Reader Node 01 Settings:
+  Exciter Voltage Level:        2           N/A         N/A         1           
+  Dynamic Tuning:               Enabled     N/A         N/A         Enabled     
+  Tuning Target Phase:          390         N/A         N/A         390         
+  Phase Deviation Threshold:    6           N/A         N/A         10          
+  Unique Mode:                  Delay       N/A         N/A         Disabled    
+  Unique Delay:                 30 Sec      N/A         N/A         60 Sec      
+  VTT Level:                    128         N/A         N/A         128         
+  Beeper:                       Disabled    N/A         N/A         Disabled    
+  Antenna Current Low Alarm:    1.0 Amp     N/A         N/A         1.0 Amp     
+  Noise High Alarm:             20 %        N/A         N/A         20 %        
+Reader Node 02 Settings:
+  Exciter Voltage Level:        2           N/A         N/A         1           
+  Dynamic Tuning:               Enabled     N/A         N/A         Enabled     
+  Tuning Target Phase:          389         N/A         N/A         390         
+  Phase Deviation Threshold:    6           N/A         N/A         10          
+  Unique Mode:                  Delay       N/A         N/A         Disabled    
+  Unique Delay:                 30 Sec      N/A         N/A         60 Sec      
+  VTT Level:                    128         N/A         N/A         128         
+  Beeper:                       Disabled    N/A         N/A         Disabled    
+  Antenna Current Low Alarm:    1.0 Amp     N/A         N/A         1.0 Amp     
+  Noise High Alarm:             20 %        N/A         N/A         20 %        
+INF: End Of Settings Report
+rns
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            14 %
+  Maximum Noise:                            21 %
+  Average Noise:                             5 %
+  Time Averaged Over:                    3:16:40
+Reader Node 02:
+  Present Noise:                             8 %
+  Maximum Noise:                            28 %
+  Average Noise:                             8 %
+  Time Averaged Over:                    3:16:40
+INF: End Of Noise Report
+~04/25/18 07:30:01
+?
+INF: Start Of List Of Commands
+  ?               Print List Of Commands
+
+Alarms:
+  ACL{NN,0.0-9.0} Set Node Antenna Current Low Alarm Threshold in Amperes
+  ANH{NN,0-100}   Set Node Noise High Alarm Threshold Percent
+  ATH{512-1023}   Set Tuning Capacitance High Alarm Threshold
+  ATL{0-511}      Set Tuning Capacitance Low Alarm Threshold
+  AUD{0-3600}     Set Alarms Unique Delay in Seconds
+
+Controller:
+  CIS{01-FF}      Set Controller ID
+  CDS{MM/DD/YYYY} Set Controller Date
+  CTS{HH:MM:SS}   Set Controller Time (24-hrs)
+  CBS{1|0}        Set Controller Beeper {1} On, {0} Off
+  CDF{H|D}        Set Controller Tag ID Display Format {H} Hex, {D} Dec
+  CDB{1|0|S}      Set Controller Display Backlight Mode {1} On, {0} Off, {S} Saving
+  COM{1|0|R}      Set Controller Operation Mode {1} Scan, {0} Standby, {R} Reset
+  CSM{1|2|3|0}    Set Controller Sync.Mode {1} Master, {2} Sec.Master, {3} Slave, {0} Standalone
+  CSC{1|0}        Set Controller Synchronization of Cycle {1} On, {0} Off
+  CID{1|0}        Set Controller Initiation Delay {1} On, {0} Off
+  CIP{12|24}      Set Controller Input Power Mode {12} 12 Volts, {24} 24 Volts
+  CSV{VV,VV}      Set Controller Automatic Standby Activation and Deactivation Voltages (16-22,17-23) (24 Volts Input Power Mode Only)
+  CPS{SS,DD}      Set Controller Periodic Standby: {Start Hours (00-23), Duration (00-23)}
+  CIT{0-10000}    Set Controller Idling Time in Milliseconds (5 ms Increments)
+
+Detection:
+  DHT{1|0}        Set HDX Tag Detection {1} On, {0} Off
+  DFH{1|0}        Set FDXB Fastag Detection {1} On, {0} Off
+  DUM{5|1|0|D}    Set All Nodes Det.Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  DUD{1-43200}    Set All Nodes Detection Unique Delay in Seconds
+  DET{1|0}        Set Detection Efficiency Test {1} On, {0} Off
+  DCS{1|0|R}      Set Detection Counter {1} On, {0} Off, {R} Reset
+  DFT{45-500}     Set FDXB Detection Scan Time in Milliseconds (5 ms Increments)
+  DTD{0-1440}     Set Automatic Virtual Test Tag Single Shot Delay in Minutes
+  DVT{1|0|S}      Set VTT For All Nodes In Sequence {1} On, {0} Off, {S} Single Shot
+
+Network:
+  NSN{SSSS,NN}    Assign Node Serial Number SSSS to Node ID NN
+  NSP{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Primary Nodes Switching Sequence
+  NSS{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Secondary Nodes Switching Sequence
+  NRS             Reset Network
+
+Reader Nodes:
+  NFT{NN}         Perform Node Full Tune
+  NVE{NN,1-5}     Set Node NN Exciter Voltage Level (24 Volts Input Power Mode Only)
+  NTC{NN,0-1023}  Set Node NN Antenna Tuning Capacitors
+  NDT{NN,1|0}     Set Node NN Dynamic Tuning {1} On, {0} Off
+  NTP{NN,300-500} Set Node NN Dynamic Tuning Target Phase
+  NTS{NN,2-63}    Set Node NN Dynamic Tuning Target Phase Deviation Threshold
+  NUM{NN,5|1|0|D} Set Node NN Det. Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  NUD{NN,1-43200} Set Node NN Detection Unique Delay in Seconds
+  NVL{NN,0-255}   Set Node NN Virtual Test Tag Level
+  NVT{NN,1|0|S}   Set Node NN VTT {1} On, {0} Off, {S} Single Shot
+  NBS{NN,1|0}     Set Node NN Beeper {1} On, {0} Off
+
+Communication:
+  CSL{bps}        Set Local Communication Port Speed
+  CTL{1|0}        Set Tags Communication To Local Port {1} On, {0} Off
+  CAL{1|0}        Set Alarms Communication To Local Port {1} On, {0} Off
+  CML{1|0}        Set Messages Communication To Local Port {1} On, {0} Off
+  CSR{bps}        Set Remote Communication Port Speed
+  CPR{A|M}        Set Remote Comm. Port Protocol {A} ASCII, {M} MODEM
+  CER{1|0}        Set Remote Comm. Port AES-256 Compliant {1} On, {0} Off
+
+Memory:
+  MED             Download Entire Memory
+  MTD             Download Tags Memory
+  MAD             Download Alarms Memory
+  MMD             Download Messages Memory
+  MSD             Download Status Reports Memory
+  MND             Download Noise Reports Memory
+  MED{MM/DD/YYYY-MM/DD/YYYY}  Download Entire Memory From Date To Date
+  MTD{MM/DD/YYYY-MM/DD/YYYY}  Download Tags Memory From Date To Date
+  MAD{MM/DD/YYYY-MM/DD/YYYY}  Download Alarms Memory From Date To Date
+  MMD{MM/DD/YYYY-MM/DD/YYYY}  Download Messages Memory From Date To Date
+  MSD{MM/DD/YYYY-MM/DD/YYYY}  Download Status Reports Memory From Date To Date
+  MND{MM/DD/YYYY-MM/DD/YYYY}  Download Noise Reports Memory From Date To Date
+  MEW             Write Entire Memory To External Storage
+  MEE             Erase Entire Memory
+  MBD             Download Backup Tags Memory
+  MBE             Erase Backup Tags Memory
+  MVT{1|0}        Store Virtual Test Tags To Memory {1} On, {0} Off
+  MFT{1-24}       Set External Storage File Duration in Hours
+  MFN{1-99999}    Set Present External Storage File Number
+
+Parameters:
+  RCP1            Load Custom Parameters Configuration 1
+  RCP2            Load Custom Parameters Configuration 2
+  SCP1            Save Custom Parameters Configuration 1
+  SCP2            Save Custom Parameters Configuration 2
+  RDP             Reset to Factory Default Parameters
+
+Reports:
+  RFV             Report Firmware Versions
+  RDT             Report Controller Date And Time
+  RNA             Report Nodes Assignment
+  RSS             Report Nodes Switching Sequence
+  RFS             Report Full Status
+  RNS             Report Noise Status
+  RMS             Report Memory Status
+  RDD             Report Diagnostic Data
+  RCS             Report Controller Settings
+  RDS             Report DOP Devices Status
+  RPT{SSSS}       Report DOP Device S/N SSSS Ping Time
+  RND{0-1440}     Set Automatic Noise Report Delay in Minutes
+  RSD{0-1440}     Set Automatic Status Report Delay in Minutes
+INF: End Of List Of Commands
+~04/25/18 07:40:01
+~04/25/18 07:50:01
+~04/25/18 08:00:01
+~04/25/18 08:10:01
+ALM: 01 02 04/25/2018 08:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 08:11:52.990 Node Antenna Current Exceeded 10.0 A
+~04/25/18 08:20:01
+~04/25/18 08:30:01
+~04/25/18 08:40:01
+?
+INF: Start Of List Of Commands
+  ?               Print List Of Commands
+
+Alarms:
+  ACL{NN,0.0-9.0} Set Node Antenna Current Low Alarm Threshold in Amperes
+  ANH{NN,0-100}   Set Node Noise High Alarm Threshold Percent
+  ATH{512-1023}   Set Tuning Capacitance High Alarm Threshold
+  ATL{0-511}      Set Tuning Capacitance Low Alarm Threshold
+  AUD{0-3600}     Set Alarms Unique Delay in Seconds
+
+Controller:
+  CIS{01-FF}      Set Controller ID
+  CDS{MM/DD/YYYY} Set Controller Date
+  CTS{HH:MM:SS}   Set Controller Time (24-hrs)
+  CBS{1|0}        Set Controller Beeper {1} On, {0} Off
+  CDF{H|D}        Set Controller Tag ID Display Format {H} Hex, {D} Dec
+  CDB{1|0|S}      Set Controller Display Backlight Mode {1} On, {0} Off, {S} Saving
+  COM{1|0|R}      Set Controller Operation Mode {1} Scan, {0} Standby, {R} Reset
+  CSM{1|2|3|0}    Set Controller Sync.Mode {1} Master, {2} Sec.Master, {3} Slave, {0} Standalone
+  CSC{1|0}        Set Controller Synchronization of Cycle {1} On, {0} Off
+  CID{1|0}        Set Controller Initiation Delay {1} On, {0} Off
+  CIP{12|24}      Set Controller Input Power Mode {12} 12 Volts, {24} 24 Volts
+  CSV{VV,VV}      Set Controller Automatic Standby Activation and Deactivation Voltages (16-22,17-23) (24 Volts Input Power Mode Only)
+  CPS{SS,DD}      Set Controller Periodic Standby: {Start Hours (00-23), Duration (00-23)}
+  CIT{0-10000}    Set Controller Idling Time in Milliseconds (5 ms Increments)
+
+Detection:
+  DHT{1|0}        Set HDX Tag Detection {1} On, {0} Off
+  DFH{1|0}        Set FDXB Fastag Detection {1} On, {0} Off
+  DUM{5|1|0|D}    Set All Nodes Det.Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  DUD{1-43200}    Set All Nodes Detection Unique Delay in Seconds
+  DET{1|0}        Set Detection Efficiency Test {1} On, {0} Off
+  DCS{1|0|R}      Set Detection Counter {1} On, {0} Off, {R} Reset
+  DFT{45-500}     Set FDXB Detection Scan Time in Milliseconds (5 ms Increments)
+  DTD{0-1440}     Set Automatic Virtual Test Tag Single Shot Delay in Minutes
+  DVT{1|0|S}      Set VTT For All Nodes In Sequence {1} On, {0} Off, {S} Single Shot
+
+Network:
+  NSN{SSSS,NN}    Assign Node Serial Number SSSS to Node ID NN
+  NSP{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Primary Nodes Switching Sequence
+  NSS{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Secondary Nodes Switching Sequence
+  NRS             Reset Network
+
+Reader Nodes:
+  NFT{NN}         Perform Node Full Tune
+  NVE{NN,1-5}     Set Node NN Exciter Voltage Level (24 Volts Input Power Mode Only)
+  NTC{NN,0-1023}  Set Node NN Antenna Tuning Capacitors
+  NDT{NN,1|0}     Set Node NN Dynamic Tuning {1} On, {0} Off
+  NTP{NN,300-500} Set Node NN Dynamic Tuning Target Phase
+  NTS{NN,2-63}    Set Node NN Dynamic Tuning Target Phase Deviation Threshold
+  NUM{NN,5|1|0|D} Set Node NN Det. Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  NUD{NN,1-43200} Set Node NN Detection Unique Delay in Seconds
+  NVL{NN,0-255}   Set Node NN Virtual Test Tag Level
+  NVT{NN,1|0|S}   Set Node NN VTT {1} On, {0} Off, {S} Single Shot
+  NBS{NN,1|0}     Set Node NN Beeper {1} On, {0} Off
+
+Communication:
+  CSL{bps}        Set Local Communication Port Speed
+  CTL{1|0}        Set Tags Communication To Local Port {1} On, {0} Off
+  CAL{1|0}        Set Alarms Communication To Local Port {1} On, {0} Off
+  CML{1|0}        Set Messages Communication To Local Port {1} On, {0} Off
+  CSR{bps}        Set Remote Communication Port Speed
+  CPR{A|M}        Set Remote Comm. Port Protocol {A} ASCII, {M} MODEM
+  CER{1|0}        Set Remote Comm. Port AES-256 Compliant {1} On, {0} Off
+
+Memory:
+  MED             Download Entire Memory
+  MTD             Download Tags Memory
+  MAD             Download Alarms Memory
+  MMD             Download Messages Memory
+  MSD             Download Status Reports Memory
+  MND             Download Noise Reports Memory
+  MED{MM/DD/YYYY-MM/DD/YYYY}  Download Entire Memory From Date To Date
+  MTD{MM/DD/YYYY-MM/DD/YYYY}  Download Tags Memory From Date To Date
+  MAD{MM/DD/YYYY-MM/DD/YYYY}  Download Alarms Memory From Date To Date
+  MMD{MM/DD/YYYY-MM/DD/YYYY}  Download Messages Memory From Date To Date
+  MSD{MM/DD/YYYY-MM/DD/YYYY}  Download Status Reports Memory From Date To Date
+  MND{MM/DD/YYYY-MM/DD/YYYY}  Download Noise Reports Memory From Date To Date
+  MEW             Write Entire Memory To External Storage
+  MEE             Erase Entire Memory
+  MBD             Download Backup Tags Memory
+  MBE             Erase Backup Tags Memory
+  MVT{1|0}        Store Virtual Test Tags To Memory {1} On, {0} Off
+  MFT{1-24}       Set External Storage File Duration in Hours
+  MFN{1-99999}    Set Present External Storage File Number
+
+Parameters:
+  RCP1            Load Custom Parameters Configuration 1
+  RCP2            Load Custom Parameters Configuration 2
+  SCP1            Save Custom Parameters Configuration 1
+  SCP2            Save Custom Parameters Configuration 2
+  RDP             Reset to Factory Default Parameters
+
+Reports:
+  RFV             Report Firmware Versions
+  RDT             Report Controller Date And Time
+  RNA             Report Nodes Assignment
+  RSS             Report Nodes Switching Sequence
+  RFS             Report Full Status
+  RNS             Report Noise Status
+  RMS             Report Memory Status
+  RDD             Report Diagnostic Data
+  RCS             Report Controller Settings
+  RDS             Report DOP Devices Status
+  RPT{SSSS}       Report DOP Device S/N SSSS Ping Time
+  RND{0-1440}     Set Automatic Noise Report Delay in Minutes
+  RSD{0-1440}     Set Automatic Status Report Delay in Minutes
+INF: End Of List Of Commands
+rfs
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               04/25/2018
+  Time:                                 08:48:09
+  Last Shutdown Date:                 04/24/2018
+  Last Shutdown Time:                      09:42
+  Application Firmware Version:            1.6.2
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                         209
+  Memory Used:                               0 %
+  Backup Tags Memory Count:                24868
+  Backup Tags Memory Used:                  85 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00042.log
+  Input Voltage:                          19.7 V
+  Lithium Battery Voltage:                 3.5 V
+  Temperature:                            26.6 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          36.4 V
+  Exciter Voltage:                        44.4 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       251.9 A
+  Tuning Capacitors:                         107
+  Tuning Phase:                              387
+  Tuning Relative Phase:                       3
+  FDXB Signal Level:               108 mV (12 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          35.1 V
+  Exciter Voltage:                        42.9 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       249.9 A
+  Tuning Capacitors:                         114
+  Tuning Phase:                              390
+  Tuning Relative Phase:                      -1
+  FDXB Signal Level:                 81 mV (9 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Active Alarms:
+  Node 01: Node Antenna Current Exceeded 10.0 A
+  Node 02: Node Antenna Current Exceeded 10.0 A
+INF: End Of Full Status Report
+?
+INF: Start Of List Of Commands
+  ?               Print List Of Commands
+
+Alarms:
+  ACL{NN,0.0-9.0} Set Node Antenna Current Low Alarm Threshold in Amperes
+  ANH{NN,0-100}   Set Node Noise High Alarm Threshold Percent
+  ATH{512-1023}   Set Tuning Capacitance High Alarm Threshold
+  ATL{0-511}      Set Tuning Capacitance Low Alarm Threshold
+  AUD{0-3600}     Set Alarms Unique Delay in Seconds
+
+Controller:
+  CIS{01-FF}      Set Controller ID
+  CDS{MM/DD/YYYY} Set Controller Date
+  CTS{HH:MM:SS}   Set Controller Time (24-hrs)
+  CBS{1|0}        Set Controller Beeper {1} On, {0} Off
+  CDF{H|D}        Set Controller Tag ID Display Format {H} Hex, {D} Dec
+  CDB{1|0|S}      Set Controller Display Backlight Mode {1} On, {0} Off, {S} Saving
+  COM{1|0|R}      Set Controller Operation Mode {1} Scan, {0} Standby, {R} Reset
+  CSM{1|2|3|0}    Set Controller Sync.Mode {1} Master, {2} Sec.Master, {3} Slave, {0} Standalone
+  CSC{1|0}        Set Controller Synchronization of Cycle {1} On, {0} Off
+  CID{1|0}        Set Controller Initiation Delay {1} On, {0} Off
+  CIP{12|24}      Set Controller Input Power Mode {12} 12 Volts, {24} 24 Volts
+  CSV{VV,VV}      Set Controller Automatic Standby Activation and Deactivation Voltages (16-22,17-23) (24 Volts Input Power Mode Only)
+  CPS{SS,DD}      Set Controller Periodic Standby: {Start Hours (00-23), Duration (00-23)}
+  CIT{0-10000}    Set Controller Idling Time in Milliseconds (5 ms Increments)
+
+Detection:
+  DHT{1|0}        Set HDX Tag Detection {1} On, {0} Off
+  DFH{1|0}        Set FDXB Fastag Detection {1} On, {0} Off
+  DUM{5|1|0|D}    Set All Nodes Det.Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  DUD{1-43200}    Set All Nodes Detection Unique Delay in Seconds
+  DET{1|0}        Set Detection Efficiency Test {1} On, {0} Off
+  DCS{1|0|R}      Set Detection Counter {1} On, {0} Off, {R} Reset
+  DFT{45-500}     Set FDXB Detection Scan Time in Milliseconds (5 ms Increments)
+  DTD{0-1440}     Set Automatic Virtual Test Tag Single Shot Delay in Minutes
+  DVT{1|0|S}      Set VTT For All Nodes In Sequence {1} On, {0} Off, {S} Single Shot
+
+Network:
+  NSN{SSSS,NN}    Assign Node Serial Number SSSS to Node ID NN
+  NSP{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Primary Nodes Switching Sequence
+  NSS{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Secondary Nodes Switching Sequence
+  NRS             Reset Network
+
+Reader Nodes:
+  NFT{NN}         Perform Node Full Tune
+  NVE{NN,1-5}     Set Node NN Exciter Voltage Level (24 Volts Input Power Mode Only)
+  NTC{NN,0-1023}  Set Node NN Antenna Tuning Capacitors
+  NDT{NN,1|0}     Set Node NN Dynamic Tuning {1} On, {0} Off
+  NTP{NN,300-500} Set Node NN Dynamic Tuning Target Phase
+  NTS{NN,2-63}    Set Node NN Dynamic Tuning Target Phase Deviation Threshold
+  NUM{NN,5|1|0|D} Set Node NN Det. Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  NUD{NN,1-43200} Set Node NN Detection Unique Delay in Seconds
+  NVL{NN,0-255}   Set Node NN Virtual Test Tag Level
+  NVT{NN,1|0|S}   Set Node NN VTT {1} On, {0} Off, {S} Single Shot
+  NBS{NN,1|0}     Set Node NN Beeper {1} On, {0} Off
+
+Communication:
+  CSL{bps}        Set Local Communication Port Speed
+  CTL{1|0}        Set Tags Communication To Local Port {1} On, {0} Off
+  CAL{1|0}        Set Alarms Communication To Local Port {1} On, {0} Off
+  CML{1|0}        Set Messages Communication To Local Port {1} On, {0} Off
+  CSR{bps}        Set Remote Communication Port Speed
+  CPR{A|M}        Set Remote Comm. Port Protocol {A} ASCII, {M} MODEM
+  CER{1|0}        Set Remote Comm. Port AES-256 Compliant {1} On, {0} Off
+
+Memory:
+  MED             Download Entire Memory
+  MTD             Download Tags Memory
+  MAD             Download Alarms Memory
+  MMD             Download Messages Memory
+  MSD             Download Status Reports Memory
+  MND             Download Noise Reports Memory
+  MED{MM/DD/YYYY-MM/DD/YYYY}  Download Entire Memory From Date To Date
+  MTD{MM/DD/YYYY-MM/DD/YYYY}  Download Tags Memory From Date To Date
+  MAD{MM/DD/YYYY-MM/DD/YYYY}  Download Alarms Memory From Date To Date
+  MMD{MM/DD/YYYY-MM/DD/YYYY}  Download Messages Memory From Date To Date
+  MSD{MM/DD/YYYY-MM/DD/YYYY}  Download Status Reports Memory From Date To Date
+  MND{MM/DD/YYYY-MM/DD/YYYY}  Download Noise Reports Memory From Date To Date
+  MEW             Write Entire Memory To External Storage
+  MEE             Erase Entire Memory
+  MBD             Download Backup Tags Memory
+  MBE             Erase Backup Tags Memory
+  MVT{1|0}        Store Virtual Test Tags To Memory {1} On, {0} Off
+  MFT{1-24}       Set External Storage File Duration in Hours
+  MFN{1-99999}    Set Present External Storage File Number
+
+Parameters:
+  RCP1            Load Custom Parameters Configuration 1
+  RCP2            Load Custom Parameters Configuration 2
+  SCP1            Save Custom Parameters Configuration 1
+  SCP2            Save Custom Parameters Configuration 2
+  RDP             Reset to Factory Default Parameters
+
+Reports:
+  RFV             Report Firmware Versions
+  RDT             Report Controller Date And Time
+  RNA             Report Nodes Assignment
+  RSS             Report Nodes Switching Sequence
+  RFS             Report Full Status
+  RNS             Report Noise Status
+  RMS             Report Memory Status
+  RDD             Report Diagnostic Data
+  RCS             Report Controller Settings
+  RDS             Report DOP Devices Status
+  RPT{SSSS}       Report DOP Device S/N SSSS Ping Time
+  RND{0-1440}     Set Automatic Noise Report Delay in Minutes
+  RSD{0-1440}     Set Automatic Status Report Delay in Minutes
+INF: End Of List Of Commands
+rns
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            13 %
+  Maximum Noise:                            23 %
+  Average Noise:                             6 %
+  Time Averaged Over:                    4:37:21
+Reader Node 02:
+  Present Noise:                             9 %
+  Maximum Noise:                            28 %
+  Average Noise:                             8 %
+  Time Averaged Over:                    4:37:21
+INF: End Of Noise Report
+~04/25/18 08:50:01
+~04/25/18 09:00:01
+~04/25/18 09:10:01
+ALM: 01 02 04/25/2018 09:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 09:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 09:20:01
+~04/25/18 09:30:01
+~04/25/18 09:40:01
+~04/25/18 09:50:02
+~04/25/18 10:00:01
+MSG: 01 00 04/25/2018 10:01:00.000 Present External Memory File: 01_00043.log
+~04/25/18 10:10:01
+MSG: 01 02 04/25/2018 10:10:41.020 Node VTT Single Shot Fired
+MSG: 01 02 04/25/2018 10:10:41.070 Node VTT Test Passed
+TAG: 01 02 04/25/2018 10:10:41.070 3E7.0000001D02
+MSG: 01 01 04/25/2018 10:10:41.080 Node VTT Single Shot Fired
+MSG: 01 01 04/25/2018 10:10:41.120 Node VTT Test Passed
+TAG: 01 01 04/25/2018 10:10:41.130 3E7.0000001D01
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                             8 %
+  Maximum Noise:                            23 %
+  Average Noise:                             7 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            12 %
+  Maximum Noise:                            28 %
+  Average Noise:                             9 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 04/25/2018 10:11:25.990 8,23,7,21600
+NRP: 01 02 04/25/2018 10:11:25.990 12,28,9,21600
+INF: End Of Noise Report
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               04/25/2018
+  Time:                                 10:11:36
+  Last Shutdown Date:                 04/24/2018
+  Last Shutdown Time:                      09:42
+  Application Firmware Version:            1.6.2
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                         209
+  Memory Used:                               0 %
+  Backup Tags Memory Count:                24870
+  Backup Tags Memory Used:                  85 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00043.log
+  Input Voltage:                          19.7 V
+  Lithium Battery Voltage:                 3.5 V
+  Temperature:                            31.6 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          36.4 V
+  Exciter Voltage:                        43.2 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       247.6 A
+  Tuning Capacitors:                         108
+  Tuning Phase:                              386
+  Tuning Relative Phase:                       4
+  FDXB Signal Level:                99 mV (11 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          35.0 V
+  Exciter Voltage:                        41.7 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       248.9 A
+  Tuning Capacitors:                         115
+  Tuning Phase:                              386
+  Tuning Relative Phase:                       3
+  FDXB Signal Level:               126 mV (14 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Active Alarms:
+  Node 01: Node Antenna Current Exceeded 10.0 A
+  Node 02: Node Antenna Current Exceeded 10.0 A
+SRP: 01 00 04/25/2018 10:11:36.010 2,0,197,35,209,316,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 04/25/2018 10:11:36.010 1,1,1,2,2476,11,108,4,432,364,65535,28,0,0,0,0
+SRP: 01 02 04/25/2018 10:11:36.010 1,1,1,2,2489,14,115,3,417,350,65535,28,0,0,0,0
+INF: End Of Full Status Report
+ALM: 01 02 04/25/2018 10:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 10:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 10:20:01
+~04/25/18 10:30:01
+~04/25/18 10:40:01
+~04/25/18 10:50:01
+~04/25/18 11:00:02
+~04/25/18 11:10:01
+ALM: 01 02 04/25/2018 11:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 11:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 11:20:01
+~04/25/18 11:30:01
+~04/25/18 11:40:01
+TAG: 01 01 04/25/2018 11:47:43.660 3DD.00779BC037
+TAG: 01 02 04/25/2018 11:47:45.090 3DD.00779BC037
+~04/25/18 11:50:01
+~04/25/18 12:00:01
+~04/25/18 12:10:01
+ALM: 01 02 04/25/2018 12:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 12:11:53.000 Node Antenna Current Exceeded 10.0 A
+TAG: 01 02 04/25/2018 12:13:31.990 3DD.00779BC037
+TAG: 01 01 04/25/2018 12:13:32.660 3DD.00779BC037
+~04/25/18 12:20:01
+~04/25/18 12:30:01
+~04/25/18 12:40:01
+~04/25/18 12:50:01
+~04/25/18 13:00:01
+~04/25/18 13:10:01
+ALM: 01 02 04/25/2018 13:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 13:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 13:20:01
+~04/25/18 13:30:01
+~04/25/18 13:40:01
+~04/25/18 13:50:01
+~04/25/18 14:00:01
+~04/25/18 14:10:01
+ALM: 01 02 04/25/2018 14:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 14:11:52.990 Node Antenna Current Exceeded 10.0 A
+~04/25/18 14:20:01
+~04/25/18 14:30:01
+~04/25/18 14:40:01
+~04/25/18 14:50:01
+~04/25/18 15:00:01
+~04/25/18 15:10:01
+ALM: 01 02 04/25/2018 15:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 15:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 15:20:01
+~04/25/18 15:30:01
+~04/25/18 15:40:01
+~04/25/18 15:50:01
+~04/25/18 16:00:01
+TAG: 01 01 04/25/2018 16:05:34.840 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:07:15.910 3DD.00773B27E6
+TAG: 01 02 04/25/2018 16:07:17.240 3DD.00773B27E6
+TAG: 01 02 04/25/2018 16:09:52.510 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:09:53.820 3DD.00773B27E6
+~04/25/18 16:10:01
+MSG: 01 01 04/25/2018 16:10:41.060 Node VTT Single Shot Fired
+TAG: 01 01 04/25/2018 16:10:41.100 3E7.0000001D01
+MSG: 01 01 04/25/2018 16:10:41.110 Node VTT Test Passed
+MSG: 01 02 04/25/2018 16:10:41.110 Node VTT Single Shot Fired
+MSG: 01 02 04/25/2018 16:10:41.160 Node VTT Test Passed
+TAG: 01 02 04/25/2018 16:10:41.160 3E7.0000001D02
+TAG: 01 01 04/25/2018 16:10:45.800 3DD.00773B27E6
+TAG: 01 02 04/25/2018 16:10:46.600 3DD.00773B27E6
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            10 %
+  Maximum Noise:                            35 %
+  Average Noise:                             8 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            10 %
+  Maximum Noise:                            28 %
+  Average Noise:                            11 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 04/25/2018 16:11:25.990 10,35,8,21600
+NRP: 01 02 04/25/2018 16:11:25.990 10,28,11,21600
+INF: End Of Noise Report
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               04/25/2018
+  Time:                                 16:11:36
+  Last Shutdown Date:                 04/24/2018
+  Last Shutdown Time:                      09:42
+  Application Firmware Version:            1.6.2
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                         220
+  Memory Used:                               0 %
+  Backup Tags Memory Count:                24883
+  Backup Tags Memory Used:                  85 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00043.log
+  Input Voltage:                          19.7 V
+  Lithium Battery Voltage:                 3.5 V
+  Temperature:                            37.5 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          36.8 V
+  Exciter Voltage:                        43.2 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       245.2 A
+  Tuning Capacitors:                         109
+  Tuning Phase:                              394
+  Tuning Relative Phase:                      -4
+  FDXB Signal Level:                 45 mV (5 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          35.1 V
+  Exciter Voltage:                        41.6 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       247.5 A
+  Tuning Capacitors:                         115
+  Tuning Phase:                              388
+  Tuning Relative Phase:                       1
+  FDXB Signal Level:                90 mV (10 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Active Alarms:
+  Node 01: Node Antenna Current Exceeded 10.0 A
+  Node 02: Node Antenna Current Exceeded 10.0 A
+SRP: 01 00 04/25/2018 16:11:36.010 2,0,197,35,220,375,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 04/25/2018 16:11:36.010 1,1,1,2,2452,5,109,-4,432,368,65535,28,0,0,0,0
+SRP: 01 02 04/25/2018 16:11:36.010 1,1,1,2,2475,10,115,1,416,351,65535,28,0,0,0,0
+INF: End Of Full Status Report
+ALM: 01 02 04/25/2018 16:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 16:11:52.990 Node Antenna Current Exceeded 10.0 A
+TAG: 01 02 04/25/2018 16:12:16.940 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:12:18.400 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:17:30.240 3DD.00773B27E6
+TAG: 01 02 04/25/2018 16:17:31.190 3DD.00773B27E6
+~04/25/18 16:20:01
+TAG: 01 02 04/25/2018 16:25:23.440 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:25:23.990 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:26:37.530 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:28:55.010 3DD.00773B27E6
+TAG: 01 02 04/25/2018 16:28:56.280 3DD.00773B27E6
+~04/25/18 16:30:01
+~04/25/18 16:40:01
+~04/25/18 16:50:01
+TAG: 01 02 04/25/2018 16:55:05.960 3DD.00773B27E6
+TAG: 01 01 04/25/2018 16:55:06.890 3DD.00773B27E6
+~04/25/18 17:00:01
+~04/25/18 17:10:01
+ALM: 01 02 04/25/2018 17:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 17:11:52.990 Node Antenna Current Exceeded 10.0 A
+~04/25/18 17:20:01
+~04/25/18 17:30:01
+~04/25/18 17:40:01
+~04/25/18 17:50:01
+~04/25/18 18:00:01
+~04/25/18 18:10:01
+ALM: 01 02 04/25/2018 18:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 18:11:52.990 Node Antenna Current Exceeded 10.0 A
+~04/25/18 18:20:01
+~04/25/18 18:30:01
+~04/25/18 18:40:01
+~04/25/18 18:50:01
+~04/25/18 19:00:01
+~04/25/18 19:10:01
+ALM: 01 02 04/25/2018 19:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 19:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 19:20:01
+~04/25/18 19:30:01
+~04/25/18 19:40:01
+~04/25/18 19:50:01
+~04/25/18 20:00:01
+~04/25/18 20:10:01
+ALM: 01 02 04/25/2018 20:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 20:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 20:20:01
+TAG: 01 01 04/25/2018 20:20:30.210 3DD.00773B27E6
+TAG: 01 02 04/25/2018 20:20:41.030 3DD.00773B27E6
+TAG: 01 02 04/25/2018 20:24:03.020 3DD.00773B27E6
+TAG: 01 01 04/25/2018 20:24:03.670 3DD.00773B27E6
+~04/25/18 20:30:01
+~04/25/18 20:40:01
+~04/25/18 20:50:01
+~04/25/18 21:00:01
+~04/25/18 21:10:01
+ALM: 01 02 04/25/2018 21:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 21:11:53.000 Node Antenna Current Exceeded 10.0 A
+~04/25/18 21:20:01
+~04/25/18 21:30:01
+~04/25/18 21:40:01
+~04/25/18 21:50:01
+~04/25/18 22:00:01
+~04/25/18 22:10:01
+MSG: 01 01 04/25/2018 22:10:41.020 Node VTT Single Shot Fired
+TAG: 01 01 04/25/2018 22:10:41.060 3E7.0000001D01
+MSG: 01 01 04/25/2018 22:10:41.060 Node VTT Test Passed
+MSG: 01 02 04/25/2018 22:10:41.070 Node VTT Single Shot Fired
+TAG: 01 02 04/25/2018 22:10:41.110 3E7.0000001D02
+MSG: 01 02 04/25/2018 22:10:41.110 Node VTT Test Passed
+TAG: 01 01 04/25/2018 22:10:41.140 3E7.0000001D01
+TAG: 01 02 04/25/2018 22:10:41.190 3E7.0000001D02
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            11 %
+  Maximum Noise:                            30 %
+  Average Noise:                             8 %
+  Time Averaged Over:                    5:59:59
+Reader Node 02:
+  Present Noise:                            13 %
+  Maximum Noise:                            54 %
+  Average Noise:                            11 %
+  Time Averaged Over:                    5:59:59
+NRP: 01 01 04/25/2018 22:11:25.990 11,30,8,21599
+NRP: 01 02 04/25/2018 22:11:25.990 13,54,11,21599
+INF: End Of Noise Report
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               04/25/2018
+  Time:                                 22:11:36
+  Last Shutdown Date:                 04/24/2018
+  Last Shutdown Time:                      09:42
+  Application Firmware Version:            1.6.2
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                         235
+  Memory Used:                               0 %
+  Backup Tags Memory Count:                24902
+  Backup Tags Memory Used:                  85 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00043.log
+  Input Voltage:                          19.7 V
+  Lithium Battery Voltage:                 3.5 V
+  Temperature:                            28.8 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          36.6 V
+  Exciter Voltage:                        44.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       252.0 A
+  Tuning Capacitors:                         107
+  Tuning Phase:                              385
+  Tuning Relative Phase:                       5
+  FDXB Signal Level:                 45 mV (5 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.4.5
+  Input Power Version:                      24 V
+  Input Voltage:                          35.1 V
+  Exciter Voltage:                        42.5 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                       250.4 A
+  Tuning Capacitors:                         114
+  Tuning Phase:                              389
+  Tuning Relative Phase:                       0
+  FDXB Signal Level:                99 mV (11 %)
+  Temperature:                               N/A
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               20 %
+Active Alarms:
+  Node 01: Node Antenna Current Exceeded 10.0 A
+  Node 02: Node Antenna Current Exceeded 10.0 A
+SRP: 01 00 04/25/2018 22:11:36.010 2,0,197,35,235,288,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 04/25/2018 22:11:36.010 1,1,1,2,2520,5,107,5,440,366,65535,28,0,0,0,0
+SRP: 01 02 04/25/2018 22:11:36.010 1,1,1,2,2504,11,114,0,425,351,65535,28,0,0,0,0
+INF: End Of Full Status Report
+ALM: 01 02 04/25/2018 22:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 04/25/2018 22:11:52.990 Node Antenna Current Exceeded 10.0 A
+~04/25/18 22:20:01
+~04/25/18 22:30:01
+~04/25/18 22:40:01
+~04/25/18 22:50:01
