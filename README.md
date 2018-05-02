@@ -41,6 +41,7 @@ If you are trying to manipulate "screen" and getting an error mess. "Cannot open
   
 Start screen named MUX, in the background, with logfiles  
 ```screen -dmLS MUX /dev/ttyUSB0 57600```   
+Last number is the baud rate - change this accordingly to match your device
 make a bash script including preious codes for ease  
   
 Ctrl-a then...  
