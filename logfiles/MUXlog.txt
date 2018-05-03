@@ -1,685 +1,65 @@
-~05/02/18 00:10:01
-ALM: 01 02 05/02/2018 00:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 00:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 00:20:01
-~05/02/18 00:30:01
-~05/02/18 00:40:01
-~05/02/18 00:50:01
-~05/02/18 01:00:01
-~05/02/18 01:10:01
-ALM: 01 02 05/02/2018 01:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 01:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 01:20:01
-~05/02/18 01:30:01
-~05/02/18 01:40:01
-~05/02/18 01:50:01
-~05/02/18 02:00:01
-~05/02/18 02:10:01
-ALM: 01 02 05/02/2018 02:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 02:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 02:20:01
-~05/02/18 02:30:01
-~05/02/18 02:40:01
-~05/02/18 02:50:01
-~05/02/18 03:00:01
-~05/02/18 03:10:01
-ALM: 01 02 05/02/2018 03:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 03:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 03:20:01
-~05/02/18 03:30:01
-~05/02/18 03:40:01
-~05/02/18 03:50:01
-~05/02/18 04:00:01
-~05/02/18 04:10:01
-MSG: 01 02 05/02/2018 04:10:41.020 Node VTT Single Shot Fired
-MSG: 01 02 05/02/2018 04:10:41.060 Node VTT Test Passed
-TAG: 01 02 05/02/2018 04:10:41.060 3E7.0000001D02
-MSG: 01 01 05/02/2018 04:10:41.070 VTT Single Shot Aborted: System Activity
+~05/03/18 00:10:01
+ALM: 01 02 05/03/2018 00:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 00:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/03/18 00:20:01
+~05/03/18 00:30:01
+~05/03/18 00:40:01
+~05/03/18 00:50:01
+~05/03/18 01:00:01
+~05/03/18 01:10:01
+ALM: 01 02 05/03/2018 01:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 01:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/03/18 01:20:01
+~05/03/18 01:30:01
+~05/03/18 01:40:02
+~05/03/18 01:50:01
+~05/03/18 02:00:01
+~05/03/18 02:10:01
+ALM: 01 02 05/03/2018 02:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 02:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/03/18 02:20:01
+~05/03/18 02:30:01
+~05/03/18 02:40:01
+~05/03/18 02:50:02
+~05/03/18 03:00:01
+~05/03/18 03:10:01
+ALM: 01 02 05/03/2018 03:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 03:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/03/18 03:20:01
+~05/03/18 03:30:01
+~05/03/18 03:40:01
+~05/03/18 03:50:01
+~05/03/18 04:00:01
+~05/03/18 04:10:01
+MSG: 01 02 05/03/2018 04:10:41.010 Node VTT Single Shot Fired
+MSG: 01 02 05/03/2018 04:10:41.050 Node VTT Test Passed
+TAG: 01 02 05/03/2018 04:10:41.050 3E7.0000001D02
+MSG: 01 01 05/03/2018 04:10:41.060 Node VTT Single Shot Fired
+MSG: 01 01 05/03/2018 04:10:41.110 Node VTT Test Passed
+TAG: 01 01 05/03/2018 04:10:41.110 3E7.0000001D01
 INF: Start Of Noise Report
 Controller:
   ID:                                         01
 Reader Node 01:
-  Present Noise:                             9 %
-  Maximum Noise:                            22 %
-  Average Noise:                             7 %
-  Time Averaged Over:                    5:59:59
-Reader Node 02:
-  Present Noise:                             8 %
-  Maximum Noise:                            33 %
-  Average Noise:                            11 %
-  Time Averaged Over:                    5:59:59
-NRP: 01 01 05/02/2018 04:11:25.990 9,22,7,21599
-NRP: 01 02 05/02/2018 04:11:25.990 8,33,11,21599
-INF: End Of Noise Report
-INF: Start Of Full Status Report
-Controller:
-  ID:                                         01
-  Model:                               IS1001-MC
-  S/N:                                      0142
-  Date:                               05/02/2018
-  Time:                                 04:11:36
-  Last Shutdown Date:                 04/24/2018
-  Last Shutdown Time:                      09:42
-  Application Firmware Version:            1.6.2
-  Input Power Mode:                         24 V
-  Operation Mode:                           Scan
-  Synchronization Mode:               Standalone
-  Sync. of Cycle:                       Disabled
-  Beeper:                                Enabled
-  Tag ID Display Format:                     HEX
-  Display Backlight Mode:         30 Sec. Saving
-  Initiation Delay:                     Disabled
-  Auto Standby Voltages:              18 V, 19 V
-  Periodic Standby Start Time:              0:00
-  Periodic Standby Duration:            Disabled
-  Idling Time:                          Disabled
- Alarms:
-  Tuning Cap. High Alarm Threshold:          970
-  Tuning Cap. Low Alarm Threshold:            50
-  Alarms Unique Delay:                  3600 Sec
- Detection:
-  HDX Tag Detection:                     Enabled
-  FDXB Fastag Detection:                Disabled
-  Detection Counter Enabled:                 Yes
-  FDXB Detection Scan Time:               120 ms
-  Automatic VTT Delay:                   360 Min
- Memory:
-  Store Virtual Tags To Memory:          Enabled
-  External Storage File Duration:         24 Hrs
- Communication:
-  Local Port Speed:                       115200
-  Tags Communication To Local Port:      Enabled
-  Alarms Communication To Local Port:    Enabled
-  Messages Comm. To Local Port:          Enabled
-  Remote Port Speed:                      115200
-  Remote Port Protocol:                    ASCII
-  Remote Port AES-256 Compliant:        Disabled
- Configured Sequence:
-  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
-  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
- Active Present Sequence:
-  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
-  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
- Reports:
-  Automatic Status Report Delay:         360 Min
-  Automatic Noise Report Delay:          360 Min
- Diagnostics:
-  Detection Counter:                         486
-  Memory Used:                               1 %
-  Backup Tags Memory Count:                25202
-  Backup Tags Memory Used:                  86 %
-  External Storage Status:             Connected
-  External Storage Records Buffer:             0
-  External Storage Present File:    01_00049.log
-  Input Voltage:                          19.7 V
-  Lithium Battery Voltage:                 3.5 V
-  Temperature:                            17.2 C
-  Sync. Input Present:                       N/A
-Reader Node 01:
- Node Status:
-  Model:                                  IS1001
-  S/N:                                      1112
-  Connected:                                 Yes
-  Application Firmware Version:            1.4.5
-  Input Power Version:                      24 V
-  Input Voltage:                          35.2 V
-  Exciter Voltage:                        44.6 V
-  Antenna Tuning:                          Tuned
-  Antenna Current:                       256.3 A
-  Tuning Capacitors:                         107
-  Tuning Phase:                              393
-  Tuning Relative Phase:                      -3
-  FDXB Signal Level:                 36 mV (4 %)
-  Temperature:                               N/A
- Node Settings:
-  Exciter Voltage Level:                       2
-  Dynamic Tuning:                        Enabled
-  Tuning Target Phase:                       390
-  Tuning Target Phase Deviation Threshold:     6
-  Detection Unique Mode:                   Delay
-  Detection Unique Delay:                 30 Sec
-  VTT Level:                                 128
-  Beeper:                               Disabled
-  Current Low Alarm Threshold:             1.0 A
-  Noise High Alarm Threshold:               85 %
-Reader Node 02:
- Node Status:
-  Model:                                  IS1001
-  S/N:                                      1111
-  Connected:                                 Yes
-  Application Firmware Version:            1.4.5
-  Input Power Version:                      24 V
-  Input Voltage:                          34.3 V
-  Exciter Voltage:                        43.2 V
-  Antenna Tuning:                          Tuned
-  Antenna Current:                       254.2 A
-  Tuning Capacitors:                         113
-  Tuning Phase:                              391
-  Tuning Relative Phase:                      -2
-  FDXB Signal Level:                99 mV (11 %)
-  Temperature:                               N/A
- Node Settings:
-  Exciter Voltage Level:                       2
-  Dynamic Tuning:                        Enabled
-  Tuning Target Phase:                       389
-  Tuning Target Phase Deviation Threshold:     6
-  Detection Unique Mode:                   Delay
-  Detection Unique Delay:                 30 Sec
-  VTT Level:                                 128
-  Beeper:                               Disabled
-  Current Low Alarm Threshold:             1.0 A
-  Noise High Alarm Threshold:               85 %
-Active Alarms:
-  Node 01: Node Antenna Current Exceeded 10.0 A
-  Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/02/2018 04:11:36.010 2,1,197,35,486,172,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/02/2018 04:11:36.010 1,1,1,2,2563,4,107,-3,446,352,65535,28,0,0,0,0
-SRP: 01 02 05/02/2018 04:11:36.010 1,1,1,2,2542,11,113,-2,432,343,65535,28,0,0,0,0
-INF: End Of Full Status Report
-ALM: 01 02 05/02/2018 04:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 04:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 04:20:01
-~05/02/18 04:30:01
-~05/02/18 04:40:01
-~05/02/18 04:50:01
-~05/02/18 05:00:01
-~05/02/18 05:10:02
-ALM: 01 02 05/02/2018 05:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 05:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 05:20:01
-~05/02/18 05:30:01
-~05/02/18 05:40:01
-~05/02/18 05:50:01
-~05/02/18 06:00:01
-~05/02/18 06:10:01
-ALM: 01 02 05/02/2018 06:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 06:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 06:20:01
-~05/02/18 06:30:01
-~05/02/18 06:40:01
-~05/02/18 06:50:01
-~05/02/18 07:00:01
-~05/02/18 07:10:01
-ALM: 01 02 05/02/2018 07:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 07:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 07:20:01
-~05/02/18 07:30:01
-TAG: 01 01 05/02/2018 07:30:29.290 3DD.00773B27E6
-~05/02/18 07:40:01
-~05/02/18 07:50:01
-TAG: 01 02 05/02/2018 07:55:37.060 3DD.00773B27E6
-TAG: 01 01 05/02/2018 07:55:37.440 3DD.00773B27E6
-~05/02/18 08:00:01
-~05/02/18 08:10:01
-ALM: 01 02 05/02/2018 08:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 08:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/02/18 08:20:01
-TAG: 01 01 05/02/2018 08:27:17.290 3DD.00773B27E6
-~05/02/18 08:30:01
-~05/02/18 08:40:01
-~05/02/18 08:50:01
-~05/02/18 09:00:01
-~05/02/18 09:10:02
-ALM: 01 02 05/02/2018 09:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 09:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 09:20:01
-TAG: 01 02 05/02/2018 09:21:15.690 3DD.00773B27E6
-~05/02/18 09:30:01
-TAG: 01 01 05/02/2018 09:33:07.380 3DD.00773B27E6
-TAG: 01 02 05/02/2018 09:33:08.160 3DD.00773B27E6
-~05/02/18 09:40:01
-~05/02/18 09:50:01
-~05/02/18 10:00:01
-MSG: 01 00 05/02/2018 10:01:00.000 Present External Memory File: 01_00050.log
-~05/02/18 10:10:01
-MSG: 01 02 05/02/2018 10:10:41.030 Node VTT Single Shot Fired
-TAG: 01 02 05/02/2018 10:10:41.070 3E7.0000001D02
-MSG: 01 02 05/02/2018 10:10:41.080 Node VTT Test Passed
-MSG: 01 01 05/02/2018 10:10:41.090 Node VTT Single Shot Fired
-MSG: 01 01 05/02/2018 10:10:41.130 Node VTT Test Passed
-TAG: 01 01 05/02/2018 10:10:41.140 3E7.0000001D01
-INF: Start Of Noise Report
-Controller:
-  ID:                                         01
-Reader Node 01:
-  Present Noise:                            10 %
-  Maximum Noise:                            38 %
-  Average Noise:                             9 %
+  Present Noise:                             3 %
+  Maximum Noise:                            27 %
+  Average Noise:                             8 %
   Time Averaged Over:                    6:00:00
 Reader Node 02:
-  Present Noise:                            22 %
-  Maximum Noise:                            45 %
+  Present Noise:                            13 %
+  Maximum Noise:                            32 %
   Average Noise:                            15 %
   Time Averaged Over:                    6:00:00
-NRP: 01 01 05/02/2018 10:11:25.990 10,38,9,21600
-NRP: 01 02 05/02/2018 10:11:25.990 22,45,15,21600
+NRP: 01 01 05/03/2018 04:11:25.990 3,27,8,21600
+NRP: 01 02 05/03/2018 04:11:25.990 13,32,15,21600
 INF: End Of Noise Report
 INF: Start Of Full Status Report
 Controller:
   ID:                                         01
   Model:                               IS1001-MC
   S/N:                                      0142
-  Date:                               05/02/2018
-  Time:                                 10:11:36
-  Last Shutdown Date:                 04/24/2018
-  Last Shutdown Time:                      09:42
-  Application Firmware Version:            1.6.2
-  Input Power Mode:                         24 V
-  Operation Mode:                           Scan
-  Synchronization Mode:               Standalone
-  Sync. of Cycle:                       Disabled
-  Beeper:                                Enabled
-  Tag ID Display Format:                     HEX
-  Display Backlight Mode:         30 Sec. Saving
-  Initiation Delay:                     Disabled
-  Auto Standby Voltages:              18 V, 19 V
-  Periodic Standby Start Time:              0:00
-  Periodic Standby Duration:            Disabled
-  Idling Time:                          Disabled
- Alarms:
-  Tuning Cap. High Alarm Threshold:          970
-  Tuning Cap. Low Alarm Threshold:            50
-  Alarms Unique Delay:                  3600 Sec
- Detection:
-  HDX Tag Detection:                     Enabled
-  FDXB Fastag Detection:                Disabled
-  Detection Counter Enabled:                 Yes
-  FDXB Detection Scan Time:               120 ms
-  Automatic VTT Delay:                   360 Min
- Memory:
-  Store Virtual Tags To Memory:          Enabled
-  External Storage File Duration:         24 Hrs
- Communication:
-  Local Port Speed:                       115200
-  Tags Communication To Local Port:      Enabled
-  Alarms Communication To Local Port:    Enabled
-  Messages Comm. To Local Port:          Enabled
-  Remote Port Speed:                      115200
-  Remote Port Protocol:                    ASCII
-  Remote Port AES-256 Compliant:        Disabled
- Configured Sequence:
-  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
-  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
- Active Present Sequence:
-  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
-  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
- Reports:
-  Automatic Status Report Delay:         360 Min
-  Automatic Noise Report Delay:          360 Min
- Diagnostics:
-  Detection Counter:                         493
-  Memory Used:                               1 %
-  Backup Tags Memory Count:                25211
-  Backup Tags Memory Used:                  86 %
-  External Storage Status:             Connected
-  External Storage Records Buffer:             0
-  External Storage Present File:    01_00050.log
-  Input Voltage:                          19.7 V
-  Lithium Battery Voltage:                 3.5 V
-  Temperature:                            27.6 C
-  Sync. Input Present:                       N/A
-Reader Node 01:
- Node Status:
-  Model:                                  IS1001
-  S/N:                                      1112
-  Connected:                                 Yes
-  Application Firmware Version:            1.4.5
-  Input Power Version:                      24 V
-  Input Voltage:                          36.2 V
-  Exciter Voltage:                        43.2 V
-  Antenna Tuning:                          Tuned
-  Antenna Current:                       250.0 A
-  Tuning Capacitors:                         108
-  Tuning Phase:                              390
-  Tuning Relative Phase:                       0
-  FDXB Signal Level:               144 mV (16 %)
-  Temperature:                               N/A
- Node Settings:
-  Exciter Voltage Level:                       2
-  Dynamic Tuning:                        Enabled
-  Tuning Target Phase:                       390
-  Tuning Target Phase Deviation Threshold:     6
-  Detection Unique Mode:                   Delay
-  Detection Unique Delay:                 30 Sec
-  VTT Level:                                 128
-  Beeper:                               Disabled
-  Current Low Alarm Threshold:             1.0 A
-  Noise High Alarm Threshold:               85 %
-Reader Node 02:
- Node Status:
-  Model:                                  IS1001
-  S/N:                                      1111
-  Connected:                                 Yes
-  Application Firmware Version:            1.4.5
-  Input Power Version:                      24 V
-  Input Voltage:                          34.9 V
-  Exciter Voltage:                        42.0 V
-  Antenna Tuning:                          Tuned
-  Antenna Current:                       253.1 A
-  Tuning Capacitors:                         114
-  Tuning Phase:                              384
-  Tuning Relative Phase:                       5
-  FDXB Signal Level:               171 mV (19 %)
-  Temperature:                               N/A
- Node Settings:
-  Exciter Voltage Level:                       2
-  Dynamic Tuning:                        Enabled
-  Tuning Target Phase:                       389
-  Tuning Target Phase Deviation Threshold:     6
-  Detection Unique Mode:                   Delay
-  Detection Unique Delay:                 30 Sec
-  VTT Level:                                 128
-  Beeper:                               Disabled
-  Current Low Alarm Threshold:             1.0 A
-  Noise High Alarm Threshold:               85 %
-Active Alarms:
-  Node 01: Node Antenna Current Exceeded 10.0 A
-  Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/02/2018 10:11:36.010 2,1,197,35,493,276,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/02/2018 10:11:36.010 1,1,1,2,2500,16,108,0,432,362,65535,28,0,0,0,0
-SRP: 01 02 05/02/2018 10:11:36.010 1,1,1,2,2531,19,114,5,420,349,65535,28,0,0,0,0
-INF: End Of Full Status Report
-ALM: 01 02 05/02/2018 10:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 10:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/02/18 10:20:01
-~05/02/18 10:30:01
-~05/02/18 10:40:01
-~05/02/18 10:50:01
-~05/02/18 11:00:01
-TAG: 01 02 05/02/2018 11:03:27.770 3DD.00773B27E6
-~05/02/18 11:10:01
-ALM: 01 02 05/02/2018 11:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 11:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 11:20:01
-~05/02/18 11:30:01
-~05/02/18 11:40:01
-~05/02/18 11:50:01
-~05/02/18 12:00:02
-~05/02/18 12:10:01
-ALM: 01 02 05/02/2018 12:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 12:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/02/18 12:20:01
-~05/02/18 12:30:01
-~05/02/18 12:40:01
-~05/02/18 12:50:01
-~05/02/18 13:00:01
-~05/02/18 13:10:01
-ALM: 01 02 05/02/2018 13:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 13:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 13:20:01
-~05/02/18 13:30:01
-~05/02/18 13:40:02
-~05/02/18 13:50:01
-TAG: 01 02 05/02/2018 13:52:16.850 3DD.00773B27E6
-TAG: 01 02 05/02/2018 13:57:10.150 3DD.00773B27E6
-TAG: 01 01 05/02/2018 13:57:10.960 3DD.00773B27E6
-~05/02/18 14:00:01
-TAG: 01 01 05/02/2018 14:00:39.120 3DD.00773B27E6
-TAG: 01 02 05/02/2018 14:00:40.480 3DD.00773B27E6
-~05/02/18 14:10:01
-ALM: 01 02 05/02/2018 14:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 14:11:53.000 Node Antenna Current Exceeded 10.0 A
-TAG: 01 02 05/02/2018 14:12:40.480 3DD.00773B27E6
-TAG: 01 01 05/02/2018 14:12:41.580 3DD.00773B27E6
-~05/02/18 14:20:01
-~05/02/18 14:30:01
-~05/02/18 14:40:01
-~05/02/18 14:50:02
-~05/02/18 15:00:01
-~05/02/18 15:10:01
-ALM: 01 02 05/02/2018 15:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 15:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 15:20:01
-~05/02/18 15:30:01
-TAG: 01 01 05/02/2018 15:34:53.110 3DD.00773B27E6
-TAG: 01 02 05/02/2018 15:35:19.460 3DD.00773B27E6
-TAG: 01 01 05/02/2018 15:36:14.220 3DD.00773B27E6
-TAG: 01 02 05/02/2018 15:36:15.000 3DD.00773B27E6
-~05/02/18 15:40:01
-TAG: 01 02 05/02/2018 15:40:39.860 3DD.00773B27E6
-TAG: 01 01 05/02/2018 15:40:43.120 3DD.00773B27E6
-TAG: 01 01 05/02/2018 15:41:20.340 3DD.00773B27E6
-TAG: 01 02 05/02/2018 15:41:20.880 3DD.00773B27E6
-TAG: 01 02 05/02/2018 15:41:50.020 3DD.00773B27E6
-TAG: 01 01 05/02/2018 15:41:51.470 3DD.00773B27E6
-~05/02/18 15:50:01
-TAG: 01 02 05/02/2018 15:53:44.290 3DD.00773B27E6
-TAG: 01 01 05/02/2018 15:53:46.050 3DD.00773B27E6
-~05/02/18 16:00:01
-TAG: 01 01 05/02/2018 16:09:37.090 3DD.00773B27E6
-~05/02/18 16:10:01
-MSG: 01 02 05/02/2018 16:10:41.040 Node VTT Single Shot Fired
-MSG: 01 02 05/02/2018 16:10:41.080 Node VTT Test Passed
-TAG: 01 02 05/02/2018 16:10:41.090 3E7.0000001D02
-MSG: 01 01 05/02/2018 16:10:41.100 Node VTT Single Shot Fired
-MSG: 01 01 05/02/2018 16:10:41.130 Node VTT Test Passed
-TAG: 01 01 05/02/2018 16:10:41.140 3E7.0000001D01
-INF: Start Of Noise Report
-Controller:
-  ID:                                         01
-Reader Node 01:
-  Present Noise:                             7 %
-  Maximum Noise:                            38 %
-  Average Noise:                            10 %
-  Time Averaged Over:                    6:00:00
-Reader Node 02:
-  Present Noise:                            19 %
-  Maximum Noise:                           100 %
-  Average Noise:                            18 %
-  Time Averaged Over:                    6:00:00
-NRP: 01 01 05/02/2018 16:11:25.990 7,38,10,21600
-NRP: 01 02 05/02/2018 16:11:25.990 19,100,18,21600
-INF: End Of Noise Report
-TAG: 01 01 05/02/2018 16:11:34.470 3DD.00773B27E6
-INF: Start Of Full Status Report
-Controller:
-  ID:                                         01
-  Model:                               IS1001-MC
-  S/N:                                      0142
-  Date:                               05/02/2018
-  Time:                                 16:11:36
-  Last Shutdown Date:                 04/24/2018
-  Last Shutdown Time:                      09:42
-  Application Firmware Version:            1.6.2
-  Input Power Mode:                         24 V
-  Operation Mode:                           Scan
-  Synchronization Mode:               Standalone
-  Sync. of Cycle:                       Disabled
-  Beeper:                                Enabled
-  Tag ID Display Format:                     HEX
-  Display Backlight Mode:         30 Sec. Saving
-  Initiation Delay:                     Disabled
-  Auto Standby Voltages:              18 V, 19 V
-  Periodic Standby Start Time:              0:00
-  Periodic Standby Duration:            Disabled
-  Idling Time:                          Disabled
- Alarms:
-  Tuning Cap. High Alarm Threshold:          970
-  Tuning Cap. Low Alarm Threshold:            50
-  Alarms Unique Delay:                  3600 Sec
- Detection:
-  HDX Tag Detection:                     Enabled
-  FDXB Fastag Detection:                Disabled
-  Detection Counter Enabled:                 Yes
-  FDXB Detection Scan Time:               120 ms
-  Automatic VTT Delay:                   360 Min
- Memory:
-  Store Virtual Tags To Memory:          Enabled
-  External Storage File Duration:         24 Hrs
- Communication:
-  Local Port Speed:                       115200
-  Tags Communication To Local Port:      Enabled
-  Alarms Communication To Local Port:    Enabled
-  Messages Comm. To Local Port:          Enabled
-  Remote Port Speed:                      115200
-  Remote Port Protocol:                    ASCII
-  Remote Port AES-256 Compliant:        Disabled
- Configured Sequence:
-  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
-  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
- Active Present Sequence:
-  Pri. Sw. Seq.:01,02,--,--,--,--,--,--,--,--,--,--
-  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
- Reports:
-  Automatic Status Report Delay:         360 Min
-  Automatic Noise Report Delay:          360 Min
- Diagnostics:
-  Detection Counter:                         515
-  Memory Used:                               1 %
-  Backup Tags Memory Count:                25235
-  Backup Tags Memory Used:                  86 %
-  External Storage Status:             Connected
-  External Storage Records Buffer:             0
-  External Storage Present File:    01_00050.log
-  Input Voltage:                          19.7 V
-  Lithium Battery Voltage:                 3.5 V
-  Temperature:                            34.1 C
-  Sync. Input Present:                       N/A
-Reader Node 01:
- Node Status:
-  Model:                                  IS1001
-  S/N:                                      1112
-  Connected:                                 Yes
-  Application Firmware Version:            1.4.5
-  Input Power Version:                      24 V
-  Input Voltage:                          36.8 V
-  Exciter Voltage:                        43.3 V
-  Antenna Tuning:                          Tuned
-  Antenna Current:                       249.6 A
-  Tuning Capacitors:                         108
-  Tuning Phase:                              388
-  Tuning Relative Phase:                       2
-  FDXB Signal Level:              900 mV (100 %)
-  Temperature:                               N/A
- Node Settings:
-  Exciter Voltage Level:                       2
-  Dynamic Tuning:                        Enabled
-  Tuning Target Phase:                       390
-  Tuning Target Phase Deviation Threshold:     6
-  Detection Unique Mode:                   Delay
-  Detection Unique Delay:                 30 Sec
-  VTT Level:                                 128
-  Beeper:                               Disabled
-  Current Low Alarm Threshold:             1.0 A
-  Noise High Alarm Threshold:               85 %
-Reader Node 02:
- Node Status:
-  Model:                                  IS1001
-  S/N:                                      1111
-  Connected:                                 Yes
-  Application Firmware Version:            1.4.5
-  Input Power Version:                      24 V
-  Input Voltage:                          35.2 V
-  Exciter Voltage:                        41.8 V
-  Antenna Tuning:                          Tuned
-  Antenna Current:                       248.6 A
-  Tuning Capacitors:                         115
-  Tuning Phase:                              394
-  Tuning Relative Phase:                      -5
-  FDXB Signal Level:               135 mV (15 %)
-  Temperature:                               N/A
- Node Settings:
-  Exciter Voltage Level:                       2
-  Dynamic Tuning:                        Enabled
-  Tuning Target Phase:                       389
-  Tuning Target Phase Deviation Threshold:     6
-  Detection Unique Mode:                   Delay
-  Detection Unique Delay:                 30 Sec
-  VTT Level:                                 128
-  Beeper:                               Disabled
-  Current Low Alarm Threshold:             1.0 A
-  Noise High Alarm Threshold:               85 %
-Active Alarms:
-  Node 01: Node Antenna Current Exceeded 10.0 A
-  Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/02/2018 16:11:36.010 2,1,197,35,515,341,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/02/2018 16:11:36.010 1,1,1,2,2496,100,108,2,433,368,65535,28,0,0,0,0
-SRP: 01 02 05/02/2018 16:11:36.010 1,1,1,2,2486,15,115,-5,418,352,65535,28,0,0,0,0
-INF: End Of Full Status Report
-TAG: 01 02 05/02/2018 16:11:36.040 3DD.00773B27E6
-ALM: 01 02 05/02/2018 16:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 16:11:52.990 Node Antenna Current Exceeded 10.0 A
-TAG: 01 02 05/02/2018 16:12:05.830 3DD.00773B27E6
-TAG: 01 01 05/02/2018 16:12:06.720 3DD.00773B27E6
-TAG: 01 01 05/02/2018 16:14:48.270 3DD.00773B27E6
-~05/02/18 16:20:01
-~05/02/18 16:30:02
-~05/02/18 16:40:01
-~05/02/18 16:50:01
-~05/02/18 17:00:01
-~05/02/18 17:10:01
-ALM: 01 02 05/02/2018 17:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 17:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/02/18 17:20:01
-TAG: 01 01 05/02/2018 17:27:04.670 3DD.00773B27E6
-~05/02/18 17:30:01
-TAG: 01 02 05/02/2018 17:30:32.680 3DD.00773B27E6
-TAG: 01 01 05/02/2018 17:30:33.580 3DD.00773B27E6
-~05/02/18 17:40:01
-~05/02/18 17:50:01
-~05/02/18 18:00:01
-~05/02/18 18:10:01
-ALM: 01 02 05/02/2018 18:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 18:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/02/18 18:20:01
-~05/02/18 18:30:01
-~05/02/18 18:40:01
-~05/02/18 18:50:01
-~05/02/18 19:00:01
-~05/02/18 19:10:01
-ALM: 01 02 05/02/2018 19:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 19:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/02/18 19:20:01
-~05/02/18 19:30:01
-~05/02/18 19:40:01
-~05/02/18 19:50:01
-~05/02/18 20:00:01
-~05/02/18 20:10:01
-ALM: 01 02 05/02/2018 20:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 20:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 20:20:01
-~05/02/18 20:30:01
-~05/02/18 20:40:01
-~05/02/18 20:50:01
-~05/02/18 21:00:01
-~05/02/18 21:10:01
-ALM: 01 02 05/02/2018 21:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 21:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 21:20:01
-~05/02/18 21:30:01
-~05/02/18 21:40:01
-~05/02/18 21:50:01
-~05/02/18 22:00:01
-~05/02/18 22:10:01
-MSG: 01 02 05/02/2018 22:10:41.020 Node VTT Single Shot Fired
-MSG: 01 02 05/02/2018 22:10:41.070 Node VTT Test Passed
-TAG: 01 02 05/02/2018 22:10:41.070 3E7.0000001D02
-MSG: 01 01 05/02/2018 22:10:41.080 Node VTT Single Shot Fired
-MSG: 01 01 05/02/2018 22:10:41.120 Node VTT Test Passed
-TAG: 01 01 05/02/2018 22:10:41.130 3E7.0000001D01
-INF: Start Of Noise Report
-Controller:
-  ID:                                         01
-Reader Node 01:
-  Present Noise:                            15 %
-  Maximum Noise:                            30 %
-  Average Noise:                             9 %
-  Time Averaged Over:                    6:00:00
-Reader Node 02:
-  Present Noise:                            17 %
-  Maximum Noise:                            53 %
-  Average Noise:                            18 %
-  Time Averaged Over:                    6:00:00
-NRP: 01 01 05/02/2018 22:11:25.990 15,30,9,21600
-NRP: 01 02 05/02/2018 22:11:25.990 17,53,18,21600
-INF: End Of Noise Report
-INF: Start Of Full Status Report
-Controller:
-  ID:                                         01
-  Model:                               IS1001-MC
-  S/N:                                      0142
-  Date:                               05/02/2018
-  Time:                                 22:11:36
+  Date:                               05/03/2018
+  Time:                                 04:11:36
   Last Shutdown Date:                 04/24/2018
   Last Shutdown Time:                      09:42
   Application Firmware Version:            1.6.2
@@ -728,14 +108,14 @@ Controller:
  Diagnostics:
   Detection Counter:                         522
   Memory Used:                               1 %
-  Backup Tags Memory Count:                25244
+  Backup Tags Memory Count:                25246
   Backup Tags Memory Used:                  86 %
   External Storage Status:             Connected
   External Storage Records Buffer:             0
   External Storage Present File:    01_00050.log
   Input Voltage:                          19.7 V
   Lithium Battery Voltage:                 3.5 V
-  Temperature:                            27.3 C
+  Temperature:                            21.9 C
   Sync. Input Present:                       N/A
 Reader Node 01:
  Node Status:
@@ -744,14 +124,14 @@ Reader Node 01:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          36.2 V
-  Exciter Voltage:                        43.9 V
+  Input Voltage:                          35.6 V
+  Exciter Voltage:                        44.4 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       254.2 A
+  Antenna Current:                       255.2 A
   Tuning Capacitors:                         107
-  Tuning Phase:                              385
-  Tuning Relative Phase:                       5
-  FDXB Signal Level:               117 mV (13 %)
+  Tuning Phase:                              389
+  Tuning Relative Phase:                       1
+  FDXB Signal Level:                 54 mV (6 %)
   Temperature:                               N/A
  Node Settings:
   Exciter Voltage Level:                       2
@@ -771,13 +151,13 @@ Reader Node 02:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          35.0 V
-  Exciter Voltage:                        42.6 V
+  Input Voltage:                          34.8 V
+  Exciter Voltage:                        43.1 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       251.7 A
-  Tuning Capacitors:                         114
-  Tuning Phase:                              391
-  Tuning Relative Phase:                      -2
+  Antenna Current:                       254.2 A
+  Tuning Capacitors:                         113
+  Tuning Phase:                              389
+  Tuning Relative Phase:                       0
   FDXB Signal Level:               162 mV (18 %)
   Temperature:                               N/A
  Node Settings:
@@ -794,22 +174,959 @@ Reader Node 02:
 Active Alarms:
   Node 01: Node Antenna Current Exceeded 10.0 A
   Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/02/2018 22:11:36.010 2,1,197,35,522,273,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/02/2018 22:11:36.010 1,1,1,2,2542,13,107,5,439,362,65535,28,0,0,0,0
-SRP: 01 02 05/02/2018 22:11:36.010 1,1,1,2,2517,18,114,-2,426,350,65535,28,0,0,0,0
+SRP: 01 00 05/03/2018 04:11:36.010 2,1,197,35,522,219,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 05/03/2018 04:11:36.010 1,1,1,2,2552,6,107,1,444,356,65535,28,0,0,0,0
+SRP: 01 02 05/03/2018 04:11:36.010 1,1,1,2,2542,18,113,0,431,348,65535,28,0,0,0,0
 INF: End Of Full Status Report
-ALM: 01 02 05/02/2018 22:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 22:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 22:20:01
-~05/02/18 22:30:01
-~05/02/18 22:40:01
-~05/02/18 22:50:01
-~05/02/18 23:00:01
-~05/02/18 23:10:01
-ALM: 01 02 05/02/2018 23:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/02/2018 23:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/02/18 23:20:02
-~05/02/18 23:30:01
-~05/02/18 23:40:01
-~05/02/18 23:50:01
-~05/03/18 00:00:01
+ALM: 01 02 05/03/2018 04:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 04:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/03/18 04:20:01
+~05/03/18 04:30:01
+~05/03/18 04:40:01
+~05/03/18 04:50:01
+~05/03/18 05:00:01
+~05/03/18 05:10:01
+ALM: 01 02 05/03/2018 05:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 05:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/03/18 05:20:01
+~05/03/18 05:30:01
+~05/03/18 05:40:02
+~05/03/18 05:50:01
+~05/03/18 06:00:01
+~05/03/18 06:10:01
+ALM: 01 02 05/03/2018 06:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 06:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/03/18 06:20:01
+~05/03/18 06:30:01
+~05/03/18 06:40:01
+~05/03/18 06:50:02
+~05/03/18 07:00:01
+~05/03/18 07:10:01
+ALM: 01 02 05/03/2018 07:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 07:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/03/18 07:20:01
+~05/03/18 07:30:01
+~05/03/18 07:40:01
+~05/03/18 07:50:01
+~05/03/18 08:00:01
+~05/03/18 08:10:01
+ALM: 01 02 05/03/2018 08:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/03/2018 08:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/03/18 08:20:01
+~05/03/18 08:30:02
+?
+INF: Start Of List Of Commands
+  ?               Print List Of Commands
+
+Alarms:
+  ACL{NN,0.0-9.0} Set Node Antenna Current Low Alarm Threshold in Amperes
+  ANH{NN,0-100}   Set Node Noise High Alarm Threshold Percent
+  ATH{512-1023}   Set Tuning Capacitance High Alarm Threshold
+  ATL{0-511}      Set Tuning Capacitance Low Alarm Threshold
+  AUD{0-3600}     Set Alarms Unique Delay in Seconds
+
+Controller:
+  CIS{01-FF}      Set Controller ID
+  CDS{MM/DD/YYYY} Set Controller Date
+  CTS{HH:MM:SS}   Set Controller Time (24-hrs)
+  CBS{1|0}        Set Controller Beeper {1} On, {0} Off
+  CDF{H|D}        Set Controller Tag ID Display Format {H} Hex, {D} Dec
+  CDB{1|0|S}      Set Controller Display Backlight Mode {1} On, {0} Off, {S} Saving
+  COM{1|0|R}      Set Controller Operation Mode {1} Scan, {0} Standby, {R} Reset
+  CSM{1|2|3|0}    Set Controller Sync.Mode {1} Master, {2} Sec.Master, {3} Slave, {0} Standalone
+  CSC{1|0}        Set Controller Synchronization of Cycle {1} On, {0} Off
+  CID{1|0}        Set Controller Initiation Delay {1} On, {0} Off
+  CIP{12|24}      Set Controller Input Power Mode {12} 12 Volts, {24} 24 Volts
+  CSV{VV,VV}      Set Controller Automatic Standby Activation and Deactivation Voltages (16-22,17-23) (24 Volts Input Power Mode Only)
+  CPS{SS,DD}      Set Controller Periodic Standby: {Start Hours (00-23), Duration (00-23)}
+  CIT{0-10000}    Set Controller Idling Time in Milliseconds (5 ms Increments)
+
+Detection:
+  DHT{1|0}        Set HDX Tag Detection {1} On, {0} Off
+  DFH{1|0}        Set FDXB Fastag Detection {1} On, {0} Off
+  DUM{5|1|0|D}    Set All Nodes Det.Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  DUD{1-43200}    Set All Nodes Detection Unique Delay in Seconds
+  DET{1|0}        Set Detection Efficiency Test {1} On, {0} Off
+  DCS{1|0|R}      Set Detection Counter {1} On, {0} Off, {R} Reset
+  DFT{45-500}     Set FDXB Detection Scan Time in Milliseconds (5 ms Increments)
+  DTD{0-1440}     Set Automatic Virtual Test Tag Single Shot Delay in Minutes
+  DVT{1|0|S}      Set VTT For All Nodes In Sequence {1} On, {0} Off, {S} Single Shot
+
+Network:
+  NSN{SSSS,NN}    Assign Node Serial Number SSSS to Node ID NN
+  NSP{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Primary Nodes Switching Sequence
+  NSS{NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN,NN} Set Secondary Nodes Switching Sequence
+  NRS             Reset Network
+
+Reader Nodes:
+  NFT{NN}         Perform Node Full Tune
+  NVE{NN,1-5}     Set Node NN Exciter Voltage Level (24 Volts Input Power Mode Only)
+  NTC{NN,0-1023}  Set Node NN Antenna Tuning Capacitors
+  NDT{NN,1|0}     Set Node NN Dynamic Tuning {1} On, {0} Off
+  NTP{NN,300-500} Set Node NN Dynamic Tuning Target Phase
+  NTS{NN,2-63}    Set Node NN Dynamic Tuning Target Phase Deviation Threshold
+  NUM{NN,5|1|0|D} Set Node NN Det. Unique Mode {5} 5 Tags, {1} 1 Tag, {0} Off, {D} Delay
+  NUD{NN,1-43200} Set Node NN Detection Unique Delay in Seconds
+  NVL{NN,0-255}   Set Node NN Virtual Test Tag Level
+  NVT{NN,1|0|S}   Set Node NN VTT {1} On, {0} Off, {S} Single Shot
+  NBS{NN,1|0}     Set Node NN Beeper {1} On, {0} Off
+
+Communication:
+  CSL{bps}        Set Local Communication Port Speed
+  CTL{1|0}        Set Tags Communication To Local Port {1} On, {0} Off
+  CAL{1|0}        Set Alarms Communication To Local Port {1} On, {0} Off
+  CML{1|0}        Set Messages Communication To Local Port {1} On, {0} Off
+  CSR{bps}        Set Remote Communication Port Speed
+  CPR{A|M}        Set Remote Comm. Port Protocol {A} ASCII, {M} MODEM
+  CER{1|0}        Set Remote Comm. Port AES-256 Compliant {1} On, {0} Off
+
+Memory:
+  MED             Download Entire Memory
+  MTD             Download Tags Memory
+  MAD             Download Alarms Memory
+  MMD             Download Messages Memory
+  MSD             Download Status Reports Memory
+  MND             Download Noise Reports Memory
+  MED{MM/DD/YYYY-MM/DD/YYYY}  Download Entire Memory From Date To Date
+  MTD{MM/DD/YYYY-MM/DD/YYYY}  Download Tags Memory From Date To Date
+  MAD{MM/DD/YYYY-MM/DD/YYYY}  Download Alarms Memory From Date To Date
+  MMD{MM/DD/YYYY-MM/DD/YYYY}  Download Messages Memory From Date To Date
+  MSD{MM/DD/YYYY-MM/DD/YYYY}  Download Status Reports Memory From Date To Date
+  MND{MM/DD/YYYY-MM/DD/YYYY}  Download Noise Reports Memory From Date To Date
+  MEW             Write Entire Memory To External Storage
+  MEE             Erase Entire Memory
+  MBD             Download Backup Tags Memory
+  MBE             Erase Backup Tags Memory
+  MVT{1|0}        Store Virtual Test Tags To Memory {1} On, {0} Off
+  MFT{1-24}       Set External Storage File Duration in Hours
+  MFN{1-99999}    Set Present External Storage File Number
+
+Parameters:
+  RCP1            Load Custom Parameters Configuration 1
+  RCP2            Load Custom Parameters Configuration 2
+  SCP1            Save Custom Parameters Configuration 1
+  SCP2            Save Custom Parameters Configuration 2
+  RDP             Reset to Factory Default Parameters
+
+Reports:
+  RFV             Report Firmware Versions
+  RDT             Report Controller Date And Time
+  RNA             Report Nodes Assignment
+  RSS             Report Nodes Switching Sequence
+  RFS             Report Full Status
+  RNS             Report Noise Status
+  RMS             Report Memory Status
+  RDD             Report Diagnostic Data
+  RCS             Report Controller Settings
+  RDS             Report DOP Devices Status
+  RPT{SSSS}       Report DOP Device S/N SSSS Ping Time
+  RND{0-1440}     Set Automatic Noise Report Delay in Minutes
+  RSD{0-1440}     Set Automatic Status Report Delay in Minutes
+INF: End Of List Of Commands
+mtd
+INF: Download Tags Memory
+*TAG: 01 01 04/19/2018 10:00:03.030 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.130 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.240 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.350 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.450 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.560 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.670 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.790 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 10:00:03.900 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.070 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.180 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.290 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.390 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.500 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.610 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.710 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.820 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 10:00:06.920 3D9.1C2DC364D7
+INF: Searching Records...
+*TAG: 01 02 04/19/2018 13:32:45.100 3E7.0000001D02
+*TAG: 01 01 04/19/2018 13:32:45.150 3E7.0000001D01
+*TAG: 01 01 04/19/2018 13:32:59.970 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.080 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.180 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.290 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.400 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.500 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.610 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.730 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.830 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:00.950 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.060 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.160 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.270 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.380 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.490 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.600 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.700 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.820 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:01.920 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.040 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.150 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.250 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.360 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.530 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.670 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.750 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.880 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:02.990 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.100 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.210 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.320 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.470 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.550 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.730 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.850 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:03.950 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:04.110 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:04.310 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:04.450 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:04.600 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:04.760 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:04.940 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:05.020 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:05.190 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:05.360 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:05.560 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:05.750 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:06.140 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:06.290 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:06.450 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:06.540 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:06.720 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:06.920 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:12.610 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:12.710 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.040 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.210 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.280 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.460 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.620 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.700 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:13.890 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:14.100 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:14.170 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:14.390 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:33:14.500 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:22.490 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:22.590 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:22.700 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:22.960 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.040 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.330 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.440 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.550 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.650 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.770 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:23.890 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.000 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.150 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.280 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.380 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.490 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.610 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.760 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:24.840 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.000 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.120 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.250 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.450 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.530 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.730 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:25.940 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.010 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.130 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.320 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.530 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.600 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.710 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:26.920 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:27.060 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:27.240 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:27.450 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:27.530 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:27.880 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:28.060 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:28.140 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:28.400 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:28.610 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:28.690 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:29.140 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:29.260 3D9.1C2DC364D7
+*TAG: 01 02 04/19/2018 13:33:45.070 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:45.190 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:45.310 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:45.430 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:45.550 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:45.790 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:45.910 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.040 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.160 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.290 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.410 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.650 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.770 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:46.890 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.010 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.140 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.370 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.610 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.730 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.850 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:47.970 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:48.320 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:48.440 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:48.560 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:48.690 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:48.800 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:49.170 384.349EA84CE0
+*TAG: 01 02 04/19/2018 13:33:49.290 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:51.690 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:51.810 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:51.930 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.050 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.170 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.300 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.410 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.540 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.650 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.780 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:52.890 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:53.020 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:53.140 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:53.260 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:33:53.370 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:00.390 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:00.510 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:00.620 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:00.750 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:00.860 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:01.110 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:01.230 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:01.340 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:01.470 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:01.590 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:01.950 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:02.070 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:02.310 384.349EA84CE0
+*TAG: 01 01 04/19/2018 13:34:05.050 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:34:05.200 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:34:05.350 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:34:05.510 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:34:05.630 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:34:05.870 3D9.1C2DC364D7
+*TAG: 01 01 04/19/2018 13:34:06.080 3D9.1C2DC364D7
+INF: Searching Records...
+*TAG: 01 02 04/24/2018 09:41:59.590 3E7.0000001D02
+*TAG: 01 02 04/24/2018 09:42:10.050 3E7.0000001D02
+INF: Searching Records...
+*TAG: 01 02 04/24/2018 09:43:48.150 3E7.0000001D02
+*TAG: 01 01 04/24/2018 09:43:48.260 3E7.0000001D01
+*TAG: 01 02 04/24/2018 09:44:50.800 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.160 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.290 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.410 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.530 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.650 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.780 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:51.900 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:52.020 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:52.140 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:52.270 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:52.390 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.180 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.300 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.430 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.550 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.670 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.800 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:54.920 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:55.040 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:55.160 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:44:55.530 384.349EA84CE0
+*TAG: 01 02 04/24/2018 09:45:01.150 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.260 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.370 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.530 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.600 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.740 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.840 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:01.950 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:02.190 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:02.490 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:03.380 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:03.490 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:03.600 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:03.710 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:03.830 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:03.950 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:04.060 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:04.160 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 09:45:04.270 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:20.420 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:20.540 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:20.660 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:20.790 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:20.910 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:21.040 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:21.170 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:21.290 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:23.620 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:23.750 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:23.870 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:23.990 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:24.120 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:24.250 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:24.370 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:24.490 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:24.610 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:24.730 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:32.760 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:32.900 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:33.030 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:33.170 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:33.330 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:33.410 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:33.620 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:34.730 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:34.910 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:34.980 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.150 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.310 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.420 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.540 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.690 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.790 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:35.910 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:36.030 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:36.140 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 09:45:50.160 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:50.520 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:50.760 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:50.880 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:53.210 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:53.340 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:53.570 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:53.690 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:53.940 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.060 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.180 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.310 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.430 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.540 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.660 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.780 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:54.910 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.050 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.170 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.290 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.410 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.540 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.650 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.770 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:55.890 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:56.030 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:56.140 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:45:56.260 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:44.060 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:44.180 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:44.300 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:44.420 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:47.340 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:47.460 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:47.590 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:47.710 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:47.830 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:47.950 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:48.070 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:48.560 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:48.680 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:48.800 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:48.930 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:49.050 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:49.170 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:49.290 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:49.410 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:49.530 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:49.650 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:50.470 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:50.590 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:50.720 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:50.840 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:50.960 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:51.080 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:51.200 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:51.320 384.349EA84CE0
+*TAG: 01 01 04/24/2018 09:46:51.440 384.349EA84CE0
+INF: Searching Records...
+*TAG: 01 01 04/24/2018 11:11:03.140 3E7.0000001D01
+*TAG: 01 02 04/24/2018 11:11:03.200 3E7.0000001D02
+*TAG: 01 01 04/24/2018 11:11:52.070 3E7.0000001D01
+*TAG: 01 02 04/24/2018 11:11:52.140 3E7.0000001D02
+*TAG: 01 02 04/24/2018 11:36:40.550 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:40.670 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:40.790 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:40.920 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.040 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.160 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.290 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.410 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.530 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.660 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.790 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:41.910 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.040 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.160 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.290 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.410 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.530 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.650 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.770 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:42.890 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:43.140 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:43.270 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:43.390 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:43.520 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:43.640 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:43.760 384.349EA84CE0
+*TAG: 01 02 04/24/2018 11:36:48.050 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.160 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.270 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.490 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.660 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:48.720 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.770 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:48.820 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.870 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:48.980 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:49.210 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:49.430 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:49.590 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:49.690 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:49.830 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:49.930 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.040 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:50.140 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.200 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:50.250 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.310 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:50.360 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.420 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:50.490 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.540 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:36:50.600 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.650 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.760 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.870 3D9.1C2DC364D7
+*TAG: 01 02 04/24/2018 11:36:50.980 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:04.640 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:04.760 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:05.140 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:05.260 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:05.500 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:05.620 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:05.740 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:05.860 384.349EA84CE0
+*TAG: 01 01 04/24/2018 11:37:11.090 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.200 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.300 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.420 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.530 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.650 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.760 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:11.880 3D9.1C2DC364D7
+*TAG: 01 01 04/24/2018 11:37:12.000 3D9.1C2DC364D7
+INF: Searching Records...
+*TAG: 01 01 04/24/2018 16:10:41.070 3E7.0000001D01
+*TAG: 01 02 04/24/2018 16:10:41.120 3E7.0000001D02
+*TAG: 01 02 04/24/2018 16:10:41.200 3E7.0000001D02
+INF: Searching Records...
+*TAG: 01 02 04/24/2018 22:10:41.100 3E7.0000001D02
+*TAG: 01 01 04/24/2018 22:10:41.150 3E7.0000001D01
+INF: Searching Records...
+*TAG: 01 02 04/25/2018 04:10:41.070 3E7.0000001D02
+*TAG: 01 01 04/25/2018 04:10:41.130 3E7.0000001D01
+INF: Searching Records...
+*TAG: 01 02 04/25/2018 10:10:41.070 3E7.0000001D02
+*TAG: 01 01 04/25/2018 10:10:41.130 3E7.0000001D01
+*TAG: 01 01 04/25/2018 11:47:43.660 3DD.00779BC037
+*TAG: 01 02 04/25/2018 11:47:45.090 3DD.00779BC037
+*TAG: 01 02 04/25/2018 12:13:31.990 3DD.00779BC037
+*TAG: 01 01 04/25/2018 12:13:32.660 3DD.00779BC037
+*TAG: 01 01 04/25/2018 16:05:34.840 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:07:15.910 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:07:17.240 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:09:52.510 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:09:53.820 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:10:41.100 3E7.0000001D01
+*TAG: 01 02 04/25/2018 16:10:41.160 3E7.0000001D02
+*TAG: 01 01 04/25/2018 16:10:45.800 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:10:46.600 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:12:16.940 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:12:18.400 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:17:30.240 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:17:31.190 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:25:23.440 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:25:23.990 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:26:37.530 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:28:55.010 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:28:56.280 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 16:55:05.960 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 16:55:06.890 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 20:20:30.210 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 20:20:41.030 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 20:24:03.020 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 20:24:03.670 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 22:10:41.060 3E7.0000001D01
+*TAG: 01 02 04/25/2018 22:10:41.110 3E7.0000001D02
+*TAG: 01 01 04/25/2018 22:10:41.140 3E7.0000001D01
+*TAG: 01 02 04/25/2018 22:10:41.190 3E7.0000001D02
+*TAG: 01 01 04/25/2018 23:48:43.600 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 23:48:45.660 3DD.00773B27E6
+*TAG: 01 02 04/25/2018 23:56:57.990 3DD.00773B27E6
+*TAG: 01 01 04/25/2018 23:56:59.320 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 04:10:41.100 3E7.0000001D01
+*TAG: 01 02 04/26/2018 04:10:41.150 3E7.0000001D02
+*TAG: 01 01 04/26/2018 04:49:22.990 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 04:49:23.880 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 04:53:26.750 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 04:53:27.960 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 04:56:46.420 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 04:56:47.180 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:00:31.030 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:00:32.200 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:02:19.490 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:02:19.740 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:04:29.530 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:04:30.740 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:14:49.730 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:14:50.800 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:16:55.290 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:16:56.860 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:19:22.840 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:19:24.110 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:23:36.270 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:23:37.850 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:25:08.940 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:25:09.690 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:30:50.430 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 05:31:53.010 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 05:31:53.670 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:30:53.910 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 06:30:54.650 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 06:32:37.600 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:32:38.560 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:36:17.450 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 06:36:18.210 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:36:47.420 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:37:32.920 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 06:37:33.370 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 06:40:50.390 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:40:51.310 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 06:56:16.920 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 06:56:17.660 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 07:42:28.110 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 07:42:28.860 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 07:43:17.840 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 07:43:18.540 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 07:45:03.830 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 10:10:41.100 3E7.0000001D02
+*TAG: 01 01 04/26/2018 10:10:41.150 3E7.0000001D01
+*TAG: 01 02 04/26/2018 10:17:33.890 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 10:17:34.680 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 10:20:37.610 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 10:21:26.760 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 10:21:28.130 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 10:41:14.870 3DD.003BD97C36
+*TAG: 01 02 04/26/2018 10:56:03.190 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 10:56:04.070 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 11:07:15.970 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 11:07:16.730 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 11:07:28.600 3DD.003BD97C36
+*TAG: 01 02 04/26/2018 11:07:29.140 3DD.003BD97C36
+*TAG: 01 01 04/26/2018 11:26:12.860 3DD.00779BC037
+*TAG: 01 02 04/26/2018 11:26:14.710 3DD.00779BC037
+*TAG: 01 02 04/26/2018 11:30:28.940 3DD.00779BC037
+*TAG: 01 01 04/26/2018 11:30:30.360 3DD.00779BC037
+*TAG: 01 01 04/26/2018 11:40:43.500 3DD.00779BC037
+*TAG: 01 02 04/26/2018 11:40:44.650 3DD.00779BC037
+*TAG: 01 02 04/26/2018 11:44:46.570 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 11:44:46.920 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 11:47:09.630 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 11:54:47.270 3DD.00779BC037
+*TAG: 01 01 04/26/2018 11:54:48.220 3DD.00779BC037
+*TAG: 01 02 04/26/2018 12:16:37.690 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 12:16:38.610 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:06:15.780 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:20:06.430 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:20:07.240 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:21:42.250 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:21:43.690 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:22:14.000 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:22:14.970 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:23:02.520 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:23:03.290 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:25:58.740 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:26:00.510 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:30:47.630 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:30:48.160 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:32:38.640 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:32:39.940 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:33:42.510 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:33:43.380 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:35:03.330 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:35:33.530 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:36:49.420 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:36:50.070 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:37:22.120 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:39:57.560 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:40:41.510 3DD.003BD97C36
+*TAG: 01 01 04/26/2018 13:41:07.910 3DD.003BD97C36
+*TAG: 01 01 04/26/2018 13:44:33.160 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:44:34.180 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 13:46:16.920 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 13:46:16.990 3DD.00773B27E6
+*TAG: 01 02 04/26/2018 16:10:41.090 3E7.0000001D02
+*TAG: 01 01 04/26/2018 16:10:41.130 3E7.0000001D01
+*TAG: 01 02 04/26/2018 16:49:39.870 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 16:49:41.670 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 20:53:04.450 3DD.00773B27E6
+*TAG: 01 01 04/26/2018 22:10:41.100 3E7.0000001D01
+*TAG: 01 02 04/26/2018 22:10:41.160 3E7.0000001D02
+*TAG: 01 01 04/27/2018 04:10:41.070 3E7.0000001D01
+*TAG: 01 02 04/27/2018 04:10:41.120 3E7.0000001D02
+*TAG: 01 01 04/27/2018 06:32:43.340 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 06:39:08.980 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 06:39:10.390 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 06:41:57.890 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 06:41:59.040 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 06:44:22.810 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 06:44:24.580 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 06:44:57.340 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 06:44:58.260 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 06:56:16.720 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 06:56:17.280 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 06:57:36.160 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 06:57:37.090 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 10:10:41.080 3E7.0000001D01
+*TAG: 01 02 04/27/2018 10:10:41.140 3E7.0000001D02
+*TAG: 01 01 04/27/2018 10:52:54.370 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 11:51:25.580 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 11:51:26.280 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 15:34:26.380 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 15:34:27.610 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 16:10:41.090 3E7.0000001D02
+*TAG: 01 01 04/27/2018 16:10:41.150 3E7.0000001D01
+*TAG: 01 02 04/27/2018 16:18:09.600 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 16:18:10.480 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 16:19:06.230 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 16:19:07.170 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 17:49:05.170 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 18:51:47.700 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:51:48.690 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:55:16.430 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:55:47.630 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:56:17.010 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:56:52.670 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:58:05.150 3DD.003BD97C36
+*TAG: 01 01 04/27/2018 18:58:32.410 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 18:59:11.140 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 19:02:18.870 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 19:02:48.010 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 19:03:23.650 3DD.003BD97C36
+*TAG: 01 01 04/27/2018 19:03:37.710 3DD.003BD97C36
+*TAG: 01 02 04/27/2018 19:30:57.960 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 19:30:58.260 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 19:47:55.450 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 19:47:56.280 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 19:52:41.760 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 19:52:42.830 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 19:53:20.350 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 19:53:20.970 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 19:54:11.780 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 21:51:44.770 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 21:51:46.010 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 22:09:44.190 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 22:09:48.060 3DD.00773B27E6
+*TAG: 01 02 04/27/2018 22:10:41.100 3E7.0000001D02
+*TAG: 01 01 04/27/2018 22:10:41.150 3E7.0000001D01
+*TAG: 01 02 04/27/2018 23:32:56.410 3DD.00773B27E6
+*TAG: 01 01 04/27/2018 23:32:56.780 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 01:20:09.130 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 04:10:41.060 3E7.0000001D01
+*TAG: 01 02 04/28/2018 04:10:41.110 3E7.0000001D02
+*TAG: 01 02 04/28/2018 10:10:41.080 3E7.0000001D02
+*TAG: 01 01 04/28/2018 10:10:41.130 3E7.0000001D01
+*TAG: 01 01 04/28/2018 13:20:35.840 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 13:20:37.370 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 14:17:30.430 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 14:17:31.350 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 14:58:42.150 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 14:58:44.400 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 16:02:10.370 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 16:02:11.190 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 16:10:41.110 3E7.0000001D01
+*TAG: 01 02 04/28/2018 16:10:41.160 3E7.0000001D02
+*TAG: 01 01 04/28/2018 16:25:40.660 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 16:25:41.740 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 17:33:38.920 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 17:33:39.880 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 17:41:44.740 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 17:41:45.590 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 19:29:16.300 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 19:29:17.180 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 19:42:36.000 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 19:59:32.010 3DD.00773B27E6
+*TAG: 01 02 04/28/2018 19:59:34.450 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 22:10:41.110 3E7.0000001D01
+*TAG: 01 02 04/28/2018 22:10:41.160 3E7.0000001D02
+*TAG: 01 02 04/28/2018 22:15:22.710 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 22:15:23.580 3DD.00773B27E6
+*TAG: 01 01 04/28/2018 22:17:39.740 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 04:10:41.090 3E7.0000001D02
+*TAG: 01 01 04/29/2018 04:10:41.140 3E7.0000001D01
+*TAG: 01 01 04/29/2018 06:52:05.290 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 06:52:06.860 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 10:10:41.130 3E7.0000001D02
+*TAG: 01 01 04/29/2018 10:10:41.210 3E7.0000001D01
+*TAG: 01 02 04/29/2018 14:28:16.930 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 14:28:17.610 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 14:30:42.650 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 14:30:43.580 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 14:33:54.470 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 14:33:55.360 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 14:47:57.970 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 14:47:58.800 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 14:49:55.520 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 14:49:56.680 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 14:52:54.560 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 14:52:55.140 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 15:01:07.530 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 15:12:16.850 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 15:12:18.320 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 15:13:17.940 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 15:18:21.850 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 15:18:22.850 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 15:19:54.040 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 15:20:36.580 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 15:21:20.380 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 15:21:21.600 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 16:10:41.100 3E7.0000001D01
+*TAG: 01 02 04/29/2018 16:10:41.160 3E7.0000001D02
+*TAG: 01 02 04/29/2018 16:29:34.000 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 16:29:35.130 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 16:33:36.060 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 16:35:18.150 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 17:17:05.120 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 17:17:06.180 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 17:28:01.880 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 17:28:02.510 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 20:28:51.050 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 20:28:51.370 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 20:47:43.990 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 20:50:45.840 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 20:50:47.230 3DD.00773B27E6
+*TAG: 01 02 04/29/2018 20:51:27.850 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 20:51:28.850 3DD.00773B27E6
+*TAG: 01 01 04/29/2018 22:10:41.060 3E7.0000001D01
+*TAG: 01 02 04/29/2018 22:10:41.110 3E7.0000001D02
+*TAG: 01 01 04/29/2018 23:44:56.400 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 01:48:28.420 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 02:22:01.730 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 02:22:02.300 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 04:10:41.060 3E7.0000001D02
+*TAG: 01 01 04/30/2018 04:10:41.120 3E7.0000001D01
+*TAG: 01 01 04/30/2018 06:11:56.510 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 06:11:57.900 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 06:25:05.380 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 06:25:06.050 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 10:10:41.090 3E7.0000001D01
+*TAG: 01 02 04/30/2018 10:10:41.140 3E7.0000001D02
+*TAG: 01 01 04/30/2018 13:54:24.390 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 14:15:13.240 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 14:15:13.910 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 16:10:41.110 3E7.0000001D02
+*TAG: 01 01 04/30/2018 16:10:41.170 3E7.0000001D01
+*TAG: 01 02 04/30/2018 16:24:47.830 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 16:34:42.460 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 16:34:43.600 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 16:36:03.630 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 18:13:58.770 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 18:13:59.160 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 18:50:47.780 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 18:50:49.530 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 19:14:00.910 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 19:17:53.710 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 19:17:55.970 3DD.00773B27E6
+*TAG: 01 02 04/30/2018 19:23:08.570 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 19:23:10.170 3DD.00773B27E6
+*TAG: 01 01 04/30/2018 22:10:41.060 3E7.0000001D01
+*TAG: 01 02 04/30/2018 22:10:41.110 3E7.0000001D02
+*TAG: 01 01 05/01/2018 00:46:58.920 3DD.00773B27E6
+*TAG: 01 02 05/01/2018 00:46:59.340 3DD.00773B27E6
+*TAG: 01 02 05/01/2018 00:54:05.770 3DD.00773B27E6
+*TAG: 01 01 05/01/2018 00:54:06.450 3DD.00773B27E6
+*TAG: 01 01 05/01/2018 04:10:41.070 3E7.0000001D01
+*TAG: 01 02 05/01/2018 04:10:41.120 3E7.0000001D02
+*TAG: 01 01 05/01/2018 04:54:36.000 3DD.00773B27E6
+*TAG: 01 02 05/01/2018 04:54:37.140 3DD.00773B27E6
+*TAG: 01 02 05/01/2018 10:10:41.100 3E7.0000001D02
+*TAG: 01 01 05/01/2018 10:10:41.150 3E7.0000001D01
+*TAG: 01 01 05/01/2018 14:17:19.200 3DD.00773B27E6
+*TAG: 01 02 05/01/2018 14:17:20.470 3DD.00773B27E6
+*TAG: 01 01 05/01/2018 16:10:41.100 3E7.0000001D01
+*TAG: 01 02 05/01/2018 16:10:41.150 3E7.0000001D02
+*TAG: 01 02 05/01/2018 20:10:03.470 3DD.00773B27E6
+*TAG: 01 01 05/01/2018 20:10:03.930 3DD.00773B27E6
+*TAG: 01 02 05/01/2018 22:10:41.080 3E7.0000001D02
+*TAG: 01 01 05/01/2018 22:10:41.130 3E7.0000001D01
+*TAG: 01 02 05/02/2018 04:10:41.060 3E7.0000001D02
+*TAG: 01 01 05/02/2018 07:30:29.290 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 07:55:37.060 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 07:55:37.440 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 08:27:17.290 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 09:21:15.690 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 09:33:07.380 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 09:33:08.160 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 10:10:41.070 3E7.0000001D02
+*TAG: 01 01 05/02/2018 10:10:41.140 3E7.0000001D01
+*TAG: 01 02 05/02/2018 11:03:27.770 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 13:52:16.850 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 13:57:10.150 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 13:57:10.960 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 14:00:39.120 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 14:00:40.480 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 14:12:40.480 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 14:12:41.580 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 15:34:53.110 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 15:35:19.460 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 15:36:14.220 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 15:36:15.000 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 15:40:39.860 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 15:40:43.120 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 15:41:20.340 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 15:41:20.880 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 15:41:50.020 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 15:41:51.470 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 15:53:44.290 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 15:53:46.050 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 16:09:37.090 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 16:10:41.090 3E7.0000001D02
+*TAG: 01 01 05/02/2018 16:10:41.140 3E7.0000001D01
+*TAG: 01 01 05/02/2018 16:11:34.470 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 16:11:36.040 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 16:12:05.830 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 16:12:06.720 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 16:14:48.270 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 17:27:04.670 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 17:30:32.680 3DD.00773B27E6
+*TAG: 01 01 05/02/2018 17:30:33.580 3DD.00773B27E6
+*TAG: 01 02 05/02/2018 22:10:41.070 3E7.0000001D02
+*TAG: 01 01 05/02/2018 22:10:41.130 3E7.0000001D01
+*TAG: 01 02 05/03/2018 04:10:41.050 3E7.0000001D02
+*TAG: 01 01 05/03/2018 04:10:41.110 3E7.0000001D01
+INF: Download Complete
