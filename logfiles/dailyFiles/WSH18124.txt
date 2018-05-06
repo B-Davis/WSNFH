@@ -1,62 +1,66 @@
-~05/05/18 00:10:01
-ALM: 01 02 05/05/2018 00:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 00:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 00:20:01
-~05/05/18 00:30:01
-~05/05/18 00:40:01
-~05/05/18 00:50:01
-~05/05/18 01:00:01
-~05/05/18 01:10:01
-ALM: 01 02 05/05/2018 01:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 01:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 01:20:01
-~05/05/18 01:30:01
-~05/05/18 01:40:01
-~05/05/18 01:50:01
-~05/05/18 02:00:01
-~05/05/18 02:10:01
-ALM: 01 02 05/05/2018 02:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 02:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 02:20:01
-~05/05/18 02:30:01
-~05/05/18 02:40:01
-~05/05/18 02:50:01
-~05/05/18 03:00:01
-~05/05/18 03:10:01
-ALM: 01 02 05/05/2018 03:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 03:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 03:20:01
-~05/05/18 03:30:01
-~05/05/18 03:40:01
-~05/05/18 03:50:01
-~05/05/18 04:00:01
-~05/05/18 04:10:01
-MSG: 01 02 05/05/2018 04:10:41.010 VTT Single Shot Aborted: System Activity
-MSG: 01 01 05/05/2018 04:10:41.060 Node VTT Single Shot Fired
-MSG: 01 01 05/05/2018 04:10:41.110 Node VTT Test Passed
-TAG: 01 01 05/05/2018 04:10:41.120 3E7.0000001D01
+
+This is a header      the start date and time is 05/04/18 00:01:01
+~05/04/18 00:10:01
+ALM: 01 02 05/04/2018 00:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 00:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 00:20:01
+~05/04/18 00:30:02
+~05/04/18 00:40:01
+~05/04/18 00:50:01
+~05/04/18 01:00:01
+~05/04/18 01:10:01
+ALM: 01 02 05/04/2018 01:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 01:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 01:20:01
+~05/04/18 01:30:01
+~05/04/18 01:40:01
+~05/04/18 01:50:01
+~05/04/18 02:00:01
+~05/04/18 02:10:01
+ALM: 01 02 05/04/2018 02:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 02:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 02:20:01
+~05/04/18 02:30:01
+~05/04/18 02:40:01
+~05/04/18 02:50:01
+~05/04/18 03:00:01
+~05/04/18 03:10:01
+ALM: 01 02 05/04/2018 03:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 03:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/04/18 03:20:02
+~05/04/18 03:30:01
+~05/04/18 03:40:01
+~05/04/18 03:50:01
+~05/04/18 04:00:01
+~05/04/18 04:10:01
+MSG: 01 02 05/04/2018 04:10:41.020 Node VTT Single Shot Fired
+MSG: 01 02 05/04/2018 04:10:41.060 Node VTT Test Passed
+TAG: 01 02 05/04/2018 04:10:41.070 3E7.0000001D02
+MSG: 01 01 05/04/2018 04:10:41.070 Node VTT Single Shot Fired
+TAG: 01 01 05/04/2018 04:10:41.110 3E7.0000001D01
+MSG: 01 01 05/04/2018 04:10:41.120 Node VTT Test Passed
 INF: Start Of Noise Report
 Controller:
   ID:                                         01
 Reader Node 01:
-  Present Noise:                            13 %
-  Maximum Noise:                            27 %
-  Average Noise:                             9 %
+  Present Noise:                             6 %
+  Maximum Noise:                            33 %
+  Average Noise:                             8 %
   Time Averaged Over:                    6:00:01
 Reader Node 02:
-  Present Noise:                            13 %
-  Maximum Noise:                            34 %
-  Average Noise:                            14 %
+  Present Noise:                            11 %
+  Maximum Noise:                            32 %
+  Average Noise:                            13 %
   Time Averaged Over:                    6:00:01
-NRP: 01 01 05/05/2018 04:11:25.990 13,27,9,21601
-NRP: 01 02 05/05/2018 04:11:25.990 13,34,14,21601
+NRP: 01 01 05/04/2018 04:11:25.990 6,33,8,21601
+NRP: 01 02 05/04/2018 04:11:25.990 11,32,13,21601
 INF: End Of Noise Report
 INF: Start Of Full Status Report
 Controller:
   ID:                                         01
   Model:                               IS1001-MC
   S/N:                                      0142
-  Date:                               05/05/2018
+  Date:                               05/04/2018
   Time:                                 04:11:36
   Last Shutdown Date:                 04/24/2018
   Last Shutdown Time:                      09:42
@@ -104,16 +108,16 @@ Controller:
   Automatic Status Report Delay:         360 Min
   Automatic Noise Report Delay:          360 Min
  Diagnostics:
-  Detection Counter:                         590
+  Detection Counter:                         554
   Memory Used:                               1 %
-  Backup Tags Memory Count:                25329
+  Backup Tags Memory Count:                25286
   Backup Tags Memory Used:                  86 %
   External Storage Status:             Connected
   External Storage Records Buffer:             0
-  External Storage Present File:    01_00052.log
+  External Storage Present File:    01_00051.log
   Input Voltage:                          19.7 V
   Lithium Battery Voltage:                 3.5 V
-  Temperature:                            23.9 C
+  Temperature:                            24.4 C
   Sync. Input Present:                       N/A
 Reader Node 01:
  Node Status:
@@ -122,14 +126,14 @@ Reader Node 01:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          35.9 V
-  Exciter Voltage:                        44.3 V
+  Input Voltage:                          35.5 V
+  Exciter Voltage:                        44.0 V
   Antenna Tuning:                          Tuned
   Antenna Current:                       255.2 A
   Tuning Capacitors:                         107
-  Tuning Phase:                              387
-  Tuning Relative Phase:                       3
-  FDXB Signal Level:               144 mV (16 %)
+  Tuning Phase:                              388
+  Tuning Relative Phase:                       2
+  FDXB Signal Level:                 45 mV (5 %)
   Temperature:                               N/A
  Node Settings:
   Exciter Voltage Level:                       2
@@ -149,14 +153,14 @@ Reader Node 02:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          34.6 V
-  Exciter Voltage:                        42.9 V
+  Input Voltage:                          34.3 V
+  Exciter Voltage:                        43.0 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       252.0 A
+  Antenna Current:                       251.4 A
   Tuning Capacitors:                         114
   Tuning Phase:                              394
   Tuning Relative Phase:                      -5
-  FDXB Signal Level:               144 mV (16 %)
+  FDXB Signal Level:               108 mV (12 %)
   Temperature:                               N/A
  Node Settings:
   Exciter Voltage Level:                       2
@@ -172,87 +176,87 @@ Reader Node 02:
 Active Alarms:
   Node 01: Node Antenna Current Exceeded 10.0 A
   Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/05/2018 04:11:36.010 2,1,197,35,590,239,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/05/2018 04:11:36.010 1,1,1,2,2552,16,107,3,443,359,65535,28,0,0,0,0
-SRP: 01 02 05/05/2018 04:11:36.010 1,1,1,2,2520,16,114,-5,429,346,65535,28,0,0,0,0
+SRP: 01 00 05/04/2018 04:11:36.010 2,1,197,35,554,244,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 05/04/2018 04:11:36.010 1,1,1,2,2552,5,107,2,440,355,65535,28,0,0,0,0
+SRP: 01 02 05/04/2018 04:11:36.010 1,1,1,2,2514,12,114,-5,430,343,65535,28,0,0,0,0
 INF: End Of Full Status Report
-ALM: 01 02 05/05/2018 04:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 04:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 04:20:01
-~05/05/18 04:30:01
-~05/05/18 04:40:01
-~05/05/18 04:50:01
-~05/05/18 05:00:01
-~05/05/18 05:10:01
-ALM: 01 02 05/05/2018 05:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 05:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 05:20:01
-~05/05/18 05:30:01
-~05/05/18 05:40:01
-~05/05/18 05:50:01
-~05/05/18 06:00:01
-~05/05/18 06:10:01
-ALM: 01 02 05/05/2018 06:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 06:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 06:20:01
-~05/05/18 06:30:01
-~05/05/18 06:40:01
-~05/05/18 06:50:01
-~05/05/18 07:00:01
-~05/05/18 07:10:01
-ALM: 01 02 05/05/2018 07:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 07:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 07:20:01
-~05/05/18 07:30:01
-~05/05/18 07:40:01
-~05/05/18 07:50:01
-~05/05/18 08:00:01
-~05/05/18 08:10:02
-ALM: 01 02 05/05/2018 08:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 08:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 08:20:01
-~05/05/18 08:30:01
-~05/05/18 08:40:01
-~05/05/18 08:50:01
-~05/05/18 09:00:01
-~05/05/18 09:10:01
-ALM: 01 02 05/05/2018 09:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 09:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 09:20:01
-~05/05/18 09:30:01
-~05/05/18 09:40:01
-~05/05/18 09:50:01
-~05/05/18 10:00:01
-MSG: 01 00 05/05/2018 10:01:00.000 Present External Memory File: 01_00053.log
-~05/05/18 10:10:01
-MSG: 01 02 05/05/2018 10:10:41.010 Node VTT Single Shot Fired
-MSG: 01 02 05/05/2018 10:10:41.060 Node VTT Test Passed
-TAG: 01 02 05/05/2018 10:10:41.060 3E7.0000001D02
-MSG: 01 01 05/05/2018 10:10:41.070 Node VTT Single Shot Fired
-MSG: 01 01 05/05/2018 10:10:41.110 Node VTT Test Passed
-TAG: 01 01 05/05/2018 10:10:41.110 3E7.0000001D01
+ALM: 01 02 05/04/2018 04:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 04:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 04:20:01
+~05/04/18 04:30:02
+~05/04/18 04:40:01
+~05/04/18 04:50:01
+~05/04/18 05:00:01
+~05/04/18 05:10:01
+ALM: 01 02 05/04/2018 05:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 05:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/04/18 05:20:01
+~05/04/18 05:30:01
+~05/04/18 05:40:01
+~05/04/18 05:50:01
+~05/04/18 06:00:01
+~05/04/18 06:10:01
+ALM: 01 02 05/04/2018 06:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 06:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 06:20:01
+~05/04/18 06:30:01
+~05/04/18 06:40:01
+~05/04/18 06:50:01
+~05/04/18 07:00:01
+~05/04/18 07:10:01
+ALM: 01 02 05/04/2018 07:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 07:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/04/18 07:20:02
+~05/04/18 07:30:01
+~05/04/18 07:40:01
+~05/04/18 07:50:01
+~05/04/18 08:00:01
+~05/04/18 08:10:01
+ALM: 01 02 05/04/2018 08:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 08:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 08:20:01
+~05/04/18 08:30:02
+~05/04/18 08:40:01
+~05/04/18 08:50:01
+~05/04/18 09:00:01
+~05/04/18 09:10:01
+ALM: 01 02 05/04/2018 09:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 09:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 09:20:01
+~05/04/18 09:30:01
+~05/04/18 09:40:01
+~05/04/18 09:50:01
+~05/04/18 10:00:01
+MSG: 01 00 05/04/2018 10:01:00.000 Present External Memory File: 01_00052.log
+~05/04/18 10:10:01
+MSG: 01 02 05/04/2018 10:10:41.050 Node VTT Single Shot Fired
+MSG: 01 02 05/04/2018 10:10:41.100 Node VTT Test Passed
+TAG: 01 02 05/04/2018 10:10:41.110 3E7.0000001D02
+MSG: 01 01 05/04/2018 10:10:41.110 Node VTT Single Shot Fired
+MSG: 01 01 05/04/2018 10:10:41.150 Node VTT Test Passed
+TAG: 01 01 05/04/2018 10:10:41.160 3E7.0000001D01
 INF: Start Of Noise Report
 Controller:
   ID:                                         01
 Reader Node 01:
-  Present Noise:                            10 %
-  Maximum Noise:                            27 %
-  Average Noise:                             8 %
-  Time Averaged Over:                    6:00:00
-Reader Node 02:
-  Present Noise:                            11 %
+  Present Noise:                             7 %
   Maximum Noise:                            30 %
-  Average Noise:                            14 %
-  Time Averaged Over:                    6:00:00
-NRP: 01 01 05/05/2018 10:11:26.000 10,27,8,21600
-NRP: 01 02 05/05/2018 10:11:26.000 11,30,14,21600
+  Average Noise:                             7 %
+  Time Averaged Over:                    5:59:59
+Reader Node 02:
+  Present Noise:                             9 %
+  Maximum Noise:                            38 %
+  Average Noise:                            11 %
+  Time Averaged Over:                    5:59:59
+NRP: 01 01 05/04/2018 10:11:25.990 7,30,7,21599
+NRP: 01 02 05/04/2018 10:11:25.990 9,38,11,21599
 INF: End Of Noise Report
 INF: Start Of Full Status Report
 Controller:
   ID:                                         01
   Model:                               IS1001-MC
   S/N:                                      0142
-  Date:                               05/05/2018
+  Date:                               05/04/2018
   Time:                                 10:11:36
   Last Shutdown Date:                 04/24/2018
   Last Shutdown Time:                      09:42
@@ -300,16 +304,16 @@ Controller:
   Automatic Status Report Delay:         360 Min
   Automatic Noise Report Delay:          360 Min
  Diagnostics:
-  Detection Counter:                         590
+  Detection Counter:                         554
   Memory Used:                               1 %
-  Backup Tags Memory Count:                25331
+  Backup Tags Memory Count:                25288
   Backup Tags Memory Used:                  86 %
   External Storage Status:             Connected
   External Storage Records Buffer:             0
-  External Storage Present File:    01_00053.log
+  External Storage Present File:    01_00052.log
   Input Voltage:                          19.7 V
   Lithium Battery Voltage:                 3.5 V
-  Temperature:                            30.0 C
+  Temperature:                            33.8 C
   Sync. Input Present:                       N/A
 Reader Node 01:
  Node Status:
@@ -318,14 +322,14 @@ Reader Node 01:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          36.3 V
-  Exciter Voltage:                        43.3 V
+  Input Voltage:                          37.1 V
+  Exciter Voltage:                        43.2 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       248.8 A
+  Antenna Current:                       247.7 A
   Tuning Capacitors:                         108
-  Tuning Phase:                              390
-  Tuning Relative Phase:                       0
-  FDXB Signal Level:                 81 mV (9 %)
+  Tuning Phase:                              388
+  Tuning Relative Phase:                       2
+  FDXB Signal Level:                 63 mV (7 %)
   Temperature:                               N/A
  Node Settings:
   Exciter Voltage Level:                       2
@@ -346,12 +350,12 @@ Reader Node 02:
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
   Input Voltage:                          34.9 V
-  Exciter Voltage:                        41.6 V
+  Exciter Voltage:                        41.7 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       251.9 A
-  Tuning Capacitors:                         114
-  Tuning Phase:                              388
-  Tuning Relative Phase:                       1
+  Antenna Current:                       249.9 A
+  Tuning Capacitors:                         115
+  Tuning Phase:                              390
+  Tuning Relative Phase:                      -1
   FDXB Signal Level:               135 mV (15 %)
   Temperature:                               N/A
  Node Settings:
@@ -368,87 +372,122 @@ Reader Node 02:
 Active Alarms:
   Node 01: Node Antenna Current Exceeded 10.0 A
   Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/05/2018 10:11:36.010 2,1,197,35,590,300,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/05/2018 10:11:36.010 1,1,1,2,2488,9,108,0,433,363,65535,28,0,0,0,0
-SRP: 01 02 05/05/2018 10:11:36.010 1,1,1,2,2519,15,114,1,416,349,65535,28,0,0,0,0
+SRP: 01 00 05/04/2018 10:11:36.010 2,1,197,35,554,338,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 05/04/2018 10:11:36.010 1,1,1,2,2477,7,108,2,432,371,65535,28,0,0,0,0
+SRP: 01 02 05/04/2018 10:11:36.010 1,1,1,2,2499,15,115,-1,417,349,65535,28,0,0,0,0
 INF: End Of Full Status Report
-ALM: 01 02 05/05/2018 10:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 10:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 10:20:01
-~05/05/18 10:30:01
-~05/05/18 10:40:01
-~05/05/18 10:50:01
-~05/05/18 11:00:02
-~05/05/18 11:10:01
-ALM: 01 02 05/05/2018 11:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 11:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 11:20:01
-~05/05/18 11:30:01
-~05/05/18 11:40:01
-~05/05/18 11:50:01
-~05/05/18 12:00:01
-~05/05/18 12:10:01
-ALM: 01 02 05/05/2018 12:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 12:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 12:20:01
-~05/05/18 12:30:01
-~05/05/18 12:40:02
-~05/05/18 12:50:01
-~05/05/18 13:00:01
-~05/05/18 13:10:01
-ALM: 01 02 05/05/2018 13:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 13:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 13:20:01
-~05/05/18 13:30:01
-~05/05/18 13:40:01
-~05/05/18 13:50:02
-~05/05/18 14:00:01
-~05/05/18 14:10:01
-ALM: 01 02 05/05/2018 14:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 14:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 14:20:01
-~05/05/18 14:30:01
-~05/05/18 14:40:01
-~05/05/18 14:50:01
-~05/05/18 15:00:01
-~05/05/18 15:10:01
-ALM: 01 02 05/05/2018 15:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 15:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 15:20:01
-~05/05/18 15:30:01
-~05/05/18 15:40:01
-~05/05/18 15:50:01
-~05/05/18 16:00:01
-~05/05/18 16:10:01
-MSG: 01 02 05/05/2018 16:10:41.010 Node VTT Single Shot Fired
-MSG: 01 02 05/05/2018 16:10:41.050 Node VTT Test Passed
-TAG: 01 02 05/05/2018 16:10:41.060 3E7.0000001D02
-MSG: 01 01 05/05/2018 16:10:41.060 Node VTT Single Shot Fired
-MSG: 01 01 05/05/2018 16:10:41.110 Node VTT Test Passed
-TAG: 01 01 05/05/2018 16:10:41.120 3E7.0000001D01
-TAG: 01 02 05/05/2018 16:10:41.150 3E7.0000001D02
+ALM: 01 02 05/04/2018 10:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 10:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 10:20:01
+~05/04/18 10:30:01
+~05/04/18 10:40:01
+~05/04/18 10:50:01
+~05/04/18 11:00:01
+~05/04/18 11:10:01
+ALM: 01 02 05/04/2018 11:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 11:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 11:20:02
+~05/04/18 11:30:01
+~05/04/18 11:40:01
+~05/04/18 11:50:01
+~05/04/18 12:00:01
+~05/04/18 12:10:01
+ALM: 01 02 05/04/2018 12:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 12:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 12:20:01
+~05/04/18 12:30:02
+~05/04/18 12:40:01
+TAG: 01 01 05/04/2018 12:46:20.130 3DD.003BD97C36
+TAG: 01 02 05/04/2018 12:46:20.730 3DD.003BD97C36
+~05/04/18 12:50:01
+TAG: 01 02 05/04/2018 12:51:52.380 3DD.003BD97C36
+TAG: 01 02 05/04/2018 12:52:25.430 3DD.003BD97C36
+TAG: 01 02 05/04/2018 12:57:14.220 3DD.003BD97C36
+TAG: 01 01 05/04/2018 12:57:16.400 3DD.003BD97C36
+~05/04/18 13:00:01
+TAG: 01 01 05/04/2018 13:04:31.890 3DD.003BD97C36
+TAG: 01 02 05/04/2018 13:04:34.360 3DD.003BD97C36
+TAG: 01 02 05/04/2018 13:05:16.100 3DD.003BD97C36
+TAG: 01 01 05/04/2018 13:05:18.400 3DD.003BD97C36
+TAG: 01 01 05/04/2018 13:07:00.530 3DD.003BD97C36
+TAG: 01 02 05/04/2018 13:07:02.000 3DD.003BD97C36
+~05/04/18 13:10:01
+TAG: 01 02 05/04/2018 13:10:30.450 3DD.003BD97C36
+TAG: 01 02 05/04/2018 13:11:31.960 3DD.003BD97C36
+ALM: 01 02 05/04/2018 13:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 13:11:52.990 Node Antenna Current Exceeded 10.0 A
+TAG: 01 02 05/04/2018 13:13:01.740 3DD.003BD97C36
+TAG: 01 02 05/04/2018 13:14:32.780 3DD.003BD97C36
+TAG: 01 01 05/04/2018 13:14:33.000 3DD.003BD97C36
+~05/04/18 13:20:01
+~05/04/18 13:30:01
+~05/04/18 13:40:01
+~05/04/18 13:50:01
+~05/04/18 14:00:01
+~05/04/18 14:10:01
+ALM: 01 02 05/04/2018 14:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 14:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 14:20:01
+~05/04/18 14:30:01
+~05/04/18 14:40:01
+TAG: 01 01 05/04/2018 14:48:46.420 3DD.003BD97C36
+TAG: 01 02 05/04/2018 14:48:47.210 3DD.003BD97C36
+TAG: 01 02 05/04/2018 14:49:52.270 3DD.003BD97C36
+~05/04/18 14:50:01
+TAG: 01 02 05/04/2018 14:53:33.880 3DD.003BD97C36
+TAG: 01 02 05/04/2018 14:54:09.290 3DD.003BD97C36
+TAG: 01 02 05/04/2018 14:58:24.560 3DD.003BD97C36
+TAG: 01 01 05/04/2018 14:58:34.790 3DD.003BD97C36
+TAG: 01 01 05/04/2018 14:59:24.200 3DD.003BD97C36
+TAG: 01 02 05/04/2018 14:59:24.940 3DD.003BD97C36
+~05/04/18 15:00:01
+TAG: 01 02 05/04/2018 15:00:36.220 3DD.003BD97C36
+TAG: 01 01 05/04/2018 15:00:38.280 3DD.003BD97C36
+TAG: 01 01 05/04/2018 15:01:26.070 3DD.003BD97C36
+TAG: 01 02 05/04/2018 15:01:27.240 3DD.003BD97C36
+TAG: 01 02 05/04/2018 15:02:12.470 3DD.003BD97C36
+TAG: 01 02 05/04/2018 15:05:22.010 3DD.003BD97C36
+TAG: 01 02 05/04/2018 15:06:36.420 3DD.003BD97C36
+TAG: 01 02 05/04/2018 15:07:06.060 3DD.003BD97C36
+TAG: 01 02 05/04/2018 15:08:04.420 3DD.003BD97C36
+TAG: 01 01 05/04/2018 15:08:12.280 3DD.003BD97C36
+~05/04/18 15:10:01
+ALM: 01 02 05/04/2018 15:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 15:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 15:20:01
+~05/04/18 15:30:01
+~05/04/18 15:40:01
+~05/04/18 15:50:01
+~05/04/18 16:00:01
+~05/04/18 16:10:01
+MSG: 01 02 05/04/2018 16:10:41.060 Node VTT Single Shot Fired
+MSG: 01 02 05/04/2018 16:10:41.110 Node VTT Test Passed
+TAG: 01 02 05/04/2018 16:10:41.120 3E7.0000001D02
+MSG: 01 01 05/04/2018 16:10:41.120 Node VTT Single Shot Fired
+MSG: 01 01 05/04/2018 16:10:41.170 Node VTT Test Passed
+TAG: 01 01 05/04/2018 16:10:41.180 3E7.0000001D01
 INF: Start Of Noise Report
 Controller:
   ID:                                         01
 Reader Node 01:
-  Present Noise:                            12 %
-  Maximum Noise:                            26 %
-  Average Noise:                             8 %
-  Time Averaged Over:                    5:59:59
+  Present Noise:                             7 %
+  Maximum Noise:                            23 %
+  Average Noise:                             7 %
+  Time Averaged Over:                    6:00:01
 Reader Node 02:
-  Present Noise:                            10 %
-  Maximum Noise:                            27 %
-  Average Noise:                            13 %
-  Time Averaged Over:                    5:59:59
-NRP: 01 01 05/05/2018 16:11:25.990 12,26,8,21599
-NRP: 01 02 05/05/2018 16:11:25.990 10,27,13,21599
+  Present Noise:                            13 %
+  Maximum Noise:                            48 %
+  Average Noise:                            11 %
+  Time Averaged Over:                    6:00:01
+NRP: 01 01 05/04/2018 16:11:25.990 7,23,7,21601
+NRP: 01 02 05/04/2018 16:11:25.990 13,48,11,21601
 INF: End Of Noise Report
 INF: Start Of Full Status Report
 Controller:
   ID:                                         01
   Model:                               IS1001-MC
   S/N:                                      0142
-  Date:                               05/05/2018
+  Date:                               05/04/2018
   Time:                                 16:11:36
   Last Shutdown Date:                 04/24/2018
   Last Shutdown Time:                      09:42
@@ -498,14 +537,14 @@ Controller:
  Diagnostics:
   Detection Counter:                         590
   Memory Used:                               1 %
-  Backup Tags Memory Count:                25334
+  Backup Tags Memory Count:                25326
   Backup Tags Memory Used:                  86 %
   External Storage Status:             Connected
   External Storage Records Buffer:             0
-  External Storage Present File:    01_00053.log
+  External Storage Present File:    01_00052.log
   Input Voltage:                          19.7 V
   Lithium Battery Voltage:                 3.5 V
-  Temperature:                            35.7 C
+  Temperature:                            35.0 C
   Sync. Input Present:                       N/A
 Reader Node 01:
  Node Status:
@@ -514,13 +553,13 @@ Reader Node 01:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          36.8 V
-  Exciter Voltage:                        43.3 V
+  Input Voltage:                          35.7 V
+  Exciter Voltage:                        43.4 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       246.6 A
+  Antenna Current:                       245.5 A
   Tuning Capacitors:                         109
-  Tuning Phase:                              394
-  Tuning Relative Phase:                      -4
+  Tuning Phase:                              395
+  Tuning Relative Phase:                      -5
   FDXB Signal Level:                 36 mV (4 %)
   Temperature:                               N/A
  Node Settings:
@@ -541,14 +580,14 @@ Reader Node 02:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          35.0 V
+  Input Voltage:                          34.7 V
   Exciter Voltage:                        41.6 V
   Antenna Tuning:                          Tuned
-  Antenna Current:                       248.8 A
+  Antenna Current:                       247.7 A
   Tuning Capacitors:                         115
-  Tuning Phase:                              392
-  Tuning Relative Phase:                      -3
-  FDXB Signal Level:                90 mV (10 %)
+  Tuning Phase:                              394
+  Tuning Relative Phase:                      -5
+  FDXB Signal Level:                 72 mV (8 %)
   Temperature:                               N/A
  Node Settings:
   Exciter Voltage Level:                       2
@@ -564,86 +603,86 @@ Reader Node 02:
 Active Alarms:
   Node 01: Node Antenna Current Exceeded 10.0 A
   Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/05/2018 16:11:36.010 2,1,197,35,590,357,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/05/2018 16:11:36.010 1,1,1,2,2466,4,109,-4,433,368,65535,28,0,0,0,0
-SRP: 01 02 05/05/2018 16:11:36.010 1,1,1,2,2488,10,115,-3,416,350,65535,28,0,0,0,0
+SRP: 01 00 05/04/2018 16:11:36.010 2,1,197,35,590,350,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 05/04/2018 16:11:36.010 1,1,1,2,2455,4,109,-5,434,357,65535,28,0,0,0,0
+SRP: 01 02 05/04/2018 16:11:36.010 1,1,1,2,2477,8,115,-5,416,347,65535,28,0,0,0,0
 INF: End Of Full Status Report
-ALM: 01 02 05/05/2018 16:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 16:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 16:20:01
-~05/05/18 16:30:01
-~05/05/18 16:40:02
-~05/05/18 16:50:01
-~05/05/18 17:00:01
-~05/05/18 17:10:01
-ALM: 01 02 05/05/2018 17:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 17:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 17:20:01
-~05/05/18 17:30:01
-~05/05/18 17:40:01
-~05/05/18 17:50:01
-~05/05/18 18:00:01
-~05/05/18 18:10:01
-ALM: 01 02 05/05/2018 18:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 18:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 18:20:01
-~05/05/18 18:30:01
-~05/05/18 18:40:01
-~05/05/18 18:50:01
-~05/05/18 19:00:01
-~05/05/18 19:10:01
-ALM: 01 02 05/05/2018 19:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 19:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 19:20:01
-~05/05/18 19:30:01
-~05/05/18 19:40:01
-~05/05/18 19:50:01
-~05/05/18 20:00:01
-~05/05/18 20:10:01
-ALM: 01 02 05/05/2018 20:11:51.990 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 20:11:52.990 Node Antenna Current Exceeded 10.0 A
-~05/05/18 20:20:01
-~05/05/18 20:30:01
-~05/05/18 20:40:02
-~05/05/18 20:50:01
-~05/05/18 21:00:01
-~05/05/18 21:10:01
-ALM: 01 02 05/05/2018 21:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 21:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 21:20:01
-~05/05/18 21:30:01
-~05/05/18 21:40:01
-~05/05/18 21:50:01
-~05/05/18 22:00:01
-~05/05/18 22:10:01
-MSG: 01 01 05/05/2018 22:10:41.060 Node VTT Single Shot Fired
-MSG: 01 01 05/05/2018 22:10:41.100 Node VTT Test Passed
-TAG: 01 01 05/05/2018 22:10:41.110 3E7.0000001D01
-MSG: 01 02 05/05/2018 22:10:41.120 Node VTT Single Shot Fired
-MSG: 01 02 05/05/2018 22:10:41.160 Node VTT Test Passed
-TAG: 01 02 05/05/2018 22:10:41.170 3E7.0000001D02
+ALM: 01 02 05/04/2018 16:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 16:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 16:20:01
+~05/04/18 16:30:01
+~05/04/18 16:40:01
+~05/04/18 16:50:01
+~05/04/18 17:00:01
+~05/04/18 17:10:01
+ALM: 01 02 05/04/2018 17:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 17:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/04/18 17:20:01
+~05/04/18 17:30:01
+~05/04/18 17:40:01
+~05/04/18 17:50:01
+~05/04/18 18:00:01
+~05/04/18 18:10:02
+ALM: 01 02 05/04/2018 18:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 18:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 18:20:01
+~05/04/18 18:30:01
+~05/04/18 18:40:01
+~05/04/18 18:50:01
+~05/04/18 19:00:01
+~05/04/18 19:10:01
+ALM: 01 02 05/04/2018 19:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 19:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/04/18 19:20:01
+~05/04/18 19:30:01
+~05/04/18 19:40:01
+~05/04/18 19:50:01
+~05/04/18 20:00:01
+~05/04/18 20:10:01
+ALM: 01 02 05/04/2018 20:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 20:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 20:20:01
+~05/04/18 20:30:01
+~05/04/18 20:40:01
+~05/04/18 20:50:01
+~05/04/18 21:00:01
+~05/04/18 21:10:01
+ALM: 01 02 05/04/2018 21:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 21:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 21:20:01
+~05/04/18 21:30:01
+~05/04/18 21:40:01
+~05/04/18 21:50:01
+~05/04/18 22:00:01
+~05/04/18 22:10:02
+MSG: 01 01 05/04/2018 22:10:41.020 Node VTT Single Shot Fired
+MSG: 01 01 05/04/2018 22:10:41.070 Node VTT Test Passed
+TAG: 01 01 05/04/2018 22:10:41.070 3E7.0000001D01
+MSG: 01 02 05/04/2018 22:10:41.080 Node VTT Single Shot Fired
+MSG: 01 02 05/04/2018 22:10:41.120 Node VTT Test Passed
+TAG: 01 02 05/04/2018 22:10:41.120 3E7.0000001D02
 INF: Start Of Noise Report
 Controller:
   ID:                                         01
 Reader Node 01:
-  Present Noise:                             4 %
-  Maximum Noise:                            32 %
+  Present Noise:                            10 %
+  Maximum Noise:                            26 %
   Average Noise:                             8 %
-  Time Averaged Over:                    6:00:01
+  Time Averaged Over:                    5:59:59
 Reader Node 02:
-  Present Noise:                            18 %
-  Maximum Noise:                            35 %
-  Average Noise:                            14 %
-  Time Averaged Over:                    6:00:01
-NRP: 01 01 05/05/2018 22:11:25.990 4,32,8,21601
-NRP: 01 02 05/05/2018 22:11:25.990 18,35,14,21601
+  Present Noise:                            17 %
+  Maximum Noise:                            29 %
+  Average Noise:                            12 %
+  Time Averaged Over:                    5:59:59
+NRP: 01 01 05/04/2018 22:11:25.990 10,26,8,21599
+NRP: 01 02 05/04/2018 22:11:25.990 17,29,12,21599
 INF: End Of Noise Report
 INF: Start Of Full Status Report
 Controller:
   ID:                                         01
   Model:                               IS1001-MC
   S/N:                                      0142
-  Date:                               05/05/2018
+  Date:                               05/04/2018
   Time:                                 22:11:36
   Last Shutdown Date:                 04/24/2018
   Last Shutdown Time:                      09:42
@@ -693,14 +732,14 @@ Controller:
  Diagnostics:
   Detection Counter:                         590
   Memory Used:                               1 %
-  Backup Tags Memory Count:                25336
-  Backup Tags Memory Used:                  87 %
+  Backup Tags Memory Count:                25328
+  Backup Tags Memory Used:                  86 %
   External Storage Status:             Connected
   External Storage Records Buffer:             0
-  External Storage Present File:    01_00053.log
+  External Storage Present File:    01_00052.log
   Input Voltage:                          19.7 V
   Lithium Battery Voltage:                 3.5 V
-  Temperature:                            29.6 C
+  Temperature:                            28.8 C
   Sync. Input Present:                       N/A
 Reader Node 01:
  Node Status:
@@ -709,14 +748,14 @@ Reader Node 01:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          35.9 V
+  Input Voltage:                          36.5 V
   Exciter Voltage:                        43.8 V
   Antenna Tuning:                          Tuned
   Antenna Current:                       250.9 A
   Tuning Capacitors:                         108
-  Tuning Phase:                              394
-  Tuning Relative Phase:                      -4
-  FDXB Signal Level:                 54 mV (6 %)
+  Tuning Phase:                              396
+  Tuning Relative Phase:                      -6
+  FDXB Signal Level:                 63 mV (7 %)
   Temperature:                               N/A
  Node Settings:
   Exciter Voltage Level:                       2
@@ -736,8 +775,8 @@ Reader Node 02:
   Connected:                                 Yes
   Application Firmware Version:            1.4.5
   Input Power Version:                      24 V
-  Input Voltage:                          35.1 V
-  Exciter Voltage:                        42.2 V
+  Input Voltage:                          35.0 V
+  Exciter Voltage:                        42.6 V
   Antenna Tuning:                          Tuned
   Antenna Current:                       252.0 A
   Tuning Capacitors:                         114
@@ -759,22 +798,24 @@ Reader Node 02:
 Active Alarms:
   Node 01: Node Antenna Current Exceeded 10.0 A
   Node 02: Node Antenna Current Exceeded 10.0 A
-SRP: 01 00 05/05/2018 22:11:36.010 2,1,197,35,590,296,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-SRP: 01 01 05/05/2018 22:11:36.010 1,1,1,2,2509,6,108,-4,438,359,65535,28,0,0,0,0
-SRP: 01 02 05/05/2018 22:11:36.010 1,1,1,2,2520,14,114,-2,422,351,65535,28,0,0,0,0
+SRP: 01 00 05/04/2018 22:11:36.010 2,1,197,35,590,288,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 05/04/2018 22:11:36.010 1,1,1,2,2509,7,108,-6,438,365,65535,28,0,0,0,0
+SRP: 01 02 05/04/2018 22:11:36.010 1,1,1,2,2520,14,114,-2,426,350,65535,28,0,0,0,0
 INF: End Of Full Status Report
-ALM: 01 02 05/05/2018 22:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 22:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 22:20:01
-~05/05/18 22:30:01
-~05/05/18 22:40:01
-~05/05/18 22:50:01
-~05/05/18 23:00:01
-~05/05/18 23:10:01
-ALM: 01 02 05/05/2018 23:11:52.000 Node Antenna Current Exceeded 10.0 A
-ALM: 01 01 05/05/2018 23:11:53.000 Node Antenna Current Exceeded 10.0 A
-~05/05/18 23:20:01
-~05/05/18 23:30:02
-~05/05/18 23:40:01
-~05/05/18 23:50:01
-~05/06/18 00:00:01
+ALM: 01 02 05/04/2018 22:11:51.990 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 22:11:52.990 Node Antenna Current Exceeded 10.0 A
+~05/04/18 22:20:01
+~05/04/18 22:30:01
+~05/04/18 22:40:01
+~05/04/18 22:50:01
+~05/04/18 23:00:01
+~05/04/18 23:10:01
+ALM: 01 02 05/04/2018 23:11:52.000 Node Antenna Current Exceeded 10.0 A
+ALM: 01 01 05/04/2018 23:11:53.000 Node Antenna Current Exceeded 10.0 A
+~05/04/18 23:20:01
+~05/04/18 23:30:01
+~05/04/18 23:40:01
+~05/04/18 23:50:01
+~05/05/18 00:00:01
+
+This is a footer      the end time is 05/05/18 00:01:01
