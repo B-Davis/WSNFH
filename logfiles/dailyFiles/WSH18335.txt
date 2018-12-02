@@ -1,0 +1,1364 @@
+
+This is a header      the start date and time is 12/01/18 00:01:01
+
+ALM: 01 01 12/01/2018 00:08:00.110 Node Noise High
+MSG: 01 01 12/01/2018 00:08:16.750 Node Noise In Spec.
+~12/01/18 00:10:01
+~12/01/18 00:20:01
+~12/01/18 00:30:01
+ALM: 01 01 12/01/2018 00:32:57.760 Node Noise High
+MSG: 01 01 12/01/2018 00:33:06.720 Node Noise In Spec.
+ALM: 01 01 12/01/2018 00:34:44.000 Node Noise High
+MSG: 01 01 12/01/2018 00:34:50.400 Node Noise In Spec.
+ALM: 01 01 12/01/2018 00:40:02.730 Node Noise High
+MSG: 01 01 12/01/2018 00:40:24.490 Node Noise In Spec.
+~12/01/18 00:40:01
+~12/01/18 00:50:01
+ALM: 01 03 12/01/2018 00:56:16.000 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 01:00:01
+~12/01/18 01:10:01
+~12/01/18 01:20:01
+~12/01/18 01:30:01
+~12/01/18 01:40:01
+~12/01/18 01:50:01
+ALM: 01 03 12/01/2018 01:56:16.000 Node Antenna Out Of Tune Or Disconnected
+ALM: 01 01 12/01/2018 01:57:29.280 Node Noise High
+MSG: 01 01 12/01/2018 01:57:34.400 Node Noise In Spec.
+ALM: 01 01 12/01/2018 01:57:44.640 Node Noise High
+MSG: 01 01 12/01/2018 01:58:06.400 Node Noise In Spec.
+ALM: 01 01 12/01/2018 01:58:24.320 Node Noise High
+MSG: 01 01 12/01/2018 01:58:51.200 Node Noise In Spec.
+~12/01/18 02:00:02
+~12/01/18 02:10:01
+~12/01/18 02:20:01
+~12/01/18 02:30:01
+~12/01/18 02:40:01
+~12/01/18 02:50:01
+ALM: 01 03 12/01/2018 02:56:16.000 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 03:00:01
+~12/01/18 03:10:01
+~12/01/18 03:20:01
+~12/01/18 03:30:01
+~12/01/18 03:40:01
+MSG: 01 01 12/01/2018 03:44:46.020 Node VTT Single Shot Fired
+MSG: 01 01 12/01/2018 03:44:46.060 Node VTT Test Passed
+TAG: 01 01 12/01/2018 03:44:46.070 3E7.0000001D01
+MSG: 01 02 12/01/2018 03:44:46.070 Node VTT Single Shot Fired
+MSG: 01 02 12/01/2018 03:44:46.110 Node VTT Test Passed
+TAG: 01 02 12/01/2018 03:44:46.110 3E7.0000001D02
+MSG: 01 03 12/01/2018 03:44:46.120 Node VTT Single Shot Fired
+MSG: 01 03 12/01/2018 03:44:46.200 Node VTT Test Passed
+TAG: 01 03 12/01/2018 03:44:46.200 3E7.0000001D03
+TAG: 01 03 12/01/2018 03:44:46.340 3E7.0000001D03
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/01/2018
+  Time:                                 03:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              15 %
+  Backup Tags Memory Count:                25812
+  Backup Tags Memory Used:                  88 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00269.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            12.4 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              390
+  Tuning Relative Phase:                       0
+  FDXB Signal Level:               198 mV (22 %)
+  Temperature:                             6.4 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              387
+  Tuning Relative Phase:                       2
+  FDXB Signal Level:               189 mV (21 %)
+  Temperature:                             6.4 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.6 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                      Tuning...
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                          83
+  Tuning Phase:                              385
+  Tuning Relative Phase:                       2
+  FDXB Signal Level:               531 mV (59 %)
+  Temperature:                            10.0 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  Node 03: Node Antenna Out Of Tune Or Disconnected
+SRP: 01 00 12/01/2018 03:44:56.020 2,15,205,36,0,124,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/01/2018 03:44:56.020 1,1,1,2,41,22,105,0,140,198,64,0,0,0,0,0
+SRP: 01 02 12/01/2018 03:44:56.020 1,1,1,2,42,21,110,2,140,198,64,0,0,0,0,0
+SRP: 01 03 12/01/2018 03:44:56.020 1,4,1,2,41,59,83,2,140,196,100,10,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            74 %
+  Maximum Noise:                            93 %
+  Average Noise:                            27 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            33 %
+  Maximum Noise:                            54 %
+  Average Noise:                            34 %
+  Time Averaged Over:                    6:00:00
+Reader Node 03:
+  Present Noise:                            19 %
+  Maximum Noise:                            62 %
+  Average Noise:                            27 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 12/01/2018 03:46:47.990 74,93,27,21600
+NRP: 01 02 12/01/2018 03:46:47.990 33,54,34,21600
+NRP: 01 03 12/01/2018 03:46:47.990 19,62,27,21600
+INF: End Of Noise Report
+~12/01/18 03:50:01
+ALM: 01 03 12/01/2018 03:56:16.000 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 04:00:01
+ALM: 01 03 12/01/2018 04:03:29.350 Node Removed From Sequence
+ALM: 01 01 12/01/2018 04:06:37.360 Node Noise High
+MSG: 01 01 12/01/2018 04:06:47.600 Node Noise In Spec.
+~12/01/18 04:10:01
+~12/01/18 04:20:01
+ALM: 01 01 12/01/2018 04:26:18.840 Node Noise High
+MSG: 01 01 12/01/2018 04:26:47.000 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:27:10.040 Node Noise High
+MSG: 01 01 12/01/2018 04:28:01.240 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:28:28.120 Node Noise High
+MSG: 01 01 12/01/2018 04:28:34.520 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:28:44.760 Node Noise High
+MSG: 01 01 12/01/2018 04:29:03.960 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:30:11.800 Node Noise High
+MSG: 01 01 12/01/2018 04:30:25.890 Node Noise In Spec.
+~12/01/18 04:30:01
+ALM: 01 01 12/01/2018 04:33:03.330 Node Noise High
+MSG: 01 01 12/01/2018 04:33:26.370 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:36:30.700 Node Noise High
+MSG: 01 01 12/01/2018 04:36:40.940 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:41:45.590 Node Noise High
+~12/01/18 04:40:01
+MSG: 01 01 12/01/2018 04:42:00.950 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:42:57.270 Node Noise High
+MSG: 01 01 12/01/2018 04:43:04.950 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:46:10.560 Node Noise High
+MSG: 01 01 12/01/2018 04:46:22.080 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:48:54.400 Node Noise High
+MSG: 01 01 12/01/2018 04:48:59.520 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:50:13.760 Node Noise High
+MSG: 01 01 12/01/2018 04:50:21.440 Node Noise In Spec.
+~12/01/18 04:50:01
+ALM: 01 01 12/01/2018 04:52:44.810 Node Noise High
+MSG: 01 01 12/01/2018 04:52:51.210 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:55:06.890 Node Noise High
+ALM: 01 03 12/01/2018 04:56:16.000 Node Antenna Out Of Tune Or Disconnected
+MSG: 01 01 12/01/2018 04:57:25.140 Node Noise In Spec.
+ALM: 01 01 12/01/2018 04:57:32.820 Node Noise High
+MSG: 01 01 12/01/2018 04:57:45.620 Node Noise In Spec.
+~12/01/18 05:00:01
+ALM: 01 03 12/01/2018 05:03:29.000 Node Removed From Sequence
+~12/01/18 05:10:01
+~12/01/18 05:20:01
+~12/01/18 05:30:01
+~12/01/18 05:40:01
+ALM: 01 01 12/01/2018 05:45:32.910 Node Noise High
+MSG: 01 01 12/01/2018 05:45:38.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 05:45:55.950 Node Noise High
+MSG: 01 01 12/01/2018 05:46:11.310 Node Noise In Spec.
+~12/01/18 05:50:01
+ALM: 01 03 12/01/2018 05:56:16.000 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 06:00:02
+ALM: 01 03 12/01/2018 06:03:29.000 Node Removed From Sequence
+ALM: 01 01 12/01/2018 06:08:18.710 Node Noise High
+MSG: 01 01 12/01/2018 06:09:22.710 Node Noise In Spec.
+~12/01/18 06:10:01
+~12/01/18 06:20:01
+~12/01/18 06:30:01
+ALM: 01 01 12/01/2018 06:36:01.480 Node Noise High
+MSG: 01 01 12/01/2018 06:36:20.680 Node Noise In Spec.
+ALM: 01 01 12/01/2018 06:37:33.640 Node Noise High
+MSG: 01 01 12/01/2018 06:37:54.120 Node Noise In Spec.
+~12/01/18 06:40:01
+~12/01/18 06:50:01
+ALM: 01 03 12/01/2018 06:56:15.990 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 07:00:01
+ALM: 01 03 12/01/2018 07:03:28.990 Node Removed From Sequence
+~12/01/18 07:10:01
+~12/01/18 07:20:01
+~12/01/18 07:30:01
+~12/01/18 07:40:01
+~12/01/18 07:50:01
+ALM: 01 03 12/01/2018 07:56:16.000 Node Antenna Out Of Tune Or Disconnected
+ALM: 01 01 12/01/2018 08:01:06.280 Node Noise High
+MSG: 01 01 12/01/2018 08:01:24.200 Node Noise In Spec.
+~12/01/18 08:00:01
+ALM: 01 01 12/01/2018 08:03:10.440 Node Noise High
+ALM: 01 03 12/01/2018 08:03:29.000 Node Removed From Sequence
+MSG: 01 01 12/01/2018 08:04:17.010 Node Noise In Spec.
+ALM: 01 01 12/01/2018 08:07:02.130 Node Noise High
+MSG: 01 01 12/01/2018 08:07:18.770 Node Noise In Spec.
+~12/01/18 08:10:01
+~12/01/18 08:20:01
+~12/01/18 08:30:01
+~12/01/18 08:40:01
+~12/01/18 08:50:01
+ALM: 01 03 12/01/2018 08:56:16.000 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 09:00:01
+ALM: 01 03 12/01/2018 09:03:29.000 Node Removed From Sequence
+MSG: 01 03 12/01/2018 09:10:41.930 Node Attempting To Tune Antenna
+MSG: 01 03 12/01/2018 09:10:43.210 Node Tuned
+MSG: 01 03 12/01/2018 09:10:43.210 Node Included In Switching Sequence
+~12/01/18 09:10:01
+~12/01/18 09:20:02
+ALM: 01 01 12/01/2018 09:22:41.150 Node Noise High
+MSG: 01 01 12/01/2018 09:22:48.830 Node Noise In Spec.
+ALM: 01 01 12/01/2018 09:26:48.200 Node Noise High
+MSG: 01 01 12/01/2018 09:26:59.720 Node Noise In Spec.
+~12/01/18 09:30:01
+~12/01/18 09:40:01
+MSG: 01 03 12/01/2018 09:44:46.060 Node VTT Single Shot Fired
+MSG: 01 03 12/01/2018 09:44:46.100 Node VTT Test Passed
+TAG: 01 03 12/01/2018 09:44:46.110 3E7.0000001D03
+MSG: 01 01 12/01/2018 09:44:46.110 Node VTT Single Shot Fired
+MSG: 01 01 12/01/2018 09:44:46.150 Node VTT Test Passed
+TAG: 01 01 12/01/2018 09:44:46.160 3E7.0000001D01
+MSG: 01 02 12/01/2018 09:44:46.160 Node VTT Single Shot Fired
+MSG: 01 02 12/01/2018 09:44:46.200 Node VTT Test Passed
+TAG: 01 02 12/01/2018 09:44:46.210 3E7.0000001D02
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/01/2018
+  Time:                                 09:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              15 %
+  Backup Tags Memory Count:                25815
+  Backup Tags Memory Used:                  88 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00269.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            13.5 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              387
+  Tuning Relative Phase:                       3
+  FDXB Signal Level:               459 mV (51 %)
+  Temperature:                            10.0 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              385
+  Tuning Relative Phase:                       4
+  FDXB Signal Level:               360 mV (40 %)
+  Temperature:                             9.9 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.6 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                      Tuning...
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                          83
+  Tuning Phase:                              379
+  Tuning Relative Phase:                       8
+  FDXB Signal Level:               468 mV (52 %)
+  Temperature:                            12.3 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  No Active Alarms
+SRP: 01 00 12/01/2018 09:44:56.020 2,15,205,36,0,135,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/01/2018 09:44:56.020 1,1,1,2,41,51,105,3,140,198,100,0,0,0,0,0
+SRP: 01 02 12/01/2018 09:44:56.020 1,1,1,2,42,40,110,4,140,198,99,0,0,0,0,0
+SRP: 01 03 12/01/2018 09:44:56.020 1,4,1,2,42,52,83,8,140,196,123,0,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            73 %
+  Maximum Noise:                            97 %
+  Average Noise:                            33 %
+  Time Averaged Over:                    6:00:01
+Reader Node 02:
+  Present Noise:                            43 %
+  Maximum Noise:                            52 %
+  Average Noise:                            32 %
+  Time Averaged Over:                    6:00:01
+Reader Node 03:
+  Present Noise:                            46 %
+  Maximum Noise:                            61 %
+  Average Noise:                            25 %
+  Time Averaged Over:                    6:00:01
+NRP: 01 01 12/01/2018 09:46:47.990 73,97,33,21601
+NRP: 01 02 12/01/2018 09:46:47.990 43,52,32,21601
+NRP: 01 03 12/01/2018 09:46:47.990 46,61,25,21601
+INF: End Of Noise Report
+ALM: 01 03 12/01/2018 09:49:59.760 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 09:50:01
+ALM: 01 01 12/01/2018 09:53:53.850 Node Noise High
+MSG: 01 01 12/01/2018 09:53:58.970 Node Noise In Spec.
+~12/01/18 10:00:01
+~12/01/18 10:10:01
+MSG: 01 03 12/01/2018 10:11:49.240 Node Tuned
+~12/01/18 10:20:01
+~12/01/18 10:30:01
+~12/01/18 10:40:01
+~12/01/18 10:50:01
+~12/01/18 11:00:01
+ALM: 01 01 12/01/2018 11:06:04.230 Node Noise High
+MSG: 01 01 12/01/2018 11:06:09.350 Node Noise In Spec.
+~12/01/18 11:10:01
+~12/01/18 11:20:01
+~12/01/18 11:30:01
+ALM: 01 01 12/01/2018 11:37:55.330 Node Noise High
+MSG: 01 01 12/01/2018 11:38:36.290 Node Noise In Spec.
+ALM: 01 01 12/01/2018 11:38:49.090 Node Noise High
+MSG: 01 01 12/01/2018 11:39:05.730 Node Noise In Spec.
+ALM: 01 01 12/01/2018 11:39:37.730 Node Noise High
+MSG: 01 01 12/01/2018 11:40:49.410 Node Noise In Spec.
+ALM: 01 01 12/01/2018 11:41:26.540 Node Noise High
+~12/01/18 11:40:01
+MSG: 01 01 12/01/2018 11:41:59.820 Node Noise In Spec.
+~12/01/18 11:50:01
+~12/01/18 12:00:01
+~12/01/18 12:10:01
+~12/01/18 12:20:01
+~12/01/18 12:30:01
+~12/01/18 12:40:01
+~12/01/18 12:50:01
+~12/01/18 13:00:01
+~12/01/18 13:10:01
+~12/01/18 13:20:02
+~12/01/18 13:30:01
+~12/01/18 13:40:01
+~12/01/18 13:50:01
+ALM: 01 01 12/01/2018 13:52:14.460 Node Noise High
+MSG: 01 01 12/01/2018 13:52:28.540 Node Noise In Spec.
+~12/01/18 14:00:01
+~12/01/18 14:10:01
+~12/01/18 14:20:01
+~12/01/18 14:30:02
+~12/01/18 14:40:01
+~12/01/18 14:50:01
+~12/01/18 15:00:01
+~12/01/18 15:10:01
+ALM: 01 01 12/01/2018 15:19:55.430 Node Noise High
+MSG: 01 01 12/01/2018 15:20:08.230 Node Noise In Spec.
+~12/01/18 15:20:01
+ALM: 01 01 12/01/2018 15:27:18.320 Node Noise High
+MSG: 01 01 12/01/2018 15:27:31.120 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:29:40.410 Node Noise High
+MSG: 01 01 12/01/2018 15:29:45.530 Node Noise In Spec.
+~12/01/18 15:30:01
+ALM: 01 01 12/01/2018 15:36:13.380 Node Noise High
+MSG: 01 01 12/01/2018 15:36:23.620 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:37:13.540 Node Noise High
+MSG: 01 01 12/01/2018 15:37:18.660 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:39:57.390 Node Noise High
+MSG: 01 01 12/01/2018 15:40:02.510 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:40:10.190 Node Noise High
+MSG: 01 01 12/01/2018 15:40:31.950 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:40:40.910 Node Noise High
+MSG: 01 01 12/01/2018 15:40:46.030 Node Noise In Spec.
+~12/01/18 15:40:01
+ALM: 01 01 12/01/2018 15:42:04.110 Node Noise High
+MSG: 01 01 12/01/2018 15:42:43.790 Node Noise In Spec.
+MSG: 01 00 12/01/2018 15:44:28.000 Present External Memory File: 01_00270.log
+MSG: 01 02 12/01/2018 15:44:46.040 Node VTT Single Shot Fired
+TAG: 01 02 12/01/2018 15:44:46.080 3E7.0000001D02
+MSG: 01 02 12/01/2018 15:44:46.080 Node VTT Test Passed
+MSG: 01 03 12/01/2018 15:44:46.090 Node VTT Single Shot Fired
+MSG: 01 03 12/01/2018 15:44:46.130 Node VTT Test Passed
+TAG: 01 03 12/01/2018 15:44:46.130 3E7.0000001D03
+MSG: 01 01 12/01/2018 15:44:46.140 Node VTT Single Shot Fired
+ALM: 01 01 12/01/2018 15:44:46.260 Node VTT Test Failed
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/01/2018
+  Time:                                 15:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              15 %
+  Backup Tags Memory Count:                25817
+  Backup Tags Memory Used:                  88 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00270.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            16.6 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         106
+  Tuning Phase:                              393
+  Tuning Relative Phase:                      -3
+  FDXB Signal Level:               702 mV (78 %)
+  Temperature:                            10.1 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         111
+  Tuning Phase:                              394
+  Tuning Relative Phase:                      -5
+  FDXB Signal Level:               216 mV (24 %)
+  Temperature:                             9.9 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.6 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.3 A
+  Tuning Capacitors:                          84
+  Tuning Phase:                              392
+  Tuning Relative Phase:                      -5
+  FDXB Signal Level:               144 mV (16 %)
+  Temperature:                            14.7 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  Node 01: Node VTT Test Failed
+SRP: 01 00 12/01/2018 15:44:56.020 2,15,205,36,0,166,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/01/2018 15:44:56.020 1,1,1,2,41,78,106,-3,140,198,101,14,0,0,0,0
+SRP: 01 02 12/01/2018 15:44:56.020 1,1,1,2,41,24,111,-5,140,198,99,0,0,0,0,0
+SRP: 01 03 12/01/2018 15:44:56.020 1,1,1,2,43,16,84,-5,140,196,147,0,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            83 %
+  Maximum Noise:                            93 %
+  Average Noise:                            49 %
+  Time Averaged Over:                    5:59:59
+Reader Node 02:
+  Present Noise:                            28 %
+  Maximum Noise:                            54 %
+  Average Noise:                            35 %
+  Time Averaged Over:                    5:59:59
+Reader Node 03:
+  Present Noise:                            11 %
+  Maximum Noise:                            61 %
+  Average Noise:                            21 %
+  Time Averaged Over:                    5:59:59
+NRP: 01 01 12/01/2018 15:46:47.990 83,93,49,21599
+NRP: 01 02 12/01/2018 15:46:47.990 28,54,35,21599
+NRP: 01 03 12/01/2018 15:46:47.990 11,61,21,21599
+INF: End Of Noise Report
+ALM: 01 01 12/01/2018 15:48:17.880 Node Noise High
+MSG: 01 01 12/01/2018 15:49:53.890 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:49:59.010 Node Noise High
+MSG: 01 01 12/01/2018 15:50:24.610 Node Noise In Spec.
+~12/01/18 15:50:01
+ALM: 01 01 12/01/2018 15:54:04.770 Node Noise High
+MSG: 01 01 12/01/2018 15:56:38.380 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:57:21.900 Node Noise High
+MSG: 01 01 12/01/2018 15:58:02.860 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:58:11.820 Node Noise High
+MSG: 01 01 12/01/2018 15:58:28.460 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:58:42.540 Node Noise High
+MSG: 01 01 12/01/2018 15:59:22.220 Node Noise In Spec.
+ALM: 01 01 12/01/2018 15:59:40.140 Node Noise High
+MSG: 01 01 12/01/2018 16:01:35.350 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:01:40.470 Node Noise High
+~12/01/18 16:00:01
+MSG: 01 01 12/01/2018 16:02:47.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:03:01.110 Node Noise High
+MSG: 01 01 12/01/2018 16:03:33.110 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:03:51.030 Node Noise High
+MSG: 01 01 12/01/2018 16:04:24.310 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:04:47.350 Node Noise High
+MSG: 01 01 12/01/2018 16:05:00.150 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:05:09.110 Node Noise High
+MSG: 01 01 12/01/2018 16:06:15.680 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:06:20.800 Node Noise High
+MSG: 01 01 12/01/2018 16:07:17.120 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:07:26.080 Node Noise High
+MSG: 01 01 12/01/2018 16:09:13.600 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:09:35.360 Node Noise High
+MSG: 01 01 12/01/2018 16:11:20.330 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:11:25.450 Node Noise High
+MSG: 01 01 12/01/2018 16:11:31.850 Node Noise In Spec.
+~12/01/18 16:10:01
+ALM: 01 01 12/01/2018 16:11:56.170 Node Noise High
+MSG: 01 01 12/01/2018 16:12:10.250 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:12:20.490 Node Noise High
+MSG: 01 01 12/01/2018 16:12:43.530 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:13:42.410 Node Noise High
+MSG: 01 01 12/01/2018 16:13:52.650 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:14:09.290 Node Noise High
+MSG: 01 01 12/01/2018 16:14:16.970 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:16:13.460 Node Noise High
+MSG: 01 01 12/01/2018 16:21:14.260 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:21:25.790 Node Noise High
+~12/01/18 16:20:01
+MSG: 01 01 12/01/2018 16:21:57.790 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:22:06.750 Node Noise High
+MSG: 01 01 12/01/2018 16:22:19.550 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:23:41.470 Node Noise High
+MSG: 01 01 12/01/2018 16:23:47.870 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:25:28.990 Node Noise High
+MSG: 01 01 12/01/2018 16:25:34.110 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:26:24.030 Node Noise High
+MSG: 01 01 12/01/2018 16:28:07.720 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:28:33.320 Node Noise High
+~12/01/18 16:30:01
+MSG: 01 01 12/01/2018 16:34:29.170 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:39:41.500 Node Noise High
+MSG: 01 01 12/01/2018 16:39:55.580 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:40:08.380 Node Noise High
+~12/01/18 16:40:01
+MSG: 01 01 12/01/2018 16:42:21.500 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:42:50.950 Node Noise High
+MSG: 01 01 12/01/2018 16:43:05.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:43:10.150 Node Noise High
+MSG: 01 01 12/01/2018 16:43:17.830 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:43:35.750 Node Noise High
+MSG: 01 01 12/01/2018 16:43:43.430 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:47:24.870 Node Noise High
+MSG: 01 01 12/01/2018 16:49:12.400 Node Noise In Spec.
+~12/01/18 16:50:01
+ALM: 01 01 12/01/2018 16:53:10.490 Node Noise High
+MSG: 01 01 12/01/2018 16:53:22.010 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:56:59.610 Node Noise High
+MSG: 01 01 12/01/2018 16:57:57.210 Node Noise In Spec.
+ALM: 01 01 12/01/2018 16:58:13.860 Node Noise High
+MSG: 01 01 12/01/2018 16:58:36.900 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:01:29.700 Node Noise High
+MSG: 01 01 12/01/2018 17:01:50.180 Node Noise In Spec.
+~12/01/18 17:00:01
+ALM: 01 01 12/01/2018 17:03:31.310 Node Noise High
+MSG: 01 01 12/01/2018 17:03:38.990 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:04:57.070 Node Noise High
+MSG: 01 01 12/01/2018 17:05:02.190 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:05:50.830 Node Noise High
+MSG: 01 01 12/01/2018 17:07:21.710 Node Noise In Spec.
+~12/01/18 17:10:01
+ALM: 01 01 12/01/2018 17:14:22.850 Node Noise High
+MSG: 01 01 12/01/2018 17:15:17.890 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:15:30.690 Node Noise High
+MSG: 01 01 12/01/2018 17:17:16.930 Node Noise In Spec.
+~12/01/18 17:20:02
+ALM: 01 01 12/01/2018 17:23:51.180 Node Noise High
+MSG: 01 01 12/01/2018 17:24:15.500 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:28:30.230 Node Noise High
+MSG: 01 01 12/01/2018 17:29:04.790 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:29:39.350 Node Noise High
+MSG: 01 01 12/01/2018 17:30:20.320 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:31:11.520 Node Noise High
+MSG: 01 01 12/01/2018 17:31:24.320 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:31:34.560 Node Noise High
+MSG: 01 01 12/01/2018 17:31:47.360 Node Noise In Spec.
+~12/01/18 17:30:01
+ALM: 01 01 12/01/2018 17:32:01.440 Node Noise High
+MSG: 01 01 12/01/2018 17:32:29.600 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:32:59.040 Node Noise High
+MSG: 01 01 12/01/2018 17:33:11.840 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:35:51.850 Node Noise High
+MSG: 01 01 12/01/2018 17:35:56.970 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:38:47.210 Node Noise High
+MSG: 01 01 12/01/2018 17:39:25.610 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:39:38.410 Node Noise High
+MSG: 01 01 12/01/2018 17:39:46.090 Node Noise In Spec.
+~12/01/18 17:40:01
+ALM: 01 01 12/01/2018 17:43:59.540 Node Noise High
+MSG: 01 01 12/01/2018 17:44:23.860 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:44:37.940 Node Noise High
+MSG: 01 01 12/01/2018 17:44:45.620 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:45:24.020 Node Noise High
+MSG: 01 01 12/01/2018 17:45:31.700 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:46:04.990 Node Noise High
+MSG: 01 01 12/01/2018 17:46:31.870 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:46:43.390 Node Noise High
+MSG: 01 01 12/01/2018 17:47:32.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:49:52.830 Node Noise High
+MSG: 01 01 12/01/2018 17:49:57.950 Node Noise In Spec.
+~12/01/18 17:50:01
+ALM: 01 01 12/01/2018 17:54:42.120 Node Noise High
+MSG: 01 01 12/01/2018 17:54:51.080 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:56:55.250 Node Noise High
+MSG: 01 01 12/01/2018 17:57:08.050 Node Noise In Spec.
+ALM: 01 01 12/01/2018 17:59:12.210 Node Noise High
+MSG: 01 01 12/01/2018 17:59:22.450 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:00:04.690 Node Noise High
+MSG: 01 01 12/01/2018 18:00:11.090 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:00:31.570 Node Noise High
+MSG: 01 01 12/01/2018 18:01:01.010 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:01:13.810 Node Noise High
+MSG: 01 01 12/01/2018 18:01:47.100 Node Noise In Spec.
+~12/01/18 18:00:01
+ALM: 01 01 12/01/2018 18:02:19.100 Node Noise High
+MSG: 01 01 12/01/2018 18:02:42.140 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:03:20.540 Node Noise High
+MSG: 01 01 12/01/2018 18:03:41.020 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:04:25.820 Node Noise High
+MSG: 01 01 12/01/2018 18:07:13.510 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:09:04.870 Node Noise High
+MSG: 01 01 12/01/2018 18:09:27.910 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:09:43.270 Node Noise High
+MSG: 01 01 12/01/2018 18:10:05.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:11:25.670 Node Noise High
+~12/01/18 18:10:01
+MSG: 01 01 12/01/2018 18:11:56.390 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:13:27.280 Node Noise High
+MSG: 01 01 12/01/2018 18:13:54.160 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:16:12.400 Node Noise High
+MSG: 01 01 12/01/2018 18:16:25.200 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:17:20.240 Node Noise High
+MSG: 01 01 12/01/2018 18:17:33.040 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:18:07.610 Node Noise High
+MSG: 01 01 12/01/2018 18:18:12.730 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:18:33.210 Node Noise High
+MSG: 01 01 12/01/2018 18:18:53.690 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:19:32.090 Node Noise High
+MSG: 01 01 12/01/2018 18:19:42.330 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:21:02.970 Node Noise High
+~12/01/18 18:20:01
+MSG: 01 01 12/01/2018 18:22:09.530 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:22:31.290 Node Noise High
+MSG: 01 01 12/01/2018 18:23:05.860 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:23:13.540 Node Noise High
+MSG: 01 01 12/01/2018 18:23:40.420 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:23:45.540 Node Noise High
+MSG: 01 01 12/01/2018 18:27:37.220 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:27:56.430 Node Noise High
+MSG: 01 01 12/01/2018 18:28:07.950 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:28:13.070 Node Noise High
+~12/01/18 18:30:02
+MSG: 01 01 12/01/2018 18:33:19.000 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:34:21.720 Node Noise High
+MSG: 01 01 12/01/2018 18:35:06.520 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:35:41.080 Node Noise High
+MSG: 01 01 12/01/2018 18:35:56.440 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:37:20.920 Node Noise High
+MSG: 01 01 12/01/2018 18:37:35.000 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:39:03.330 Node Noise High
+MSG: 01 01 12/01/2018 18:39:11.010 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:39:19.970 Node Noise High
+MSG: 01 01 12/01/2018 18:39:31.490 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:40:36.770 Node Noise High
+MSG: 01 01 12/01/2018 18:40:41.890 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:41:36.930 Node Noise High
+~12/01/18 18:40:01
+MSG: 01 01 12/01/2018 18:42:12.770 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:42:26.850 Node Noise High
+MSG: 01 01 12/01/2018 18:43:11.650 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:43:24.450 Node Noise High
+MSG: 01 01 12/01/2018 18:45:20.940 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:46:14.700 Node Noise High
+MSG: 01 01 12/01/2018 18:46:40.300 Node Noise In Spec.
+ALM: 01 01 12/01/2018 18:48:11.180 Node Noise High
+MSG: 01 01 12/01/2018 18:48:20.140 Node Noise In Spec.
+~12/01/18 18:50:01
+~12/01/18 19:00:01
+~12/01/18 19:10:01
+~12/01/18 19:20:01
+~12/01/18 19:30:01
+ALM: 01 01 12/01/2018 19:40:22.160 Node Noise High
+MSG: 01 01 12/01/2018 19:40:29.840 Node Noise In Spec.
+~12/01/18 19:40:01
+ALM: 01 01 12/01/2018 19:45:46.010 Node Noise High
+MSG: 01 01 12/01/2018 19:45:58.810 Node Noise In Spec.
+ALM: 01 01 12/01/2018 19:46:10.330 Node Noise High
+MSG: 01 01 12/01/2018 19:46:16.730 Node Noise In Spec.
+ALM: 01 01 12/01/2018 19:48:04.260 Node Noise High
+MSG: 01 01 12/01/2018 19:49:06.980 Node Noise In Spec.
+ALM: 01 01 12/01/2018 19:49:14.660 Node Noise High
+MSG: 01 01 12/01/2018 19:50:07.140 Node Noise In Spec.
+ALM: 01 01 12/01/2018 19:50:23.780 Node Noise High
+MSG: 01 01 12/01/2018 19:51:27.780 Node Noise In Spec.
+~12/01/18 19:50:01
+ALM: 01 01 12/01/2018 19:52:59.950 Node Noise High
+MSG: 01 01 12/01/2018 19:53:26.830 Node Noise In Spec.
+ALM: 01 01 12/01/2018 19:53:54.990 Node Noise High
+MSG: 01 01 12/01/2018 19:54:50.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 19:55:04.110 Node Noise High
+~12/01/18 20:00:01
+MSG: 01 01 12/01/2018 20:07:57.250 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:08:02.370 Node Noise High
+MSG: 01 01 12/01/2018 20:08:33.100 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:09:02.540 Node Noise High
+MSG: 01 01 12/01/2018 20:11:01.580 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:11:32.300 Node Noise High
+~12/01/18 20:10:01
+MSG: 01 01 12/01/2018 20:11:51.500 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:11:56.620 Node Noise High
+MSG: 01 01 12/01/2018 20:12:09.420 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:12:29.900 Node Noise High
+MSG: 01 01 12/01/2018 20:20:42.720 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:20:49.120 Node Noise High
+~12/01/18 20:20:01
+ALM: 01 03 12/01/2018 20:28:58.250 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 20:30:01
+MSG: 01 01 12/01/2018 20:35:51.550 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:36:06.910 Node Noise High
+MSG: 01 01 12/01/2018 20:37:07.070 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:37:24.990 Node Noise High
+MSG: 01 01 12/01/2018 20:37:30.110 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:37:49.310 Node Noise High
+MSG: 01 01 12/01/2018 20:38:03.390 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:38:14.910 Node Noise High
+MSG: 01 01 12/01/2018 20:40:10.110 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:40:20.350 Node Noise High
+~12/01/18 20:40:01
+MSG: 01 01 12/01/2018 20:43:29.800 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:43:38.760 Node Noise High
+MSG: 01 01 12/01/2018 20:45:26.280 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:45:53.170 Node Noise High
+MSG: 01 01 12/01/2018 20:46:12.370 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:46:35.410 Node Noise High
+MSG: 01 01 12/01/2018 20:46:49.490 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:47:20.210 Node Noise High
+MSG: 01 01 12/01/2018 20:49:10.290 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:49:29.490 Node Noise High
+MSG: 01 01 12/01/2018 20:49:39.730 Node Noise In Spec.
+ALM: 01 01 12/01/2018 20:51:10.620 Node Noise High
+MSG: 01 01 12/01/2018 20:51:19.580 Node Noise In Spec.
+~12/01/18 20:50:01
+ALM: 01 01 12/01/2018 20:56:51.110 Node Noise High
+MSG: 01 01 12/01/2018 20:58:14.310 Node Noise In Spec.
+~12/01/18 21:00:01
+ALM: 01 01 12/01/2018 21:08:13.370 Node Noise High
+~12/01/18 21:10:01
+MSG: 01 01 12/01/2018 21:18:46.990 Node Noise In Spec.
+ALM: 01 01 12/01/2018 21:18:54.670 Node Noise High
+MSG: 01 01 12/01/2018 21:19:56.110 Node Noise In Spec.
+ALM: 01 01 12/01/2018 21:20:10.190 Node Noise High
+MSG: 01 01 12/01/2018 21:21:37.230 Node Noise In Spec.
+~12/01/18 21:20:02
+ALM: 01 01 12/01/2018 21:22:01.550 Node Noise High
+ALM: 01 03 12/01/2018 21:28:57.990 Node Antenna Out Of Tune Or Disconnected
+~12/01/18 21:30:01
+MSG: 01 01 12/01/2018 21:32:15.970 Node Noise In Spec.
+ALM: 01 01 12/01/2018 21:32:27.490 Node Noise High
+~12/01/18 21:40:01
+MSG: 01 01 12/01/2018 21:44:46.040 Node VTT Single Shot Fired
+ALM: 01 01 12/01/2018 21:44:46.160 Node VTT Test Failed
+MSG: 01 02 12/01/2018 21:44:46.170 Node VTT Single Shot Fired
+MSG: 01 02 12/01/2018 21:44:46.220 Node VTT Test Passed
+TAG: 01 02 12/01/2018 21:44:46.220 3E7.0000001D02
+MSG: 01 03 12/01/2018 21:44:46.230 Node VTT Single Shot Fired
+TAG: 01 03 12/01/2018 21:44:46.270 3E7.0000001D03
+MSG: 01 03 12/01/2018 21:44:46.270 Node VTT Test Passed
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/01/2018
+  Time:                                 21:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              15 %
+  Backup Tags Memory Count:                25819
+  Backup Tags Memory Used:                  88 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00270.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            13.5 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              390
+  Tuning Relative Phase:                       0
+  FDXB Signal Level:               783 mV (87 %)
+  Temperature:                             5.8 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              388
+  Tuning Relative Phase:                       1
+  FDXB Signal Level:               396 mV (44 %)
+  Temperature:                             5.5 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.6 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                      Tuning...
+  Antenna Current:                         4.0 A
+  Tuning Capacitors:                          83
+  Tuning Phase:                              378
+  Tuning Relative Phase:                       9
+  FDXB Signal Level:               252 mV (28 %)
+  Temperature:                            10.4 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  Node 01: Node VTT Test Failed
+  Node 01: Node Noise High
+  Node 03: Node Antenna Out Of Tune Or Disconnected
+SRP: 01 00 12/01/2018 21:44:56.020 2,15,205,36,0,135,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/01/2018 21:44:56.020 1,1,1,2,41,87,105,0,140,198,58,14,16,0,0,0
+SRP: 01 02 12/01/2018 21:44:56.020 1,1,1,2,42,44,110,1,140,198,55,0,0,0,0,0
+SRP: 01 03 12/01/2018 21:44:56.020 1,4,1,2,40,28,83,9,140,196,104,10,0,0,0,0
+INF: End Of Full Status Report
+MSG: 01 01 12/01/2018 21:46:10.560 Node Noise In Spec.
+ALM: 01 01 12/01/2018 21:46:20.800 Node Noise High
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            86 %
+  Maximum Noise:                            95 %
+  Average Noise:                            82 %
+  Time Averaged Over:                    6:00:01
+Reader Node 02:
+  Present Noise:                            47 %
+  Maximum Noise:                            55 %
+  Average Noise:                            38 %
+  Time Averaged Over:                    6:00:01
+Reader Node 03:
+  Present Noise:                            52 %
+  Maximum Noise:                            62 %
+  Average Noise:                            27 %
+  Time Averaged Over:                    6:00:01
+NRP: 01 01 12/01/2018 21:46:47.990 86,95,82,21601
+NRP: 01 02 12/01/2018 21:46:47.990 47,55,38,21601
+NRP: 01 03 12/01/2018 21:46:47.990 52,62,27,21601
+INF: End Of Noise Report
+MSG: 01 01 12/01/2018 21:47:31.200 Node Noise In Spec.
+ALM: 01 01 12/01/2018 21:47:38.880 Node Noise High
+MSG: 01 01 12/01/2018 21:51:15.210 Node Noise In Spec.
+ALM: 01 01 12/01/2018 21:51:26.730 Node Noise High
+~12/01/18 21:50:01
+~12/01/18 22:00:01
+~12/01/18 22:10:01
+~12/01/18 22:20:01
+MSG: 01 01 12/01/2018 22:27:22.320 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:28:10.960 Node Noise High
+ALM: 01 03 12/01/2018 22:28:58.000 Node Antenna Out Of Tune Or Disconnected
+MSG: 01 01 12/01/2018 22:31:17.840 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:31:34.480 Node Noise High
+~12/01/18 22:30:01
+MSG: 01 01 12/01/2018 22:32:46.170 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:33:37.370 Node Noise High
+MSG: 01 01 12/01/2018 22:34:40.090 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:34:45.210 Node Noise High
+MSG: 01 01 12/01/2018 22:36:37.850 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:36:45.530 Node Noise High
+MSG: 01 03 12/01/2018 22:38:01.210 Node Tuned
+~12/01/18 22:40:01
+MSG: 01 01 12/01/2018 22:50:01.720 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:50:15.800 Node Noise High
+MSG: 01 01 12/01/2018 22:50:47.800 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:51:05.720 Node Noise High
+~12/01/18 22:50:01
+MSG: 01 01 12/01/2018 22:55:25.570 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:55:39.650 Node Noise High
+MSG: 01 01 12/01/2018 22:57:14.370 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:58:08.130 Node Noise High
+MSG: 01 01 12/01/2018 22:58:14.530 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:58:22.210 Node Noise High
+MSG: 01 01 12/01/2018 22:58:27.330 Node Noise In Spec.
+ALM: 01 01 12/01/2018 22:59:26.220 Node Noise High
+MSG: 01 01 12/01/2018 23:00:09.740 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:00:35.340 Node Noise High
+MSG: 01 01 12/01/2018 23:00:43.020 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:01:09.900 Node Noise High
+MSG: 01 01 12/01/2018 23:01:22.700 Node Noise In Spec.
+~12/01/18 23:00:01
+ALM: 01 01 12/01/2018 23:02:36.940 Node Noise High
+MSG: 01 01 12/01/2018 23:07:39.030 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:08:02.070 Node Noise High
+MSG: 01 01 12/01/2018 23:08:28.950 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:08:37.910 Node Noise High
+MSG: 01 01 12/01/2018 23:09:29.120 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:09:50.880 Node Noise High
+MSG: 01 01 12/01/2018 23:10:12.640 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:11:12.800 Node Noise High
+MSG: 01 01 12/01/2018 23:11:32.000 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:11:42.240 Node Noise High
+~12/01/18 23:10:01
+MSG: 01 01 12/01/2018 23:12:00.160 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:12:10.400 Node Noise High
+MSG: 01 01 12/01/2018 23:12:34.720 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:12:41.120 Node Noise High
+MSG: 01 01 12/01/2018 23:14:54.250 Node Noise In Spec.
+ALM: 01 03 12/01/2018 23:15:44.330 Node Antenna Out Of Tune Or Disconnected
+ALM: 01 01 12/01/2018 23:15:49.290 Node Noise High
+MSG: 01 01 12/01/2018 23:16:18.730 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:16:25.130 Node Noise High
+MSG: 01 01 12/01/2018 23:16:30.250 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:16:54.570 Node Noise High
+MSG: 01 01 12/01/2018 23:17:03.530 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:17:59.850 Node Noise High
+MSG: 01 01 12/01/2018 23:18:29.290 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:18:53.610 Node Noise High
+MSG: 01 01 12/01/2018 23:19:40.970 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:20:56.500 Node Noise High
+MSG: 01 01 12/01/2018 23:21:01.620 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:21:19.540 Node Noise High
+MSG: 01 01 12/01/2018 23:21:24.660 Node Noise In Spec.
+~12/01/18 23:20:01
+ALM: 01 01 12/01/2018 23:22:20.980 Node Noise High
+MSG: 01 01 12/01/2018 23:22:27.380 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:27:01.310 Node Noise High
+MSG: 01 01 12/01/2018 23:27:14.110 Node Noise In Spec.
+~12/01/18 23:30:01
+ALM: 01 01 12/01/2018 23:33:08.680 Node Noise High
+MSG: 01 01 12/01/2018 23:37:14.450 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:37:22.130 Node Noise High
+MSG: 01 01 12/01/2018 23:37:49.010 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:37:54.130 Node Noise High
+MSG: 01 01 12/01/2018 23:38:22.290 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:38:31.250 Node Noise High
+MSG: 01 01 12/01/2018 23:39:01.970 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:39:55.730 Node Noise High
+MSG: 01 01 12/01/2018 23:40:00.850 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:40:31.570 Node Noise High
+MSG: 01 01 12/01/2018 23:40:46.930 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:40:53.330 Node Noise High
+MSG: 01 01 12/01/2018 23:40:58.450 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:41:24.060 Node Noise High
+~12/01/18 23:40:01
+MSG: 01 01 12/01/2018 23:42:39.580 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:43:14.140 Node Noise High
+MSG: 01 01 12/01/2018 23:43:20.540 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:44:53.980 Node Noise High
+MSG: 01 01 12/01/2018 23:45:00.380 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:46:06.940 Node Noise High
+MSG: 01 01 12/01/2018 23:46:15.900 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:46:45.350 Node Noise High
+MSG: 01 01 12/01/2018 23:47:00.710 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:47:59.590 Node Noise High
+MSG: 01 01 12/01/2018 23:48:31.590 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:48:53.350 Node Noise High
+MSG: 01 01 12/01/2018 23:49:03.590 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:50:08.870 Node Noise High
+MSG: 01 01 12/01/2018 23:50:53.670 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:51:50.000 Node Noise High
+~12/01/18 23:50:01
+MSG: 01 01 12/01/2018 23:51:57.680 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:52:05.360 Node Noise High
+MSG: 01 01 12/01/2018 23:52:32.240 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:53:01.680 Node Noise High
+MSG: 01 01 12/01/2018 23:53:32.400 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:54:09.520 Node Noise High
+MSG: 01 01 12/01/2018 23:54:24.880 Node Noise In Spec.
+ALM: 01 01 12/01/2018 23:58:05.050 Node Noise High
+MSG: 01 01 12/01/2018 23:58:14.010 Node Noise In Spec.
+ALM: 01 01 12/02/2018 00:01:00.410 Node Noise High
+MSG: 01 01 12/02/2018 00:01:05.530 Node Noise In Spec.
+~12/02/18 00:00:01
+
+This is a footer      the end time is 12/02/18 00:01:01
