@@ -1,0 +1,906 @@
+
+This is a header      the start date and time is 12/26/18 00:01:01
+
+~12/26/18 00:10:01
+~12/26/18 00:20:01
+~12/26/18 00:30:01
+~12/26/18 00:40:01
+~12/26/18 00:50:01
+~12/26/18 01:00:01
+ALM: 01 03 12/26/2018 01:09:49.860 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 01:10:01
+~12/26/18 01:20:01
+~12/26/18 01:30:01
+~12/26/18 01:40:01
+~12/26/18 01:50:01
+~12/26/18 02:00:01
+ALM: 01 03 12/26/2018 02:09:49.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 02:10:01
+~12/26/18 02:20:01
+~12/26/18 02:30:01
+~12/26/18 02:40:01
+~12/26/18 02:50:01
+~12/26/18 03:00:01
+ALM: 01 03 12/26/2018 03:09:49.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 03:10:01
+~12/26/18 03:20:02
+~12/26/18 03:30:01
+~12/26/18 03:40:01
+MSG: 01 03 12/26/2018 03:44:46.030 Node VTT Single Shot Fired
+MSG: 01 03 12/26/2018 03:44:46.110 Node VTT Test Passed
+TAG: 01 03 12/26/2018 03:44:46.110 3E7.0000001D03
+MSG: 01 01 12/26/2018 03:44:46.120 Node VTT Single Shot Fired
+MSG: 01 01 12/26/2018 03:44:46.160 Node VTT Test Passed
+TAG: 01 01 12/26/2018 03:44:46.170 3E7.0000001D01
+MSG: 01 02 12/26/2018 03:44:46.170 Node VTT Single Shot Fired
+MSG: 01 02 12/26/2018 03:44:46.210 Node VTT Test Passed
+TAG: 01 02 12/26/2018 03:44:46.220 3E7.0000001D02
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/26/2018
+  Time:                                 03:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              17 %
+  Backup Tags Memory Count:                26111
+  Backup Tags Memory Used:                  89 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00294.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            12.2 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              391
+  Tuning Relative Phase:                      -1
+  FDXB Signal Level:               153 mV (17 %)
+  Temperature:                             5.3 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              389
+  Tuning Relative Phase:                       0
+  FDXB Signal Level:               315 mV (35 %)
+  Temperature:                             4.9 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.7 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                      Tuning...
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                          84
+  Tuning Phase:                              397
+  Tuning Relative Phase:                     -10
+  FDXB Signal Level:               234 mV (26 %)
+  Temperature:                             9.4 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  Node 03: Node Antenna Out Of Tune Or Disconnected
+SRP: 01 00 12/26/2018 03:44:56.020 2,17,205,36,0,122,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/26/2018 03:44:56.020 1,1,1,2,41,17,105,-1,140,198,53,0,0,0,0,0
+SRP: 01 02 12/26/2018 03:44:56.020 1,1,1,2,42,35,110,0,140,198,49,0,0,0,0,0
+SRP: 01 03 12/26/2018 03:44:56.020 1,4,1,2,42,26,84,-10,140,197,94,10,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            21 %
+  Maximum Noise:                            37 %
+  Average Noise:                            20 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            32 %
+  Maximum Noise:                            54 %
+  Average Noise:                            34 %
+  Time Averaged Over:                    6:00:00
+Reader Node 03:
+  Present Noise:                            15 %
+  Maximum Noise:                            62 %
+  Average Noise:                            22 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 12/26/2018 03:46:47.990 21,37,20,21600
+NRP: 01 02 12/26/2018 03:46:47.990 32,54,34,21600
+NRP: 01 03 12/26/2018 03:46:47.990 15,62,22,21600
+INF: End Of Noise Report
+~12/26/18 03:50:01
+~12/26/18 04:00:01
+ALM: 01 03 12/26/2018 04:09:49.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 04:10:01
+~12/26/18 04:20:01
+~12/26/18 04:30:02
+MSG: 01 03 12/26/2018 04:38:05.610 Node Tuned
+~12/26/18 04:40:01
+~12/26/18 04:50:01
+~12/26/18 05:00:01
+ALM: 01 03 12/26/2018 05:05:36.860 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 05:10:01
+MSG: 01 03 12/26/2018 05:14:01.200 Node Tuned
+~12/26/18 05:20:01
+ALM: 01 03 12/26/2018 05:25:41.380 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 05:30:01
+~12/26/18 05:40:02
+~12/26/18 05:50:01
+~12/26/18 06:00:01
+~12/26/18 06:10:01
+~12/26/18 06:20:01
+ALM: 01 03 12/26/2018 06:25:40.990 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 06:30:01
+~12/26/18 06:40:01
+~12/26/18 06:50:01
+~12/26/18 07:00:01
+~12/26/18 07:10:01
+~12/26/18 07:20:02
+ALM: 01 03 12/26/2018 07:25:40.990 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 07:30:01
+~12/26/18 07:40:01
+~12/26/18 07:50:01
+~12/26/18 08:00:01
+~12/26/18 08:10:01
+~12/26/18 08:20:01
+ALM: 01 03 12/26/2018 08:25:40.990 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 08:30:01
+~12/26/18 08:40:01
+MSG: 01 03 12/26/2018 08:47:38.240 Node Tuned
+~12/26/18 08:50:01
+~12/26/18 09:00:01
+~12/26/18 09:10:01
+~12/26/18 09:20:01
+ALM: 01 03 12/26/2018 09:28:09.030 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 09:30:01
+~12/26/18 09:40:01
+MSG: 01 01 12/26/2018 09:44:46.030 Node VTT Single Shot Fired
+MSG: 01 01 12/26/2018 09:44:46.080 Node VTT Test Passed
+TAG: 01 01 12/26/2018 09:44:46.080 3E7.0000001D01
+MSG: 01 02 12/26/2018 09:44:46.090 Node VTT Single Shot Fired
+MSG: 01 02 12/26/2018 09:44:46.130 Node VTT Test Passed
+TAG: 01 02 12/26/2018 09:44:46.130 3E7.0000001D02
+MSG: 01 03 12/26/2018 09:44:46.140 Node VTT Single Shot Fired
+MSG: 01 03 12/26/2018 09:44:46.180 Node VTT Test Passed
+TAG: 01 03 12/26/2018 09:44:46.190 3E7.0000001D03
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/26/2018
+  Time:                                 09:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              17 %
+  Backup Tags Memory Count:                26114
+  Backup Tags Memory Used:                  89 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00294.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            12.2 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.9 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              389
+  Tuning Relative Phase:                       1
+  FDXB Signal Level:               198 mV (22 %)
+  Temperature:                             7.9 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              387
+  Tuning Relative Phase:                       2
+  FDXB Signal Level:               306 mV (34 %)
+  Temperature:                             8.0 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.7 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                      Tuning...
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                          84
+  Tuning Phase:                              397
+  Tuning Relative Phase:                     -10
+  FDXB Signal Level:               198 mV (22 %)
+  Temperature:                            11.0 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  Node 03: Node Antenna Out Of Tune Or Disconnected
+SRP: 01 00 12/26/2018 09:44:56.020 2,17,205,36,0,122,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/26/2018 09:44:56.020 1,1,1,2,41,22,105,1,140,199,79,0,0,0,0,0
+SRP: 01 02 12/26/2018 09:44:56.020 1,1,1,2,42,34,110,2,140,198,80,0,0,0,0,0
+SRP: 01 03 12/26/2018 09:44:56.020 1,4,1,2,42,22,84,-10,140,197,110,10,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            20 %
+  Maximum Noise:                            33 %
+  Average Noise:                            19 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            32 %
+  Maximum Noise:                            51 %
+  Average Noise:                            32 %
+  Time Averaged Over:                    6:00:00
+Reader Node 03:
+  Present Noise:                            23 %
+  Maximum Noise:                            79 %
+  Average Noise:                            24 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 12/26/2018 09:46:47.990 20,33,19,21600
+NRP: 01 02 12/26/2018 09:46:47.990 32,51,32,21600
+NRP: 01 03 12/26/2018 09:46:47.990 23,79,24,21600
+INF: End Of Noise Report
+~12/26/18 09:50:01
+~12/26/18 10:00:01
+~12/26/18 10:10:01
+~12/26/18 10:20:01
+ALM: 01 03 12/26/2018 10:28:09.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 10:30:01
+~12/26/18 10:40:01
+~12/26/18 10:50:01
+~12/26/18 11:00:01
+~12/26/18 11:10:01
+~12/26/18 11:20:01
+ALM: 01 03 12/26/2018 11:28:09.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 11:30:01
+~12/26/18 11:40:01
+~12/26/18 11:50:01
+~12/26/18 12:00:01
+~12/26/18 12:10:01
+~12/26/18 12:20:01
+MSG: 01 03 12/26/2018 12:27:44.410 Node Tuned
+~12/26/18 12:30:02
+~12/26/18 12:40:01
+ALM: 01 03 12/26/2018 12:45:33.240 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 12:50:01
+MSG: 01 03 12/26/2018 12:57:59.510 Node Tuned
+~12/26/18 13:00:01
+ALM: 01 03 12/26/2018 13:08:25.450 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 13:10:01
+~12/26/18 13:20:01
+~12/26/18 13:30:01
+~12/26/18 13:40:01
+MSG: 01 03 12/26/2018 13:45:05.840 Node Tuned
+~12/26/18 13:50:01
+~12/26/18 14:00:01
+~12/26/18 14:10:01
+~12/26/18 14:20:01
+~12/26/18 14:30:01
+~12/26/18 14:40:01
+~12/26/18 14:50:02
+~12/26/18 15:00:01
+~12/26/18 15:10:01
+~12/26/18 15:20:01
+~12/26/18 15:30:01
+~12/26/18 15:40:01
+MSG: 01 00 12/26/2018 15:44:28.000 Present External Memory File: 01_00295.log
+MSG: 01 03 12/26/2018 15:44:46.050 Node VTT Single Shot Fired
+MSG: 01 03 12/26/2018 15:44:46.100 Node VTT Test Passed
+TAG: 01 03 12/26/2018 15:44:46.100 3E7.0000001D03
+MSG: 01 01 12/26/2018 15:44:46.110 Node VTT Single Shot Fired
+MSG: 01 01 12/26/2018 15:44:46.150 Node VTT Test Passed
+TAG: 01 01 12/26/2018 15:44:46.150 3E7.0000001D01
+MSG: 01 02 12/26/2018 15:44:46.160 Node VTT Single Shot Fired
+MSG: 01 02 12/26/2018 15:44:46.200 Node VTT Test Passed
+TAG: 01 02 12/26/2018 15:44:46.200 3E7.0000001D02
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/26/2018
+  Time:                                 15:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              17 %
+  Backup Tags Memory Count:                26117
+  Backup Tags Memory Used:                  89 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00295.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            15.7 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              388
+  Tuning Relative Phase:                       2
+  FDXB Signal Level:               135 mV (15 %)
+  Temperature:                             9.7 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              385
+  Tuning Relative Phase:                       4
+  FDXB Signal Level:               306 mV (34 %)
+  Temperature:                             9.4 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.7 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.3 A
+  Tuning Capacitors:                          84
+  Tuning Phase:                              394
+  Tuning Relative Phase:                      -7
+  FDXB Signal Level:               198 mV (22 %)
+  Temperature:                            16.4 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  No Active Alarms
+SRP: 01 00 12/26/2018 15:44:56.020 2,17,205,36,0,157,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/26/2018 15:44:56.020 1,1,1,2,41,15,105,2,140,198,97,0,0,0,0,0
+SRP: 01 02 12/26/2018 15:44:56.020 1,1,1,2,42,34,110,4,140,198,94,0,0,0,0,0
+SRP: 01 03 12/26/2018 15:44:56.020 1,1,1,2,43,22,84,-7,140,197,164,0,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            16 %
+  Maximum Noise:                            40 %
+  Average Noise:                            17 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            37 %
+  Maximum Noise:                            59 %
+  Average Noise:                            36 %
+  Time Averaged Over:                    6:00:00
+Reader Node 03:
+  Present Noise:                            24 %
+  Maximum Noise:                            81 %
+  Average Noise:                            25 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 12/26/2018 15:46:47.990 16,40,17,21600
+NRP: 01 02 12/26/2018 15:46:47.990 37,59,36,21600
+NRP: 01 03 12/26/2018 15:46:47.990 24,81,25,21600
+INF: End Of Noise Report
+~12/26/18 15:50:01
+~12/26/18 16:00:02
+~12/26/18 16:10:01
+~12/26/18 16:20:01
+~12/26/18 16:30:01
+~12/26/18 16:40:01
+~12/26/18 16:50:01
+~12/26/18 17:00:01
+~12/26/18 17:10:01
+~12/26/18 17:20:01
+~12/26/18 17:30:01
+~12/26/18 17:40:01
+~12/26/18 17:50:01
+~12/26/18 18:00:01
+~12/26/18 18:10:01
+~12/26/18 18:20:01
+~12/26/18 18:30:01
+~12/26/18 18:40:01
+~12/26/18 18:50:02
+~12/26/18 19:00:01
+~12/26/18 19:10:01
+~12/26/18 19:20:01
+~12/26/18 19:30:01
+~12/26/18 19:40:01
+~12/26/18 19:50:01
+~12/26/18 20:00:01
+~12/26/18 20:10:01
+~12/26/18 20:20:01
+ALM: 01 03 12/26/2018 20:25:51.390 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 20:30:01
+~12/26/18 20:40:01
+~12/26/18 20:50:01
+~12/26/18 21:00:01
+~12/26/18 21:10:01
+~12/26/18 21:20:01
+ALM: 01 03 12/26/2018 21:25:51.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 21:30:01
+~12/26/18 21:40:02
+MSG: 01 02 12/26/2018 21:44:46.030 Node VTT Single Shot Fired
+MSG: 01 02 12/26/2018 21:44:46.080 Node VTT Test Passed
+TAG: 01 02 12/26/2018 21:44:46.080 3E7.0000001D02
+MSG: 01 03 12/26/2018 21:44:46.090 Node VTT Single Shot Fired
+MSG: 01 03 12/26/2018 21:44:46.130 Node VTT Test Passed
+TAG: 01 03 12/26/2018 21:44:46.130 3E7.0000001D03
+MSG: 01 01 12/26/2018 21:44:46.140 Node VTT Single Shot Fired
+MSG: 01 01 12/26/2018 21:44:46.180 Node VTT Test Passed
+TAG: 01 01 12/26/2018 21:44:46.180 3E7.0000001D01
+INF: Start Of Full Status Report
+Controller:
+  ID:                                         01
+  Model:                               IS1001-MC
+  S/N:                                      0142
+  Date:                               12/26/2018
+  Time:                                 21:44:56
+  Last Shutdown Date:                 11/12/2018
+  Last Shutdown Time:                      15:36
+  Application Firmware Version:            1.6.3
+  Input Power Mode:                         24 V
+  Operation Mode:                           Scan
+  Synchronization Mode:               Standalone
+  Sync. of Cycle:                       Disabled
+  Beeper:                                Enabled
+  Tag ID Display Format:                     HEX
+  Display Backlight Mode:         30 Sec. Saving
+  Initiation Delay:                     Disabled
+  Auto Standby Voltages:              18 V, 19 V
+  Periodic Standby Start Time:              0:00
+  Periodic Standby Duration:            Disabled
+  Idling Time:                          Disabled
+ Alarms:
+  Tuning Cap. High Alarm Threshold:          970
+  Tuning Cap. Low Alarm Threshold:            50
+  Alarms Unique Delay:                  3600 Sec
+ Detection:
+  HDX Tag Detection:                     Enabled
+  FDXB Fastag Detection:                Disabled
+  Detection Counter Enabled:                 Yes
+  FDXB Detection Scan Time:               120 ms
+  Automatic VTT Delay:                   360 Min
+ Memory:
+  Store Virtual Tags To Memory:          Enabled
+  External Storage File Duration:         24 Hrs
+ Communication:
+  Local Port Speed:                       115200
+  Tags Communication To Local Port:      Enabled
+  Alarms Communication To Local Port:    Enabled
+  Messages Comm. To Local Port:          Enabled
+  Remote Port Speed:                      115200
+  Remote Port Protocol:                    ASCII
+  Remote Port AES-256 Compliant:        Disabled
+ Configured Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Active Present Sequence:
+  Pri. Sw. Seq.:01,02,03,--,--,--,--,--,--,--,--,--
+  Sec. Sw. Seq.:--,--,--,--,--,--,--,--,--,--,--,--
+ Reports:
+  Automatic Status Report Delay:         360 Min
+  Automatic Noise Report Delay:          360 Min
+ Diagnostics:
+  Detection Counter:                           0
+  Memory Used:                              17 %
+  Backup Tags Memory Count:                26120
+  Backup Tags Memory Used:                  89 %
+  External Storage Status:             Connected
+  External Storage Records Buffer:             0
+  External Storage Present File:    01_00295.log
+  Input Voltage:                          20.5 V
+  Lithium Battery Voltage:                 3.6 V
+  Temperature:                            13.5 C
+  Sync. Input Present:                       N/A
+Reader Node 01:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1112
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.1 A
+  Tuning Capacitors:                         105
+  Tuning Phase:                              390
+  Tuning Relative Phase:                       0
+  FDXB Signal Level:               153 mV (17 %)
+  Temperature:                             5.8 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       390
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 02:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1111
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.8 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                          Tuned
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                         110
+  Tuning Phase:                              388
+  Tuning Relative Phase:                       1
+  FDXB Signal Level:               261 mV (29 %)
+  Temperature:                             5.8 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       389
+  Tuning Target Phase Deviation Threshold:     6
+  Detection Unique Mode:                   Delay
+  Detection Unique Delay:                 30 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Reader Node 03:
+ Node Status:
+  Model:                                  IS1001
+  S/N:                                      1110
+  Connected:                                 Yes
+  Application Firmware Version:            1.6.3
+  Input Power Version:                      24 V
+  Input Voltage:                          19.7 V
+  Exciter Voltage:                        14.0 V
+  Antenna Tuning:                      Tuning...
+  Antenna Current:                         4.2 A
+  Tuning Capacitors:                          83
+  Tuning Phase:                              383
+  Tuning Relative Phase:                       4
+  FDXB Signal Level:               522 mV (58 %)
+  Temperature:                            10.6 C
+ Node Settings:
+  Exciter Voltage Level:                       2
+  Dynamic Tuning:                        Enabled
+  Tuning Target Phase:                       387
+  Tuning Target Phase Deviation Threshold:     7
+  Detection Unique Mode:                Disabled
+  Detection Unique Delay:                 60 Sec
+  VTT Level:                                 128
+  Beeper:                               Disabled
+  Current Low Alarm Threshold:             1.0 A
+  Noise High Alarm Threshold:               85 %
+Active Alarms:
+  Node 03: Node Antenna Out Of Tune Or Disconnected
+SRP: 01 00 12/26/2018 21:44:56.020 2,17,205,36,0,135,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRP: 01 01 12/26/2018 21:44:56.020 1,1,1,2,41,17,105,0,140,198,58,0,0,0,0,0
+SRP: 01 02 12/26/2018 21:44:56.020 1,1,1,2,42,29,110,1,140,198,58,0,0,0,0,0
+SRP: 01 03 12/26/2018 21:44:56.020 1,4,1,2,42,58,83,4,140,197,106,10,0,0,0,0
+INF: End Of Full Status Report
+INF: Start Of Noise Report
+Controller:
+  ID:                                         01
+Reader Node 01:
+  Present Noise:                            19 %
+  Maximum Noise:                            49 %
+  Average Noise:                            18 %
+  Time Averaged Over:                    6:00:00
+Reader Node 02:
+  Present Noise:                            34 %
+  Maximum Noise:                            64 %
+  Average Noise:                            32 %
+  Time Averaged Over:                    6:00:00
+Reader Node 03:
+  Present Noise:                            53 %
+  Maximum Noise:                            62 %
+  Average Noise:                            23 %
+  Time Averaged Over:                    6:00:00
+NRP: 01 01 12/26/2018 21:46:47.990 19,49,18,21600
+NRP: 01 02 12/26/2018 21:46:47.990 34,64,32,21600
+NRP: 01 03 12/26/2018 21:46:47.990 53,62,23,21600
+INF: End Of Noise Report
+~12/26/18 21:50:01
+~12/26/18 22:00:01
+~12/26/18 22:10:01
+~12/26/18 22:20:01
+ALM: 01 03 12/26/2018 22:25:50.990 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 22:30:01
+~12/26/18 22:40:01
+~12/26/18 22:50:01
+~12/26/18 23:00:01
+~12/26/18 23:10:01
+~12/26/18 23:20:01
+ALM: 01 03 12/26/2018 23:25:51.000 Node Antenna Out Of Tune Or Disconnected
+~12/26/18 23:30:01
+~12/26/18 23:40:01
+~12/26/18 23:50:01
+~12/27/18 00:00:01
+
+This is a footer      the end time is 12/27/18 00:01:01
