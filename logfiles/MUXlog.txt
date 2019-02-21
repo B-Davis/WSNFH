@@ -1,0 +1,25 @@
+MSG: 01 02 02/21/2019 00:03:33.730 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:03:36.290 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:03:38.850 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:03:40.130 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:03:42.690 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:03:45.250 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:03:47.810 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:03:50.370 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:03:52.930 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:03:54.210 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:03:56.770 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:03:59.330 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:01.890 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:04:04.450 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:07.010 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:04:08.290 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:10.850 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:04:13.410 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:15.970 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:04:18.530 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:21.090 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:04:22.370 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:26.210 Node Antenna Current In Spec.
+ALM: 01 02 02/21/2019 00:04:27.490 Node Antenna Current Low
+MSG: 01 02 02/21/2019 00:04:30.050 Node Antenna Current In Spec.
