@@ -28,9 +28,9 @@ network={
 add as many networks as you wish  
   
 Download desired software (e.g., R, vim, etc.) ```sudo apt-get r-base```  
-Write bash script that launches screen and talks to MUX w/ 57600 baud rate  
+Write bash script that launches screen and talks to MUX w/ 57600 baud rate (see "Screen Commands" below) 
 Move script to ```/usr/local/bin``` (if put in ```~/home/bin``` it won't recognize when accessing remotely)  
-create ```.screenrc``` in home directory and add ```logfile path/to/logfile.txt```. This is where your data will be stored and appended to.  
+create ```.screenrc``` in home directory and add ```logfile path/to/logfile.txt```. This is where your data will be stored and appended to. If "screen" is not finding your .screenrc, enter ```export SCREENRC="~/screenrc"``` 
 
 Add checkwifi.sh script to ```/usr/local/bin``` then edit your cron table (```crontab -e```) so the script runs occasionally. To run the script every 5 minutes enter ```*/5 * * * * /usr/bin/sudo -H /usr/local/bin/checkwifi.sh >> /dev/null 2>&1```
 
@@ -40,7 +40,8 @@ If you are trying to manipulate "screen" and getting an error mess. "Cannot open
 ```script /dev/null``` This may happen when accessing remotely  
   
 Start screen named MUX, in the background, with logfiles  
-```screen -dmLS MUX /dev/ttyUSB0 57600```   
+```screen -dmLS MUX /dev/ttyUSB0 57600```  
+
 Last number is the baud rate - change this accordingly to match your device
 make a bash script including preious codes for ease  
   
