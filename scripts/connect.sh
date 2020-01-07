@@ -3,4 +3,4 @@
 cd /home/pi/projects
 
 script /dev/null &
-screen -dmLS MUX /dev/ttyUSB0 115200 &
+screen -d -m -L -S MUX /dev/ttyUSB0 115200 &
